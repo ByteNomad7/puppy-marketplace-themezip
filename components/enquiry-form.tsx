@@ -82,7 +82,7 @@ export function EnquiryForm({ puppyName }: { puppyName?: string }) {
       <label className="flex items-start gap-2.5 text-xs leading-relaxed text-muted-foreground">
         <input type="checkbox" required className="mt-0.5 h-4 w-4 accent-primary" />
         <span>
-          I understand Meadowbrook facilitates introductions and that a meeting and health check take place before any
+          I understand Potty Registered Puppies facilitates introductions and that a meeting and health check take place before any
           adoption is confirmed.
         </span>
       </label>

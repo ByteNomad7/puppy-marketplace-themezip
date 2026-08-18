@@ -5,9 +5,12 @@ import { BreedCard } from "@/components/breed-card"
 import { breeds } from "@/lib/data"
 
 export const metadata: Metadata = {
-  title: "Breed Library | Meadowbrook Puppies",
+  title: "Dog Breed Profiles | Potty Registered Puppies UK",
   description:
-    "Explore breed profiles covering temperament, care needs, and what to expect, to help you find the right match for your home.",
+    "Explore breed profiles for teacup and toy dogs available in the UK — covering temperament, care needs, and what to expect — to help you find the right match for your home.",
+  alternates: {
+    canonical: "https://www.pottyregisteredpuppies.com/breeds",
+  },
 }
 
 export default function BreedsPage() {

@@ -5,17 +5,21 @@ const columns = [
   {
     title: "Puppies",
     links: [
-      { label: "Available Puppies", href: "/puppies" },
-      { label: "Coming Soon", href: "/puppies" },
-      { label: "Reserved", href: "/puppies" },
+      { label: "All Puppies", href: "/puppies" },
+      { label: "Maltipoo Puppies", href: "/breeds/maltipoo" },
+      { label: "Pomeranian Puppies", href: "/breeds/pomeranian" },
+      { label: "Poodle Puppies", href: "/breeds/poodle" },
+      { label: "Yorkshire Terrier Puppies", href: "/breeds/yorkie" },
     ],
   },
   {
     title: "Breeds",
     links: [
       { label: "All Breeds", href: "/breeds" },
-      { label: "Golden Retriever", href: "/breeds/golden-retriever" },
-      { label: "Labrador Retriever", href: "/breeds/labrador-retriever" },
+      { label: "Pomsky", href: "/breeds/pomsky" },
+      { label: "Maltese", href: "/breeds/maltese" },
+      { label: "Morkie", href: "/breeds/morkie" },
+      { label: "Coton de Tuléar", href: "/breeds/coton-de-tulear" },
     ],
   },
   {
@@ -29,7 +33,7 @@ const columns = [
   {
     title: "Company",
     links: [
-      { label: "About", href: "/about" },
+      { label: "About Us", href: "/about" },
       { label: "Contact", href: "/contact" },
       { label: "Responsible Sourcing", href: "/about" },
     ],
@@ -44,9 +48,8 @@ export function SiteFooter() {
           <div className="max-w-xs">
             <Logo tone="light" />
             <p className="mt-4 text-sm leading-relaxed text-primary-foreground/70">
-              A trusted marketplace helping families connect with healthy,
-              well-raised puppies and learn how to welcome them home with
-              confidence.
+              Connecting UK families with healthy, well-raised teacup and toy
+              puppies. Browse with confidence and find your perfect companion.
             </p>
           </div>
 
@@ -73,7 +76,7 @@ export function SiteFooter() {
 
         <div className="mt-12 flex flex-col gap-4 border-t border-primary-foreground/15 pt-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-sm text-primary-foreground/60">
-            &copy; {new Date().getFullYear()} Meadowbrook Puppies. All rights reserved.
+            &copy; {new Date().getFullYear()} Potty Registered Puppies. All rights reserved.
           </p>
           <div className="flex flex-wrap gap-x-6 gap-y-2">
             {["Privacy Policy", "Terms of Service", "Cookie Preferences"].map((item) => (

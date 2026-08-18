@@ -33,7 +33,7 @@ export default function HomePage() {
             <SectionHeading
               eyebrow="Available Now"
               title="Puppies looking for a family"
-              description="A selection of well-raised puppies currently available through our marketplace."
+              description="A selection of our teacup and toy puppies currently available across the UK."
               link={{ label: "View all puppies", href: "/puppies" }}
             />
             <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

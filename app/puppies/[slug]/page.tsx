@@ -21,9 +21,13 @@ export async function generateMetadata({
   const { slug } = await params
   const puppy = puppies.find((p) => p.slug === slug)
   if (!puppy) return { title: "Puppy not found" }
+  const colourPart = puppy.colour ? ` ${puppy.colour}` : ""
   return {
-    title: `${puppy.name} — ${puppy.breed} | Meadowbrook Puppies`,
-    description: `Meet ${puppy.name}, a ${puppy.ageWeeks}-week-old ${puppy.breed} in ${puppy.location}.`,
+    title: `${puppy.name} — ${puppy.breed} Puppy for Sale in the UK | Potty Registered Puppies`,
+    description: `Meet ${puppy.name}, a${colourPart} ${puppy.breed} puppy available in the UK. ${puppy.ageWeeks} weeks old, ${puppy.sex.toLowerCase()}. Enquire today at Potty Registered Puppies.`,
+    alternates: {
+      canonical: `https://www.pottyregisteredpuppies.com/puppies/${slug}`,
+    },
   }
 }
 
@@ -45,7 +49,7 @@ export default async function PuppyDetailPage({
     { label: "Breed", value: puppy.breed },
     { label: "Sex", value: puppy.sex },
     { label: "Age", value: `${puppy.ageWeeks} weeks` },
-    { label: "Location", value: puppy.location },
+    ...(puppy.colour ? [{ label: "Colour", value: puppy.colour }] : []),
   ]
 
   return (
@@ -80,8 +84,7 @@ export default async function PuppyDetailPage({
             </dl>
 
             <p className="mt-6 text-sm leading-relaxed text-muted-foreground">
-              {puppy.name} is a placeholder profile used to demonstrate this marketplace theme. In a live listing this
-              space would describe temperament, early socialisation, and any health records shared by the breeder.
+              {puppy.description}
             </p>
 
             {breed && (
@@ -103,8 +106,8 @@ export default async function PuppyDetailPage({
             <div>
               <h2 className="text-2xl text-forest-deep md:text-3xl">Send an enquiry</h2>
               <p className="mt-3 max-w-sm text-sm leading-relaxed text-muted-foreground">
-                Interested in {puppy.name}? Share a few details and our team will arrange a meeting and answer any
-                questions. There is no obligation to adopt.
+                Interested in {puppy.name}? Share a few details and our team will be in touch to arrange a viewing and
+                answer any questions. There is no obligation.
               </p>
             </div>
             <EnquiryForm puppyName={puppy.name} />

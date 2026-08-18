@@ -1,6 +1,5 @@
 import Link from "next/link"
 import Image from "next/image"
-import { MapPin } from "lucide-react"
 import { StatusBadge } from "@/components/status-badge"
 import { formatPrice, type Puppy } from "@/lib/data"
 
@@ -38,11 +37,8 @@ export function PuppyCard({ puppy }: { puppy: Puppy }) {
         </div>
 
         <div className="mt-3 flex items-center gap-1.5 text-sm text-muted-foreground">
-          <MapPin className="size-4 shrink-0" />
-          <span>{puppy.location}</span>
-          <span aria-hidden="true" className="mx-1 text-border">
-            •
-          </span>
+          {puppy.colour && <span>{puppy.colour}</span>}
+          {puppy.colour && <span aria-hidden="true" className="mx-1 text-border">•</span>}
           <span>{puppy.ageWeeks} wks</span>
         </div>
 

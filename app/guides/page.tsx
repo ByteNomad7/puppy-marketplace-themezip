@@ -5,9 +5,12 @@ import { GuideCard } from "@/components/guide-card"
 import { guides } from "@/lib/data"
 
 export const metadata: Metadata = {
-  title: "Buyer Guide | Meadowbrook Puppies",
+  title: "Puppy Buyer Guide UK | Potty Registered Puppies",
   description:
-    "Practical guidance for choosing, preparing for, and caring for a new puppy, written to help you make a confident, informed decision.",
+    "Practical UK guidance for choosing, preparing for, and caring for a new puppy. Written to help families make a confident, informed decision.",
+  alternates: {
+    canonical: "https://www.pottyregisteredpuppies.com/guides",
+  },
 }
 
 export default function GuidesPage() {

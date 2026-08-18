@@ -5,9 +5,12 @@ import { Breadcrumb } from "@/components/breadcrumb"
 import { CtaLink } from "@/components/cta-link"
 
 export const metadata: Metadata = {
-  title: "About | Meadowbrook Puppies",
+  title: "About Us | Potty Registered Puppies UK",
   description:
-    "Meadowbrook is a trusted marketplace connecting families with responsibly raised puppies, built on transparency, wellbeing, and care.",
+    "Potty Registered Puppies is a trusted UK puppy marketplace connecting families with healthy, well-raised teacup and toy puppies. Learn about our values and commitment to responsible sourcing.",
+  alternates: {
+    canonical: "https://www.pottyregisteredpuppies.com/about",
+  },
 }
 
 const values = [
@@ -17,11 +20,11 @@ const values = [
   },
   {
     title: "Transparency",
-    body: "Clear information and honest conversations help families make confident, informed decisions.",
+    body: "Clear information and honest conversations help UK families make confident, informed decisions.",
   },
   {
     title: "Thoughtful matches",
-    body: "We encourage matches based on lifestyle and temperament, not appearance alone, for a lasting fit.",
+    body: "We encourage matches based on lifestyle and temperament, not appearance alone, for a lasting and happy fit.",
   },
 ]
 
@@ -37,15 +40,16 @@ export default function AboutPage() {
           <div>
             <span className="text-xs font-medium uppercase tracking-widest text-primary">Our story</span>
             <h1 className="mt-3 text-pretty text-4xl leading-tight text-forest-deep md:text-5xl">
-              A calmer, kinder way to find your companion
+              A trusted way to find your companion in the UK
             </h1>
             <p className="mt-5 text-pretty text-lg leading-relaxed text-muted-foreground">
-              Meadowbrook exists to make finding a puppy feel considered rather than rushed. We connect families with
-              responsibly raised puppies and provide the guidance to choose well.
+              Potty Registered Puppies exists to make finding a puppy feel considered rather than rushed. We connect
+              UK families with responsibly raised teacup and toy puppies and provide the guidance to choose well.
             </p>
             <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-              This is a demonstration theme, so the story here is illustrative. In a live site this section would share
-              the people, principles, and standards behind the marketplace.
+              We believe every puppy deserves a loving home and every family deserves complete peace of mind.
+              Our team is here to guide you through every step of the journey, from choosing the right breed to
+              welcoming your new companion home.
             </p>
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-3xl">
@@ -79,7 +83,7 @@ export default function AboutPage() {
         <div className="flex flex-col items-center rounded-3xl bg-primary px-6 py-12 text-center text-primary-foreground md:py-16">
           <h2 className="max-w-lg text-pretty text-3xl md:text-4xl">Have a question before you begin?</h2>
           <p className="mt-4 max-w-md text-pretty leading-relaxed text-primary-foreground/80">
-            Our team is glad to talk through breeds, timing, or anything else, with no obligation.
+            Our team is happy to talk through breeds, timing, or anything else — with no obligation.
           </p>
           <div className="mt-7 flex flex-wrap justify-center gap-3">
             <CtaLink href="/contact" variant="onDark">

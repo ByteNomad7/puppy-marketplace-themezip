@@ -12,7 +12,7 @@ export function Logo({
     <Link
       href="/"
       className={cn("inline-flex items-center gap-2.5", className)}
-      aria-label="Meadowbrook Puppies home"
+      aria-label="Potty Registered Puppies home"
     >
       <span
         className={cn(
@@ -43,7 +43,7 @@ export function Logo({
             tone === "light" ? "text-primary-foreground" : "text-foreground",
           )}
         >
-          Meadowbrook
+          Potty Registered
         </span>
         <span
           className={cn(

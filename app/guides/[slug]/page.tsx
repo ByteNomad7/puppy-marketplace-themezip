@@ -19,7 +19,13 @@ export async function generateMetadata({
   const { slug } = await params
   const guide = guides.find((g) => g.slug === slug)
   if (!guide) return { title: "Article not found" }
-  return { title: `${guide.title} | Meadowbrook Puppies`, description: guide.excerpt }
+  return {
+    title: `${guide.title} | Potty Registered Puppies`,
+    description: guide.excerpt,
+    alternates: {
+      canonical: `https://www.pottyregisteredpuppies.com/guides/${slug}`,
+    },
+  }
 }
 
 export default async function GuideArticlePage({
@@ -71,9 +77,8 @@ export default async function GuideArticlePage({
         <div className="mx-auto max-w-3xl px-5 py-12">
           <div className="flex flex-col gap-6 text-pretty leading-relaxed text-foreground/90">
             <p className="text-lg">
-              This is placeholder editorial content used to demonstrate the article template within this marketplace
-              theme. The layout is designed for comfortable long-form reading, with a generous measure and clear
-              hierarchy.
+              Finding the right puppy is one of the most rewarding decisions a family can make. At Potty Registered
+              Puppies, we are here to help UK families make that decision with confidence, knowledge, and care.
             </p>
             <h2 className="mt-2 text-2xl text-forest-deep">Where to begin</h2>
             <p>
@@ -93,15 +98,15 @@ export default async function GuideArticlePage({
               A good match is never rushed. Take the time to meet, ask questions, and be sure.
             </blockquote>
             <p>
-              When you are ready, our team is here to help you arrange a meeting and answer any remaining questions,
-              with no obligation to adopt.
+              When you are ready, our team is here to help you arrange a viewing and answer any remaining questions,
+              with no obligation.
             </p>
           </div>
 
           <div className="mt-10 rounded-2xl border border-border bg-secondary/50 p-6 text-center md:p-8">
-            <p className="font-serif text-xl text-forest-deep">Ready to take the next step?</p>
+            <p className="font-serif text-xl text-forest-deep">Ready to find your companion?</p>
             <p className="mx-auto mt-2 max-w-md text-sm leading-relaxed text-muted-foreground">
-              Browse available puppies or send us an enquiry. We&apos;re happy to guide you at your own pace.
+              Browse puppies available in the UK or send us an enquiry. We&apos;re happy to guide you at your own pace.
             </p>
             <div className="mt-5 flex flex-wrap justify-center gap-3">
               <CtaLink href="/puppies">Browse puppies</CtaLink>

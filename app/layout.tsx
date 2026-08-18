@@ -16,10 +16,18 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Meadowbrook Puppies | Find the Right Puppy for Your Family',
+  title: 'Potty Registered Puppies | Teacup & Toy Puppies for Sale in the UK',
   description:
-    'A trusted marketplace connecting families with healthy, well-raised puppies. Browse breeds, learn about care, and send an enquiry with confidence.',
-  generator: 'v0.app',
+    'Browse teacup and toy puppies for sale in the UK. Potty Registered Puppies connects UK families with healthy, well-raised puppies across a wide range of breeds.',
+  metadataBase: new URL('https://www.pottyregisteredpuppies.com'),
+  alternates: {
+    canonical: 'https://www.pottyregisteredpuppies.com',
+  },
+  openGraph: {
+    siteName: 'Potty Registered Puppies',
+    locale: 'en_GB',
+    type: 'website',
+  },
   icons: {
     icon: [
       {
@@ -50,7 +58,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${lora.variable} ${inter.variable} bg-background`}>
+    <html lang="en-GB" className={`${lora.variable} ${inter.variable} bg-background`}>
       <body className="font-sans antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}

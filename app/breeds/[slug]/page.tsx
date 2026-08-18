@@ -20,8 +20,11 @@ export async function generateMetadata({
   const breed = breeds.find((b) => b.slug === slug)
   if (!breed) return { title: "Breed not found" }
   return {
-    title: `${breed.name} | Meadowbrook Puppies`,
-    description: breed.summary,
+    title: `${breed.name} Puppies for Sale UK | Potty Registered Puppies`,
+    description: `${breed.summary} Find ${breed.name} puppies for sale in the UK at Potty Registered Puppies.`,
+    alternates: {
+      canonical: `https://www.pottyregisteredpuppies.com/breeds/${slug}`,
+    },
   }
 }
 
@@ -53,7 +56,7 @@ export default async function BreedDetailPage({
           <div className="zoom-parent relative aspect-[4/3] overflow-hidden rounded-3xl">
             <Image
               src={breed.image || "/placeholder.svg"}
-              alt={`An adult ${breed.name}`}
+              alt={`A ${breed.name} puppy`}
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="zoom-img object-cover"
@@ -94,10 +97,6 @@ export default async function BreedDetailPage({
           <div>
             <h2 className="text-2xl text-forest-deep">Living with a {breed.name}</h2>
             <p className="mt-5 text-pretty leading-relaxed text-muted-foreground">{breed.care}</p>
-            <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-              This profile is placeholder content for the theme. A live breed page would expand on grooming, exercise,
-              training, and common health considerations.
-            </p>
           </div>
         </div>
       </section>
@@ -106,7 +105,7 @@ export default async function BreedDetailPage({
         <div className="mx-auto max-w-6xl px-5 py-14">
           <div className="flex flex-wrap items-end justify-between gap-4">
             <h2 className="text-2xl text-forest-deep md:text-3xl">
-              {available.length > 0 ? `Available ${breed.name} puppies` : `${breed.name} puppies`}
+              {available.length > 0 ? `${breed.name} puppies for sale` : `${breed.name} puppies`}
             </h2>
             <CtaLink href="/puppies" variant="ghost">
               View all puppies
@@ -120,7 +119,7 @@ export default async function BreedDetailPage({
             </div>
           ) : (
             <p className="mt-6 max-w-lg leading-relaxed text-muted-foreground">
-              There are no {breed.name} puppies in this demo listing right now. Send us an enquiry and we&apos;ll let you
+              There are no {breed.name} puppies listed right now. Send us an enquiry and we&apos;ll let you
               know when one becomes available.
             </p>
           )}
