@@ -7,11 +7,6 @@ export function Hero() {
     <section className="relative overflow-hidden bg-secondary/50">
       <div className="mx-auto grid w-full max-w-7xl items-center gap-10 px-4 py-14 sm:px-6 lg:grid-cols-2 lg:gap-14 lg:py-20 lg:px-8">
         <div className="max-w-xl">
-          <span className="inline-flex items-center gap-2 rounded-full border border-primary/15 bg-background px-3.5 py-1.5 text-xs font-semibold text-primary">
-            <ShieldCheck className="size-3.5" />
-            Trusted, family-first puppy marketplace
-          </span>
-
           <h1 className="mt-5 text-4xl font-medium leading-[1.08] tracking-tight text-foreground text-balance sm:text-5xl lg:text-6xl">
             Find the right puppy for your family
           </h1>

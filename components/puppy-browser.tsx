@@ -174,24 +174,6 @@ export function PuppyBrowser() {
               </span>
             )}
           </button>
-          <p className="hidden text-sm text-muted-foreground lg:block">
-            Showing <span className="font-medium text-foreground">{filtered.length}</span>{" "}
-            {filtered.length === 1 ? "puppy" : "puppies"}
-          </p>
-          <label className="flex items-center gap-2 text-sm">
-            <span className="text-muted-foreground">Sort</span>
-            <select
-              value={sort}
-              onChange={(e) => setSort(e.target.value)}
-              className="h-11 rounded-full border border-border bg-card px-4 text-sm font-medium text-foreground outline-none focus:border-primary/40 focus:ring-3 focus:ring-ring/20"
-            >
-              {sortOptions.map((o) => (
-                <option key={o.value} value={o.value}>
-                  {o.label}
-                </option>
-              ))}
-            </select>
-          </label>
         </div>
 
         {filtered.length > 0 ? (
