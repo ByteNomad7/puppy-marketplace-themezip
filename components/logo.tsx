@@ -12,7 +12,11 @@ export function Logo({
   return (
     <Link
       href="/"
-      className={cn("inline-flex shrink-0 items-center", className)}
+      className={cn(
+        "inline-flex shrink-0 items-center",
+        tone === "light" && "rounded-lg bg-[#f5f1e7] px-3 py-2",
+        className,
+      )}
       aria-label="Potty Registered Puppies home"
     >
       <Image
@@ -24,7 +28,7 @@ export function Logo({
         sizes={tone === "light" ? "220px" : "(min-width: 640px) 200px, 165px"}
         className={cn(
           "h-auto",
-          tone === "light" ? "w-[220px] brightness-0 invert" : "w-[165px] sm:w-[200px]",
+          tone === "light" ? "w-[220px]" : "w-[165px] sm:w-[200px]",
         )}
       />
     </Link>
