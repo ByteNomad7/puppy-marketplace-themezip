@@ -26,6 +26,11 @@ export type Breed = {
   care: string
 }
 
+export type GuideSection = {
+  heading?: string
+  paragraphs: string[]
+}
+
 export type Guide = {
   slug: string
   title: string
@@ -33,6 +38,8 @@ export type Guide = {
   excerpt: string
   image: string
   readTime: string
+  pullQuote?: string
+  sections?: GuideSection[]
 }
 
 export const puppies: Puppy[] = [
@@ -5721,10 +5728,177 @@ export const breeds: Breed[] = [
   }]
 
 export const guides: Guide[] = [
-  { slug: "choosing-the-right-breed", title: "Choosing the Right Breed for Your Family", category: "Getting Started", excerpt: "Understand how energy levels, living space, and lifestyle shape the right match between a breed and your household.", image: "/guides/choosing-breed.png", readTime: "6 min read" },
-  { slug: "preparing-for-a-puppy", title: "Preparing Your Home for a New Puppy", category: "Preparation", excerpt: "A practical checklist for setting up a safe, comfortable space before your puppy arrives.", image: "/guides/preparing.png", readTime: "5 min read" },
-  { slug: "questions-to-ask", title: "Questions to Ask Before You Commit", category: "Guidance", excerpt: "The important questions that help you make an informed, confident decision about a puppy.", image: "/guides/questions.png", readTime: "7 min read" },
-  { slug: "health-and-care", title: "Health & Care in the First Months", category: "Health", excerpt: "What to expect from early veterinary care, nutrition, and everyday wellbeing.", image: "/guides/health-care.png", readTime: "8 min read" }]
+  {
+    slug: "choosing-the-right-breed",
+    title: "Choosing the Right Breed for Your Family",
+    category: "Getting Started",
+    excerpt: "Understand how energy levels, living space, and lifestyle shape the right match between a breed and your household.",
+    image: "/guides/choosing-breed.png",
+    readTime: "6 min read",
+    pullQuote: "The best breed is never the most popular one — it is the one that fits your life.",
+    sections: [
+      {
+        heading: "Start with your lifestyle, not a breed list",
+        paragraphs: [
+          "Before you fall for a set of ears or a coat colour, spend time honestly mapping your household. How many hours a day will the puppy spend alone? Do you have a garden, or will walks in a local park be the main outlet for energy? Are there young children, elderly relatives, or other pets involved?",
+          "Answers to these questions narrow the field far more effectively than any popularity chart. A high-energy working breed placed in a flat with long office hours will struggle, regardless of how lovingly it is kept. A calm, low-shedding companion breed, on the other hand, can thrive in a smaller home with the right daily routine.",
+        ],
+      },
+      {
+        heading: "Energy levels and exercise needs",
+        paragraphs: [
+          "UK breed standards and Kennel Club groupings give a useful starting point. Toy and companion breeds such as Maltipoos, Cavapoos, and Miniature Dachshunds generally need moderate exercise — typically 30 to 45 minutes a day — and adapt well to both city and rural living.",
+          "Larger or working-line breeds carry higher exercise requirements and benefit from having a dedicated outdoor space. If daily long walks in all weathers sound realistic for your household, those breeds can be genuinely rewarding. If they do not, be honest about that before committing.",
+        ],
+      },
+      {
+        heading: "Coat type and grooming commitment",
+        paragraphs: [
+          "Grooming is often underestimated. Curly and wavy coats — common in Doodle crosses and Bichon-type breeds — require brushing several times a week and a professional groom every six to eight weeks to prevent matting. Smooth, short coats need far less attention but can shed noticeably.",
+          "If anyone in the household has allergies, low-shedding breeds are worth prioritising, though no dog is entirely hypoallergenic. Spending time with the breed before committing is the most reliable test.",
+        ],
+      },
+      {
+        heading: "Children, other pets, and temperament",
+        paragraphs: [
+          "Breed temperament is a starting point, not a guarantee. Socialisation, early training, and the environment a puppy grows up in matter enormously. That said, certain breeds have been consistently selected for gentle, patient temperaments that suit busy family homes.",
+          "When children are involved, look for breeds described as patient and sociable rather than those with strong guarding or herding instincts. When other dogs or cats are already in the house, ask the breeder about how the puppy's parents interact with other animals.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "preparing-for-a-puppy",
+    title: "Preparing Your Home for a New Puppy",
+    category: "Preparation",
+    excerpt: "A practical checklist for setting up a safe, comfortable space before your puppy arrives.",
+    image: "/guides/preparing.png",
+    readTime: "5 min read",
+    pullQuote: "A little preparation before collection day makes the first week far calmer for everyone.",
+    sections: [
+      {
+        heading: "Puppy-proofing room by room",
+        paragraphs: [
+          "Puppies explore with their mouths, and a UK home has more hazards than most owners initially notice. Go through each room at floor level and remove or secure anything chewable and dangerous: electrical cables, houseplants (many common varieties are toxic to dogs), cleaning products stored under sinks, and small objects that could be swallowed.",
+          "Stair gates are useful not just for keeping puppies contained in a safe area but for managing introductions to older pets and protecting carpeted stairs from accidents during the first weeks. Many families confine a new puppy to a kitchen or utility room initially, expanding access gradually as toilet training progresses.",
+        ],
+      },
+      {
+        heading: "Setting up a sleep space",
+        paragraphs: [
+          "A dedicated crate or pen gives a puppy a predictable, safe place of its own. Most dogs settle more easily when they have a consistent sleep spot with a familiar-smelling blanket — many breeders will send a small piece of bedding that carries the scent of the litter, which can ease the first nights considerably.",
+          "Position the crate in a quiet but not isolated corner — puppies are social animals and settle better when they can hear household activity without being in the middle of it. Avoid placing it in direct sunlight or near a radiator.",
+        ],
+      },
+      {
+        heading: "What to have ready on collection day",
+        paragraphs: [
+          "A collar with an ID tag is a legal requirement in England, Scotland, and Wales from the moment you take ownership — the tag must carry your name and address. Have this ready before collection rather than ordering it afterwards.",
+          "Other essentials to prepare in advance: an appropriately sized crate or playpen, food and water bowls, a supply of the food the breeder has been using (changing diet abruptly can cause digestive upset), puppy pads or easy-clean flooring in the toilet-training area, and a lightweight harness or collar for early walks once vaccinations are complete.",
+        ],
+      },
+      {
+        heading: "Planning the first 24 hours",
+        paragraphs: [
+          "The first night is often the hardest. Your puppy has left its mother and littermates and is in an unfamiliar place. Keep arrivals calm and low-key — resist the urge to invite friends and family round on day one. Let the puppy explore its designated space at its own pace, offer water and a small meal, and allow it to rest frequently.",
+          "Expect broken sleep for the first few nights. Puppies typically need to toilet every two to three hours overnight until around 12 weeks. Setting an alarm and taking your puppy outside quietly — without play or fuss — teaches the outdoor habit faster than waiting to be woken by crying.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "questions-to-ask",
+    title: "Questions to Ask Before You Commit",
+    category: "Guidance",
+    excerpt: "The important questions that help you make an informed, confident decision about a puppy.",
+    image: "/guides/questions.png",
+    readTime: "7 min read",
+    pullQuote: "A breeder who welcomes your questions — and answers them fully — is a breeder worth trusting.",
+    sections: [
+      {
+        heading: "Why questions matter as much as the viewing",
+        paragraphs: [
+          "Seeing a puppy in person is important, but the conversation before and during that visit tells you far more than the puppy's appearance alone. Responsible breeders expect questions; they have usually fielded the same ones many times and are happy to answer in detail. Reluctance or vague answers are worth noting.",
+          "This guide covers the key areas to ask about. You do not need to work through every question like a checklist — a natural conversation that covers these topics will serve you just as well.",
+        ],
+      },
+      {
+        heading: "About the parents",
+        paragraphs: [
+          "Ask to see the mother in person. Seeing her temperament and condition gives you a direct read on how the puppies have been raised and what their adult character may tend towards. Reputable breeders will always show you the mother; if this is refused, treat it as a significant red flag.",
+          "For breeds where hereditary conditions are a known concern — hip dysplasia in larger breeds, eye conditions in Cavalier King Charles Spaniels, for example — ask whether the parents have been health-tested. In the UK, the Kennel Club's health-testing schemes and the relevant breed clubs publish the recommended tests by breed.",
+        ],
+      },
+      {
+        heading: "About the litter and early life",
+        paragraphs: [
+          "Where have the puppies been kept? Puppies raised in a home environment — with household sounds, handling, and human contact from birth — are typically better socialised than those kept in kennels or outbuildings with limited exposure. Ask how often the puppies are handled and by how many different people.",
+          "What age are they being rehomed? The legal minimum in England and Wales is eight weeks, and most behaviourists recommend puppies stay with their mother and littermates until at least this age. Earlier separation is associated with higher rates of behavioural problems later in life.",
+        ],
+      },
+      {
+        heading: "About health records and documentation",
+        paragraphs: [
+          "Ask for the puppy's vaccination record, microchip number, and any veterinary certificates provided. In England, all puppies must be microchipped before eight weeks old — this is the breeder's legal responsibility. At the point of sale, confirm the microchip details are transferred to your name.",
+          "If the breed is Kennel Club registered, the breeder should provide registration paperwork at the time of sale. Ask in advance if you are expecting this — some breeders transfer registration documents separately, and knowing the timeline avoids confusion.",
+        ],
+      },
+      {
+        heading: "About ongoing support",
+        paragraphs: [
+          "Good breeders care about where their puppies end up, and many stay in contact with new owners for years. Ask whether the breeder is happy to be contacted with questions after collection, and what they would want you to do if circumstances changed and you could no longer keep the dog.",
+          "A breeder who asks you questions in return — about your home, your routine, your experience with dogs — is one who is taking rehoming seriously. Being interviewed is a positive sign, not an inconvenience.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "health-and-care",
+    title: "Health & Care in the First Months",
+    category: "Health",
+    excerpt: "What to expect from early veterinary care, nutrition, and everyday wellbeing.",
+    image: "/guides/health-care.png",
+    readTime: "8 min read",
+    pullQuote: "The foundations of a healthy adult dog are built in the first six months — routine and consistency matter enormously.",
+    sections: [
+      {
+        heading: "Registering with a vet",
+        paragraphs: [
+          "Register your puppy with a local vet as soon as possible after collection — ideally within the first week. Even if your puppy was seen by the breeder's vet before sale, establishing a relationship with your own practice early means you have a point of contact when questions arise and your puppy's records are held in one place.",
+          "The first appointment is usually a general health check rather than vaccinations — your vet will examine the puppy, review the paperwork from the breeder, and advise on timing for any outstanding vaccinations, flea and worming treatments, and neutering if relevant.",
+        ],
+      },
+      {
+        heading: "Vaccinations and the socialisation window",
+        paragraphs: [
+          "Most UK puppies receive a primary vaccination course at around eight to ten weeks and again at ten to twelve weeks, though your vet will advise based on the specific vaccines used. Full protection typically takes effect one to two weeks after the second injection, after which your puppy can begin meeting other dogs and exploring public spaces.",
+          "This timing creates a practical tension: the critical socialisation window — the period when positive early experiences have the most lasting effect on behaviour — runs from roughly three to fourteen weeks. Many vets now recommend carefully managed socialisation before vaccination is complete, such as carrying your puppy in public spaces or visiting the homes of fully vaccinated adult dogs.",
+        ],
+      },
+      {
+        heading: "Worming and flea treatment",
+        paragraphs: [
+          "Responsible breeders worm puppies regularly from two weeks of age, and your puppy should have been treated before leaving the litter. Continue worming every two to four weeks until twelve weeks old, then monthly until six months, and every three months thereafter. Your vet can recommend a suitable product — prescription treatments are often more effective than over-the-counter options.",
+          "Flea treatment should begin early and be maintained year-round, as fleas can cause significant discomfort and in young puppies can lead to anaemia. Avoid using adult-formulation products on puppies without veterinary advice, as some ingredients are not suitable for young dogs.",
+        ],
+      },
+      {
+        heading: "Feeding and nutrition",
+        paragraphs: [
+          "Stick with the food the breeder was using for the first week or two to avoid digestive upset, then transition gradually to your chosen food by mixing increasing proportions over seven to ten days. Puppies have different nutritional needs from adult dogs — choose a complete food formulated specifically for puppies, ideally one appropriate to the breed size.",
+          "Feed little and often in the early months: most puppies need four meals a day up to twelve weeks, reducing to three between twelve weeks and six months, and then to two meals a day from six months onwards. Fresh water should always be available.",
+        ],
+      },
+      {
+        heading: "Early training and mental wellbeing",
+        paragraphs: [
+          "Training can and should begin from day one. Short, positive sessions — two to five minutes several times a day — teach a puppy its name, the basics of sit and recall, and how to settle calmly. Puppies have limited concentration spans and learn through repetition and reward rather than correction.",
+          "Mental stimulation is as important as physical exercise for young dogs. Puzzle feeders, sniff games, and calm handling prepare a puppy for the variety of experiences adult life will bring. Puppy classes — run by an accredited trainer — provide both structured learning and valuable socialisation with other dogs and people.",
+        ],
+      },
+    ],
+  },
+]
 
 export const navLinks = [
   { label: "Puppies", href: "/puppies" },

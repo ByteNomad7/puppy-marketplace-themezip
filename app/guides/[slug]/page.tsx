@@ -101,31 +101,55 @@ export default async function GuideArticlePage({
 
         <div className="mx-auto max-w-3xl px-5 py-12">
           <div className="flex flex-col gap-6 text-pretty leading-relaxed text-foreground/90">
-            <p className="text-lg">
-              Finding the right puppy is one of the most rewarding decisions a family can make. At Potty Registered
-              Puppies, we are here to help UK families make that decision with confidence, knowledge, and care.
-            </p>
-            <h2 className="mt-2 text-2xl text-forest-deep">Where to begin</h2>
-            <p>
-              A thoughtful decision starts with honest reflection about your household, daily routine, and the years
-              ahead. Consider space, activity levels, time for training, and who will share the responsibility of care.
-            </p>
-            <p>
-              Matching a puppy to your lifestyle is far more important than choosing based on appearance alone. The
-              right fit leads to a calmer, happier home for both you and your companion.
-            </p>
-            <h2 className="mt-2 text-2xl text-forest-deep">What to look for</h2>
-            <p>
-              Prioritise wellbeing and transparency. Meeting a puppy in a clean, caring environment, asking about
-              health records, and taking time before committing all support a confident, informed choice.
-            </p>
-            <blockquote className="border-l-2 border-accent pl-5 font-serif text-xl italic text-forest-deep">
-              A good match is never rushed. Take the time to meet, ask questions, and be sure.
-            </blockquote>
-            <p>
-              When you are ready, our team is here to help you arrange a viewing and answer any remaining questions,
-              with no obligation.
-            </p>
+            {guide.sections && guide.sections.length > 0 ? (
+              <>
+                {guide.sections.map((section, i) => (
+                  <div key={i}>
+                    {section.heading && (
+                      <h2 className="mt-2 text-2xl text-forest-deep">{section.heading}</h2>
+                    )}
+                    {section.paragraphs.map((para, j) => (
+                      <p key={j} className={j > 0 ? "mt-4" : section.heading ? "mt-3" : ""}>
+                        {para}
+                      </p>
+                    ))}
+                  </div>
+                ))}
+                {guide.pullQuote && (
+                  <blockquote className="border-l-2 border-accent pl-5 font-serif text-xl italic text-forest-deep">
+                    {guide.pullQuote}
+                  </blockquote>
+                )}
+              </>
+            ) : (
+              <>
+                <p className="text-lg">
+                  Finding the right puppy is one of the most rewarding decisions a family can make. At Potty Registered
+                  Puppies, we are here to help UK families make that decision with confidence, knowledge, and care.
+                </p>
+                <h2 className="mt-2 text-2xl text-forest-deep">Where to begin</h2>
+                <p>
+                  A thoughtful decision starts with honest reflection about your household, daily routine, and the years
+                  ahead. Consider space, activity levels, time for training, and who will share the responsibility of care.
+                </p>
+                <p>
+                  Matching a puppy to your lifestyle is far more important than choosing based on appearance alone. The
+                  right fit leads to a calmer, happier home for both you and your companion.
+                </p>
+                <h2 className="mt-2 text-2xl text-forest-deep">What to look for</h2>
+                <p>
+                  Prioritise wellbeing and transparency. Meeting a puppy in a clean, caring environment, asking about
+                  health records, and taking time before committing all support a confident, informed choice.
+                </p>
+                <blockquote className="border-l-2 border-accent pl-5 font-serif text-xl italic text-forest-deep">
+                  A good match is never rushed. Take the time to meet, ask questions, and be sure.
+                </blockquote>
+                <p>
+                  When you are ready, our team is here to help you arrange a viewing and answer any remaining questions,
+                  with no obligation.
+                </p>
+              </>
+            )}
           </div>
 
           <div className="mt-10 rounded-2xl border border-border bg-secondary/50 p-6 text-center md:p-8">
