@@ -33,13 +33,13 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/favicon.png',
+        url: '/potty-registered-puppies-favicon.png',
         type: 'image/png',
         sizes: '180x180',
       },
-      { url: '/favicon.ico', type: 'image/x-icon', sizes: '32x32' },
+      { url: '/potty-registered-puppies-favicon.ico', type: 'image/x-icon', sizes: '32x32' },
     ],
-    apple: '/favicon.png',
+    apple: '/potty-registered-puppies-favicon.png',
   },
 }
 
