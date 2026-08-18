@@ -1,0 +1,7 @@
+url,claim,claim_type,support,risk,recommended_action
+/,"healthy, well-raised puppies",Health/welfare,"No seller, vet or health-record evidence shown",High,Add verifiable standards/evidence or soften claim.
+/about,trusted UK puppy marketplace,Reputation,"No reviews, accreditation or operational proof shown",High,Use factual wording or add evidence.
+/about,responsibly raised,Welfare,No seller records or verification process shown,High,Document standards and verification.
+/puppies/[slug],raised with care,Individual welfare,Static copy; no care evidence per record,Medium,Use only where supported by records.
+/puppies/[slug],health check before adoption confirmed,Process,Checkbox copy; process implementation not visible,High,Implement/document process or remove claim.
+/,available across the UK,Location/availability,No listing location field,High,Do not imply geographic inventory until data exists.

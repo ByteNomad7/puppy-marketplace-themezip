@@ -1,0 +1,7 @@
+page_set,intent_overlap,preferred_owner,secondary_page,recommendation,internal_link_action
+/puppies vs /breeds/{breed},market vs breed sales,/puppies,/breeds/{breed},"Keep both; hub broad, breed pages specific.",Hub links to breeds; breed pages link to listings and hub.
+/breeds/{breed} vs future /puppies-for-sale/uk/{breed},breed sales,/breeds/{breed},Future route,Do not launch duplicate path without migration evidence.,Preserve current route unless a deliberate migration is approved.
+/breeds/{breed} vs future breed guides,commercial vs informational,/breeds/{breed},Future guide,Commercial page owns sales; guide owns care/temperament.,Use distinct titles and contextual cross-links.
+/guides vs /guides/{slug},hub vs article,/guides,/guides/{slug},Hub summarizes; article owns long-tail query.,Add unique excerpts and Article schema later.
+duplicate Biewer slugs,same breed sales intent,/breeds/biewer-terrier,/breeds/biwer-terrier,Choose one canonical and redirect/alias the other.,Consolidate before Phase 1.
+duplicate Cavalier slugs,same breed sales intent,/breeds/king-charles,/breeds/cavalier,Choose one canonical and redirect/alias the other.,Consolidate before Phase 1.

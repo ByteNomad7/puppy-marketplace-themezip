@@ -1,0 +1,645 @@
+TASK: PUPPY MARKETPLACE — UK SEO PHASE 0
+REPOSITORY:
+ByteNomad7/puppy-marketplace-themezip
+
+FRAMEWORK:
+Next.js App Router
+
+CURRENT APP AREAS FOUND:
+/
+app/about
+app/breeds
+app/guides
+app/puppies
+
+GOAL:
+
+Prepare a disciplined UK-first SEO architecture for the puppy marketplace.
+
+This phase is AUDIT + STRATEGY + URL MAPPING ONLY.
+
+DO NOT mass-create pages yet.
+DO NOT create city pages yet.
+DO NOT create hundreds of breed/location combinations.
+DO NOT deploy automatically.
+DO NOT rewrite working content unnecessarily.
+
+We want the same authority model used successfully on the parrot projects:
+
+COUNTRY / MARKET HUB
+→ COMMERCIAL CATEGORY
+→ BREED COMMERCIAL PAGE
+→ REAL PUPPY LISTING
+→ SUPPORTING GUIDE / TRUST CONTENT
+
+PRIMARY MARKET:
+United Kingdom
+
+PRIMARY LANGUAGE:
+English (en-GB)
+
+==================================================
+1. AUDIT CURRENT ROUTES
+==================================================
+
+Inspect the full Next.js App Router structure.
+
+Inventory:
+
+homepage
+puppies
+breeds
+guides
+about
+dynamic routes
+listing routes
+category routes
+contact/trust pages if present
+sitemap routes
+robots
+metadata
+schema
+redirects
+
+Create:
+
+reports/UK-SEO-CURRENT-URL-INVENTORY.csv
+
+Columns:
+
+url
+route_file
+page_type
+status
+title
+meta
+h1
+canonical
+robots
+schema
+internal_links_in
+internal_links_out
+word_count
+indexable
+seo_role
+issues
+
+==================================================
+2. IDENTIFY CURRENT PAGE TYPES
+==================================================
+
+Classify:
+
+HOME
+PUPPIES HUB
+BREED HUB
+BREED DETAIL
+PUPPY DETAIL
+GUIDE HUB
+GUIDE ARTICLE
+ABOUT
+CONTACT
+TRUST
+OTHER
+
+Do not assume existing route naming is final.
+
+==================================================
+3. IDENTIFY PUPPY DATA SOURCE
+==================================================
+
+Locate where puppy listings come from.
+
+Determine whether data is stored in:
+
+static TS/JSON
+API
+database
+CMS
+mock data
+server route
+other source
+
+Document fields such as:
+
+id
+slug
+name
+breed
+sex
+age
+location
+price
+images
+description
+availability
+seller data
+
+Do NOT alter the data.
+
+Create:
+
+reports/UK-SEO-PUPPY-DATA-MAP.md
+
+==================================================
+4. IDENTIFY BREED DATA
+==================================================
+
+Inspect current breed architecture.
+
+List every existing breed.
+
+For each record:
+
+breed
+slug
+route
+content depth
+available puppies relationship
+internal links
+SEO metadata
+commercial intent
+informational intent
+
+Create:
+
+reports/UK-SEO-BREED-INVENTORY.csv
+
+==================================================
+5. SEARCH INTENT ARCHITECTURE
+==================================================
+
+Map UK search intent into distinct page types.
+
+Examples:
+
+MARKET:
+puppies for sale UK
+
+BREED COMMERCIAL:
+French Bulldog puppies for sale UK
+Pomeranian puppies for sale UK
+Golden Retriever puppies for sale UK
+Cavapoo puppies for sale UK
+Cockapoo puppies for sale UK
+
+INFORMATIONAL:
+French Bulldog temperament
+French Bulldog health considerations
+best family dogs UK
+what to ask before buying a puppy
+how to prepare for a puppy
+
+Do NOT let informational pages compete with commercial breed pages.
+
+Create:
+
+reports/UK-SEO-SEARCH-INTENT-MAP.csv
+
+Columns:
+
+query_theme
+intent
+recommended_url
+existing_url
+page_type
+priority
+risk
+action
+
+==================================================
+6. UK MARKET HUB
+==================================================
+
+Determine whether the site already has a strong:
+
+/puppies-for-sale/
+/puppies-for-sale/uk/
+
+or equivalent.
+
+Recommend ONE clear UK authority structure.
+
+Preferred conceptual hierarchy:
+
+/
+→ /puppies-for-sale/
+→ /puppies-for-sale/uk/
+→ /puppies-for-sale/uk/[breed]/
+
+BUT:
+
+Do not implement this blindly.
+
+First compare with current existing routes and preserve URLs with SEO value.
+
+If existing route architecture is stronger, propose the safer alternative.
+
+==================================================
+7. BREED COMMERCIAL PAGE STRATEGY
+==================================================
+
+Identify the strongest breeds worth Phase 1 implementation.
+
+Do NOT create all breed pages automatically.
+
+Rank breeds by:
+
+existing inventory
+existing content
+search intent
+commercial relevance
+ability to provide unique content
+internal-link support
+
+Create:
+
+reports/UK-SEO-BREED-PRIORITY.csv
+
+Columns:
+
+breed
+current_route
+puppies_available
+content_depth
+commercial_value
+content_gap
+priority
+recommended_action
+
+Select only:
+
+TOP 10–15 breeds
+
+for Phase 1.
+
+==================================================
+8. LOCATION STRATEGY
+==================================================
+
+Do NOT create city pages yet.
+
+Instead audit whether the data actually supports UK locations.
+
+Identify:
+
+country
+region
+county
+city
+
+fields in puppy listings.
+
+Determine whether meaningful future location pages could be created from real inventory.
+
+Potential future examples:
+
+London
+Manchester
+Birmingham
+Leeds
+Liverpool
+Bristol
+Glasgow
+Edinburgh
+
+But DO NOT create them in Phase 0.
+
+Create:
+
+reports/UK-SEO-LOCATION-OPPORTUNITY.csv
+
+Columns:
+
+location
+listing_count
+breed_coverage
+content_support
+commercial_value
+doorway_risk
+priority
+recommendation
+
+==================================================
+9. GUIDE / CONTENT CLUSTER AUDIT
+==================================================
+
+Inspect:
+
+app/guides
+
+Inventory all existing guides.
+
+Classify:
+
+BUYING GUIDE
+BREED GUIDE
+HEALTH
+TRAINING
+PUPPY PREPARATION
+SAFETY
+OTHER
+
+Create:
+
+reports/UK-SEO-GUIDE-INVENTORY.csv
+
+Then identify content gaps supporting commercial pages.
+
+Examples:
+
+how to choose a puppy UK
+questions to ask before buying a puppy
+puppy buying checklist UK
+preparing your home for a puppy
+breed comparison guides
+French Bulldog buyer guide
+Pomeranian buyer guide
+Cavapoo buyer guide
+
+Do NOT write them yet.
+
+==================================================
+10. INTERNAL LINK AUTHORITY MODEL
+==================================================
+
+Design this structure:
+
+HOME
+↓
+UK PUPPIES HUB
+↓
+BREED COMMERCIAL PAGE
+↓
+REAL PUPPY LISTING
+
+And:
+
+GUIDE
+↔
+BREED PAGE
+↔
+UK HUB
+↔
+PUPPY LISTING
+
+Trust/support pages:
+
+ABOUT
+CONTACT
+BUYER GUIDANCE
+
+should reinforce commercial pages.
+
+Create:
+
+reports/UK-SEO-INTERNAL-LINK-PLAN.md
+
+==================================================
+11. TECHNICAL SEO AUDIT
+==================================================
+
+Audit:
+
+Next.js metadata API
+titles
+meta descriptions
+canonical handling
+robots
+sitemap
+Open Graph
+Twitter metadata
+JSON-LD
+breadcrumbs
+dynamic-route metadata
+404 behavior
+pagination/filter behavior
+
+Create:
+
+reports/UK-SEO-TECHNICAL-AUDIT.md
+
+Report:
+
+missing titles
+duplicate titles
+missing meta
+duplicate meta
+canonical issues
+robots issues
+sitemap issues
+schema issues
+breadcrumb issues
+orphan pages
+
+==================================================
+12. INDEXABILITY
+==================================================
+
+Classify every current public route:
+
+INDEX
+NOINDEX
+REVIEW
+
+Do not automatically index:
+
+search pages
+filter combinations
+thin duplicates
+invalid puppy pages
+utility routes
+
+Create:
+
+reports/UK-SEO-INDEXABILITY.csv
+
+==================================================
+13. FILTER / FACET STRATEGY
+==================================================
+
+If the puppy browse experience supports filters, inspect query parameters such as:
+
+breed
+location
+price
+sex
+sort
+page
+
+Determine which combinations should:
+
+remain crawlable
+be noindex
+canonicalize
+remain user-facing only
+
+Do not break filtering.
+
+==================================================
+14. SCHEMA STRATEGY
+==================================================
+
+Identify correct schema by page type.
+
+Potential:
+
+Organization
+WebSite
+WebPage
+BreadcrumbList
+Article
+Product / Offer only if real listing data supports it
+FAQPage where visible FAQs exist
+
+Do NOT fabricate:
+
+ratings
+reviews
+availability
+prices
+breeder verification
+
+==================================================
+15. E-E-A-T / TRUST AUDIT
+==================================================
+
+Inspect:
+
+About
+buyer guidance
+contact
+seller/breeder information
+health claims
+guarantees
+delivery/shipping claims
+
+Flag unsupported claims.
+
+Create:
+
+reports/UK-SEO-TRUST-AUDIT.csv
+
+Columns:
+
+url
+claim
+claim_type
+support
+risk
+recommended_action
+
+==================================================
+16. URL CANNIBALIZATION AUDIT
+==================================================
+
+Find multiple pages targeting the same intent.
+
+Examples:
+
+/puppies
+/breeds/[breed]
+/puppies/[breed]
+/guides/[breed]
+
+Determine which should own:
+
+commercial intent
+informational intent
+
+Create:
+
+reports/UK-SEO-CANNIBALIZATION-MAP.csv
+
+==================================================
+17. PHASE 1 RECOMMENDATION
+==================================================
+
+Recommend ONLY the strongest first implementation wave.
+
+Expected scope:
+
+1 UK market hub
+10–15 breed commercial pages
+5–8 high-value guides
+trust/internal-link improvements
+
+No city pages unless the audit proves a strong case.
+
+Create:
+
+reports/UK-SEO-PHASE1-PLAN.md
+
+Include:
+
+pages to create
+pages to upgrade
+pages to merge
+pages to keep
+pages to noindex
+internal links to add
+content gaps
+technical fixes
+
+==================================================
+18. VALIDATION
+==================================================
+
+Run:
+
+pnpm typecheck if available
+pnpm build
+Next.js route audit
+metadata audit
+canonical audit
+sitemap audit
+robots audit
+schema audit
+internal-link audit
+orphan audit
+git diff --check
+
+Do NOT weaken validators.
+
+==================================================
+19. FINAL REPORT
+==================================================
+
+Create:
+
+reports/UK-SEO-PHASE0-FINAL.md
+
+Report:
+
+CURRENT ROUTES =
+INDEXABLE ROUTES =
+PUPPY ROUTES =
+BREED ROUTES =
+GUIDE ROUTES =
+
+TOP UK BREEDS =
+UK LOCATION OPPORTUNITIES =
+CONTENT GAPS =
+CANNIBALIZATION RISKS =
+TECHNICAL SEO ISSUES =
+TRUST ISSUES =
+
+PHASE 1 URLS RECOMMENDED =
+CITY PAGES RECOMMENDED NOW = YES/NO
+
+SAFE TO START UK PHASE 1 = YES/NO
+
+==================================================
+STOP
+==================================================
+
+STOP after audit, architecture and reports.
+
+DO NOT:
+- mass-create pages
+- create city pages
+- create fake puppy listings
+- create fake breeder data
+- invent locations
+- invent reviews/ratings
+- deploy automatically

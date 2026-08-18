@@ -1,0 +1,14 @@
+route_pattern,classification,indexable,seo_role,notes
+/,INDEX,YES,Brand/market hub,No robots directive; no sitemap.
+/puppies,INDEX,YES,Commercial market hub,Client-only filters; no pagination/schema.
+/puppies/[slug] valid,INDEX,YES,Real listing,Use Product/Offer only when data supports it.
+/puppies/[slug] invalid,NOINDEX,NO,Invalid listing,notFound() path; verify 404 response in production.
+/breeds,INDEX,YES,Breed hub,Consolidate duplicate records before expansion.
+/breeds/[slug] valid,INDEX,YES,Breed commercial page,Keep canonical route; add schema later.
+/breeds/[slug] invalid,NOINDEX,NO,Invalid breed,notFound() path.
+/guides,INDEX,YES,Content hub,No Article schema.
+/guides/[slug] valid,INDEX,YES,Guide article,Rewrite generic content before scaling.
+/guides/[slug] invalid,NOINDEX,NO,Invalid article,notFound() path.
+/about,INDEX,YES,Trust page,Claims need visible evidence.
+/contact,REVIEW,NO,Missing trust page,Linked internally but not implemented.
+filter/query combinations,NOINDEX,USER-FACING ONLY,Browse UX,No URL query state; do not make facets crawlable by default.

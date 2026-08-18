@@ -1,0 +1,9 @@
+location,listing_count,breed_coverage,content_support,commercial_value,doorway_risk,priority,recommendation
+London,0,0; location field absent,None,Medium future demand,High,REVIEW,Do not create city page; collect real country/region/county/city data first.
+Manchester,0,0; location field absent,None,Medium future demand,High,REVIEW,Do not create city page; collect real country/region/county/city data first.
+Birmingham,0,0; location field absent,None,Medium future demand,High,REVIEW,Do not create city page; collect real country/region/county/city data first.
+Leeds,0,0; location field absent,None,Medium future demand,High,REVIEW,Do not create city page; collect real country/region/county/city data first.
+Liverpool,0,0; location field absent,None,Medium future demand,High,REVIEW,Do not create city page; collect real country/region/county/city data first.
+Bristol,0,0; location field absent,None,Medium future demand,High,REVIEW,Do not create city page; collect real country/region/county/city data first.
+Glasgow,0,0; location field absent,None,Medium future demand,High,REVIEW,Do not create city page; collect real country/region/county/city data first.
+Edinburgh,0,0; location field absent,None,Medium future demand,High,REVIEW,Do not create city page; collect real country/region/county/city data first.

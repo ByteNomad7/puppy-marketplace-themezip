@@ -1,0 +1,12 @@
+query_theme,intent,recommended_url,existing_url,page_type,priority,risk,action
+puppies for sale UK,Commercial market,/puppies,/puppies,PUPPIES HUB,P0,Short hub; no pagination/schema,Upgrade current hub; do not add city pages.
+teacup puppies for sale UK,Commercial category,/puppies,/puppies,PUPPIES HUB,P0,No dedicated category URL,Support in hub copy without indexable facet URLs.
+toy puppies for sale UK,Commercial category,/puppies,/puppies,PUPPIES HUB,P1,No dedicated category URL,Keep user-facing filter/category language non-crawlable.
+{breed} puppies for sale UK,Commercial breed,/breeds/{breed},/breeds/{breed},BREED DETAIL,P0,Duplicate/typo slugs,Upgrade existing pages and consolidate aliases.
+how to choose a puppy UK,Buying guide,/guides/choosing-the-right-breed,/guides/choosing-the-right-breed,GUIDE ARTICLE,P0,Current copy is generic,Rewrite as UK buying guidance linked to hub/breeds.
+questions to ask before buying a puppy,Buying guide,/guides/questions-to-ask,/guides/questions-to-ask,GUIDE ARTICLE,P0,Current copy is generic,Rewrite with evidence and trust process.
+preparing your home for a puppy,Preparation,/guides/preparing-for-a-puppy,/guides/preparing-for-a-puppy,GUIDE ARTICLE,P1,Current copy is generic,Upgrade and link to relevant breed pages.
+best family dogs UK,Informational,/guides/best-family-dogs-uk,N/A,GUIDE ARTICLE,P1,No page; must avoid breed cannibalization,Plan only after demand/content validation.
+puppy buying checklist UK,Safety/buying,/guides/puppy-buying-checklist-uk,N/A,GUIDE ARTICLE,P1,No page,Plan one useful guide; do not mass-create.
+{breed} temperament,Informational breed,/guides/{breed}-temperament,N/A,GUIDE ARTICLE,P2,Could compete with breed page,Only create with unique informational intent and clear links.
+{breed} health considerations,Informational breed,/guides/{breed}-health,N/A,GUIDE ARTICLE,P2,Health claims need evidence,Use authoritative sourcing; keep distinct from sales page.
