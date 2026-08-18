@@ -1,0 +1,179 @@
+12:16:27 AM: build-image version: 969defd95f3977f8de9cb1f48802a7e6f3d8c0b3 (noble-new-builds)
+12:16:27 AM: buildbot version: 10dc37bd1143b842362a5e6fc4a3f2f80247f320
+12:16:28 AM: Fetching cached dependencies
+12:16:28 AM: Failed to fetch cache, continuing with build
+12:16:28 AM: Starting to prepare the repo for build
+12:16:28 AM: No cached dependencies found. Cloning fresh repo
+12:16:28 AM: git clone --filter=blob:none https://github.com/ByteNomad7/puppy-marketplace-themezip
+12:16:28 AM: Preparing Git Reference refs/heads/main
+12:16:38 AM: Installing dependencies
+12:16:38 AM: mise ~/.config/mise/config.toml tools: python@3.14.3
+12:16:38 AM: mise ~/.config/mise/config.toml tools: ruby@3.4.8
+12:16:39 AM: mise ~/.config/mise/config.toml tools: go@1.26.2
+12:16:39 AM: Downloading and installing node v22.23.2...
+12:16:39 AM: Downloading https://nodejs.org/dist/v22.23.2/node-v22.23.2-linux-x64.tar.xz...
+12:16:39 AM: Computing checksum with sha256sum
+12:16:39 AM: Checksums matched!
+12:16:42 AM: Now using node v22.23.2 (npm v10.9.8)
+12:16:42 AM: Enabling Node.js Corepack
+12:16:44 AM: No pnpm workspaces detected
+12:16:44 AM: Installing npm packages using pnpm version 11.22.0
+12:16:45 AM: ? Verifying lockfile against supply-chain policies (448 entries)...
+12:16:45 AM: Lockfile is up to date, resolution step is skipped
+12:16:45 AM: Progress: resolved 1, reused 0, downloaded 0, added 0
+12:16:45 AM: Packages: +395
+12:16:45 AM: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:16:46 AM: Progress: resolved 395, reused 0, downloaded 0, added 0
+12:16:47 AM: Progress: resolved 395, reused 0, downloaded 4, added 0
+12:16:48 AM: Progress: resolved 395, reused 0, downloaded 47, added 0
+12:16:49 AM: ✓ Lockfile passes supply-chain policies (448 entries in 4.2s)
+12:16:49 AM: Progress: resolved 395, reused 0, downloaded 62, added 0
+12:16:49 AM: Packages are hard linked from the content-addressable store to the virtual store.
+12:16:49 AM:   Content-addressable store is at: /opt/buildhome/.pnpm-store/v11
+12:16:49 AM:   Virtual store is at:             node_modules/.pnpm
+12:16:50 AM: Progress: resolved 395, reused 0, downloaded 173, added 8
+12:16:51 AM: Progress: resolved 395, reused 0, downloaded 395, added 395, done
+12:16:51 AM: dependencies:
+12:16:51 AM: + @base-ui/react 1.5.0
+12:16:51 AM: + @vercel/analytics 1.6.1
+12:16:51 AM: + class-variance-authority 0.7.1
+12:16:51 AM: + clsx 2.1.1
+12:16:51 AM: + lucide-react 1.17.0
+12:16:51 AM: + next 16.3.0
+12:16:51 AM: + react 19.2.4
+12:16:51 AM: + react-dom 19.2.4
+12:16:51 AM: + shadcn 4.10.0
+12:16:51 AM: + tailwind-merge 3.4.0
+12:16:51 AM: + tw-animate-css 1.4.0
+12:16:51 AM: devDependencies:
+12:16:51 AM: + @tailwindcss/postcss 4.3.3
+12:16:51 AM: + @types/node 24.10.4
+12:16:51 AM: + @types/react 19.2.14
+12:16:51 AM: + @types/react-dom 19.2.3
+12:16:51 AM: + postcss 8.5.6
+12:16:51 AM: + tailwindcss 4.3.3
+12:16:51 AM: + typescript 5.7.3
+12:16:51 AM: Done in 6.9s using pnpm v11.22.0
+12:16:51 AM: npm packages installed using pnpm
+12:16:52 AM: Successfully installed dependencies
+12:16:52 AM: Detected 1 framework(s)
+12:16:52 AM: "next" at version "16.3.0"
+12:16:52 AM: Starting build script
+12:16:53 AM: Section completed: initializing
+12:16:55 AM: ​
+12:16:55 AM: Netlify Build                                                 
+12:16:55 AM: ────────────────────────────────────────────────────────────────
+12:16:55 AM: ​
+12:16:55 AM: ❯ Version
+12:16:55 AM:   @netlify/build 36.2.4
+12:16:55 AM: ​
+12:16:55 AM: ❯ Flags
+12:16:55 AM:   accountId: 6894e25198f2f6a4dc004ea1
+12:16:55 AM:   baseRelDir: true
+12:16:55 AM:   buildId: 6a84d9ba629b449c3536db33
+12:16:55 AM:   deployId: 6a84d9ba629b449c3536db35
+12:16:55 AM: ​
+12:16:55 AM: ❯ Current directory
+12:16:55 AM:   /opt/build/repo
+12:16:55 AM: ​
+12:16:55 AM: ❯ Config file
+12:16:55 AM:   /opt/build/repo/netlify.toml
+12:16:55 AM: ​
+12:16:55 AM: ❯ Context
+12:16:55 AM:   production
+12:16:55 AM: ​
+12:16:55 AM: ❯ Installing extensions
+12:16:55 AM:    - neon
+12:16:55 AM:    - user-agent-blocker
+12:17:10 AM: ​
+12:17:10 AM: ❯ Using Next.js Runtime - v5.15.13
+12:17:10 AM: ​
+12:17:10 AM: ❯ Loading extensions
+12:17:10 AM:    - neon
+12:17:10 AM:    - user-agent-blocker
+12:17:12 AM: No Next.js cache to restore
+12:17:12 AM: ​
+12:17:12 AM: build.command from netlify.toml                               
+12:17:12 AM: ────────────────────────────────────────────────────────────────
+12:17:12 AM: ​
+12:17:12 AM: $ pnpm build
+12:17:12 AM: $ next build
+12:17:13 AM: ▲ Next.js 16.3.0 (Turbopack)
+12:17:13 AM: ✓ Running next.config.mjs took 18ms
+12:17:13 AM: ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+12:17:13 AM:   Creating an optimized production build ...
+12:17:20 AM: ✓ Compiled successfully in 7.4s
+12:17:20 AM:   Skipping validation of types
+12:17:20 AM:   Finished TypeScript config validation in 5ms ...
+12:17:20 AM:   Collecting page data using 2 workers ...
+12:17:21 AM:   Generating static pages using 2 workers (0/430) ...
+12:17:23 AM:   Generating static pages using 2 workers (107/430)
+12:17:24 AM:   Generating static pages using 2 workers (214/430)
+12:17:25 AM:   Generating static pages using 2 workers (322/430)
+12:17:26 AM: ✓ Generating static pages using 2 workers (430/430) in 4.5s
+12:17:26 AM:   Finalizing page optimization ...
+12:17:26 AM: Route (app)
+12:17:26 AM: ┌ ○ /
+12:17:26 AM: ├ ○ /_not-found
+12:17:26 AM: ├ ○ /about
+12:17:26 AM: ├ ○ /breeds
+12:17:26 AM: ├   /breeds/[slug]
+12:17:26 AM: │ ├ ● /breeds/maltipoo
+12:17:26 AM: │ ├ ● /breeds/poodle
+12:17:26 AM: │ ├ ● /breeds/pomeranian
+12:17:26 AM: │ └ ● [+20 more paths]
+12:17:26 AM: ├ ○ /contact
+12:17:26 AM: ├ ƒ /guides
+12:17:26 AM: ├   /guides/[slug]
+12:17:26 AM: │ ├ ● /guides/choosing-the-right-breed
+12:17:26 AM: │ ├ ● /guides/preparing-for-a-puppy
+12:17:26 AM: │ ├ ● /guides/questions-to-ask
+12:17:26 AM: │ └ ● [+4 more paths]
+12:17:26 AM: ├ ○ /puppies
+12:17:26 AM: ├   /puppies/[slug]
+12:17:26 AM: │ ├ ● /puppies/lulu-female-1
+12:17:26 AM: │ ├ ● /puppies/oscar-male-7
+12:17:26 AM: │ ├ ● /puppies/diana-female-10
+12:17:26 AM: │ └ ● [+387 more paths]
+12:17:26 AM: ├ ○ /robots.txt
+12:17:26 AM: └ ○ /sitemap.xml
+12:17:26 AM: ○  (Static)   prerendered as static content
+12:17:26 AM: ●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+12:17:26 AM: ƒ  (Dynamic)  server-rendered on demand
+12:17:26 AM: ​
+12:17:26 AM: (build.command completed in 14.7s)
+12:17:27 AM: Next.js cache saved
+12:17:28 AM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+12:17:28 AM: ​
+12:17:28 AM: Plugin "@netlify/plugin-nextjs" failed                        
+12:17:28 AM: ────────────────────────────────────────────────────────────────
+12:17:28 AM: ​
+12:17:28 AM:   Error message
+12:17:28 AM:   Error: Failed assembling prerendered content for upload
+12:17:28 AM:   @netlify/plugin-nextjs@5 requires migration steps to support Netlify Forms. Refer to https://ntl.fyi/next-runtime-forms-migration for migration example.
+12:17:28 AM: ​
+12:17:28 AM:   Plugin details
+12:17:28 AM:   Package:        @netlify/plugin-nextjs
+12:17:28 AM:   Version:        5.15.13
+12:17:28 AM:   Repository:     git+https://github.com/opennextjs/opennextjs-netlify.git
+12:17:28 AM:   npm link:       https://www.npmjs.com/package/@netlify/plugin-nextjs
+12:17:28 AM:   Report issues:  https://github.com/opennextjs/opennextjs-netlify/issues
+12:17:28 AM: ​
+12:17:28 AM:   Error location
+12:17:28 AM:   In "onBuild" event in "@netlify/plugin-nextjs" from Netlify app
+12:17:28 AM: ​
+12:17:28 AM:   Resolved config
+12:17:28 AM:   build:
+12:17:28 AM:     command: pnpm build
+12:17:28 AM:     commandOrigin: config
+12:17:28 AM:     environment:
+12:17:28 AM:       - NODE_VERSION
+12:17:28 AM:     publish: /opt/build/repo/.next
+12:17:28 AM:     publishOrigin: config
+12:17:28 AM:   plugins:
+12:17:28 AM:     - inputs: {}
+12:17:28 AM:       origin: ui
+12:17:28 AM:       package: "@netlify/plugin-nextjs"
+12:17:28 AM: Build failed due to a user error: Build script returned non-zero exit code: 2
+12:17:28 AM: Failing build: Failed to build site
+12:17:29 AM: Finished processing build request in 1m1.218s

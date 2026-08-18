@@ -24,7 +24,7 @@ export function EnquiryForm({ puppyName }: { puppyName?: string }) {
     })
 
     try {
-      const response = await fetch("/", {
+      const response = await fetch("/__forms.html", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encodedFormData.toString(),
@@ -58,9 +58,7 @@ export function EnquiryForm({ puppyName }: { puppyName?: string }) {
     <form
       name="puppy-enquiry"
       method="POST"
-      action="/"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
+      action="/__forms.html"
       onSubmit={handleSubmit}
       className="flex flex-col gap-4"
     >
