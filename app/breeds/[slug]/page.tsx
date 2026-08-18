@@ -107,7 +107,7 @@ export default async function BreedDetailPage({
             <h2 className="text-2xl text-forest-deep md:text-3xl">
               {available.length > 0 ? `${breed.name} puppies for sale` : `${breed.name} puppies`}
             </h2>
-            <CtaLink href="/puppies" variant="ghost">
+            <CtaLink href="/puppies" variant="outline">
               View all puppies
             </CtaLink>
           </div>

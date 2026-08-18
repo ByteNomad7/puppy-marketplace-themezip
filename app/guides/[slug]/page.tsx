@@ -110,7 +110,7 @@ export default async function GuideArticlePage({
             </p>
             <div className="mt-5 flex flex-wrap justify-center gap-3">
               <CtaLink href="/puppies">Browse puppies</CtaLink>
-              <CtaLink href="/contact" variant="secondary">
+              <CtaLink href="/contact" variant="outline">
                 Contact us
               </CtaLink>
             </div>

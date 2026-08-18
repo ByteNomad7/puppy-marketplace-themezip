@@ -86,10 +86,10 @@ export default function AboutPage() {
             Our team is happy to talk through breeds, timing, or anything else — with no obligation.
           </p>
           <div className="mt-7 flex flex-wrap justify-center gap-3">
-            <CtaLink href="/contact" variant="onDark">
+            <CtaLink href="/contact" variant="light">
               Contact us
             </CtaLink>
-            <CtaLink href="/puppies" variant="onDarkGhost">
+            <CtaLink href="/puppies" variant="ghostLight">
               Browse puppies
             </CtaLink>
           </div>

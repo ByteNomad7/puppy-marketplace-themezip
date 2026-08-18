@@ -1,7 +1,7 @@
 modules = ["nodejs-24", "python-base-3.13"]
 [nix]
 channel = "stable-25_05"
-packages = ["unzip"]
+packages = ["unzip", "tesseract"]
 
 [workflows]
 runButton = "Project"

@@ -3169,7 +3169,7 @@ export const puppies: Puppy[] = [
     price: null,
     status: "Available",
     image: "/puppies/bennett-male-1.jpg",
-    gallery: ["/puppies/bennett-male-1.jpg", "/puppies/bennett-male-2.jpg", "/puppies/bennett-male-3.jpg", "/puppies/bennett-male-4.jpg"],
+    gallery: ["/puppies/bennett-male-1.jpg", "/puppies/bennett-male-2.jpg", "/puppies/bennett-male-4.jpg"],
     description: "Bennett is a  3-month-old Poodle with a beautiful cream coat. He has been raised with care and is ready to join a loving family. He is known for being intelligent and elegant. To find out more about Bennett or to arrange a viewing, please use the enquiry form below.",
   },
   {
@@ -4008,8 +4008,8 @@ export const puppies: Puppy[] = [
     colour: "STEEL BLUE",
     price: null,
     status: "Available",
-    image: "/puppies/kofi-male-3-1.jpg",
-    gallery: ["/puppies/kofi-male-3-1.jpg", "/puppies/kofi-male-3-2.jpg", "/puppies/kofi-male-3-3.jpg", "/puppies/kofi-male-3-4.jpg"],
+    image: "/puppies/kofi-male-3-2.jpg",
+    gallery: [ "/puppies/kofi-male-3-2.jpg", "/puppies/kofi-male-3-3.jpg", "/puppies/kofi-male-3-4.jpg"],
     description: "Kofi is a  4-month-old Yorkie with a beautiful steel blue coat. He has been raised with care and is ready to join a loving family. He is known for being spirited and affectionate. To find out more about Kofi or to arrange a viewing, please use the enquiry form below.",
   },
   {
@@ -4461,20 +4461,6 @@ export const puppies: Puppy[] = [
     description: "Olivia is a  3-month-old Maltipoo with a beautiful parti coat. She has been raised with care and is ready to join a loving family. She is known for being affectionate and playful. To find out more about Olivia or to arrange a viewing, please use the enquiry form below.",
   },
   {
-    slug: "tippy-female-4",
-    name: "Tippy",
-    breed: "Poodle",
-    breedSlug: "poodle",
-    sex: "Female",
-    ageWeeks: 12,
-    colour: "RED",
-    price: null,
-    status: "Available",
-    image: "/puppies/tippy-female-4-1.jpg",
-    gallery: ["/puppies/tippy-female-4-1.jpg", "/puppies/tippy-female-4-2.jpg", "/puppies/tippy-female-4-3.jpg", "/puppies/tippy-female-4-4.jpg"],
-    description: "Tippy is a  3-month-old Poodle with a beautiful red coat. She has been raised with care and is ready to join a loving family. She is known for being intelligent and elegant. To find out more about Tippy or to arrange a viewing, please use the enquiry form below.",
-  },
-  {
     slug: "misty-female",
     name: "Misty",
     breed: "Poodle",
@@ -4512,8 +4498,8 @@ export const puppies: Puppy[] = [
     colour: "PARTI",
     price: null,
     status: "Available",
-    image: "/puppies/chloe-female-4-1.jpg",
-    gallery: ["/puppies/chloe-female-4-1.jpg", "/puppies/chloe-female-4-2.jpg", "/puppies/chloe-female-4-3.jpg", "/puppies/chloe-female-4-4.jpg"],
+    image: "/puppies/chloe-female-4-2.jpg",
+    gallery: [ "/puppies/chloe-female-4-2.jpg", "/puppies/chloe-female-4-3.jpg", "/puppies/chloe-female-4-4.jpg"],
     description: "Chloe is a  3-month-old Maltipoo with a beautiful parti coat. She has been raised with care and is ready to join a loving family. She is known for being affectionate and playful. To find out more about Chloe or to arrange a viewing, please use the enquiry form below.",
   },
   {
@@ -4526,8 +4512,8 @@ export const puppies: Puppy[] = [
     colour: "BLENHEIM",
     price: null,
     status: "Available",
-    image: "/puppies/arthur-male-1-1.jpg",
-    gallery: ["/puppies/arthur-male-1-1.jpg", "/puppies/arthur-male-1-2.jpg", "/puppies/arthur-male-1-3.jpg", "/puppies/arthur-male-1-4.jpg", "/puppies/arthur-male-1-5.jpg", "/puppies/arthur-male-1-6.jpg"],
+    image: "/puppies/arthur-male-1-6.jpg",
+    gallery: ["/puppies/arthur-male-1-6.jpg"],
     description: "Arthur is a  3-month-old King Charles with a beautiful blenheim coat. He has been raised with care and is ready to join a loving family. He is known for being gentle and adaptable. To find out more about Arthur or to arrange a viewing, please use the enquiry form below.",
   },
   {
@@ -5394,8 +5380,8 @@ export const puppies: Puppy[] = [
     colour: "STEEL BLUE",
     price: null,
     status: "Available",
-    image: "/puppies/emma-female-2-1.jpg",
-    gallery: ["/puppies/emma-female-2-1.jpg", "/puppies/emma-female-2-2.jpg", "/puppies/emma-female-2-3.jpg"],
+    image: "/puppies/emma-female-2-3.jpg",
+    gallery: [ "/puppies/emma-female-2-3.jpg"],
     description: "Zoey is a  3-month-old Yorkie with a beautiful steel blue coat. She has been raised with care and is ready to join a loving family. She is known for being spirited and affectionate. To find out more about Zoey or to arrange a viewing, please use the enquiry form below.",
   },
   {
@@ -5510,33 +5496,9 @@ export const puppies: Puppy[] = [
     gallery: ["/puppies/bianca-female-1.jpg", "/puppies/bianca-female-2.jpg", "/puppies/bianca-female-3.jpg", "/puppies/bianca-female-4.jpg", "/puppies/bianca-female-5.jpg", "/puppies/bianca-female-6.jpg", "/puppies/bianca-female-7.jpg"],
     description: "Bianca is a  3-month-old Mini Schnauzer with a beautiful white coat. She has been raised with care and is ready to join a loving family. She is known for being spirited and intelligent. To find out more about Bianca or to arrange a viewing, please use the enquiry form below.",
   },
-  {
-    slug: "deposit-special-order",
-    name: "Special Order",
-    breed: "Unknown",
-    breedSlug: "unknown",
-    sex: "Male",
-    ageWeeks: 12,
-    colour: "",
-    price: null,
-    status: "Available",
-    image: "/puppies/deposit-special-order-1.jpg",
-    gallery: ["/puppies/deposit-special-order-1.jpg"],
-    description: "Special Order is a  Unknown. He has been raised with care and is ready to join a loving family. He is known for being adaptable and loyal. To find out more about Special Order or to arrange a viewing, please use the enquiry form below.",
-  },
-]
+  ]
 
 export const breeds: Breed[] = [
-  {
-    slug: "maltipoo",
-    name: "Maltipoo",
-    group: "Hybrid",
-    image: "/breeds/maltipoo.jpg",
-    summary: "A charming cross between the Maltese and Poodle, Maltipoos are affectionate, low-shedding companions perfectly suited to families and individuals across the UK.",
-    traits: [{ label: "Size", value: "Toy / Teacup" }, { label: "Energy", value: "Moderate" }, { label: "Coat", value: "Soft, wavy or curly" }, { label: "Lifespan", value: "12\u201316 years" }],
-    temperament: ["Affectionate", "Playful", "Gentle", "Intelligent"],
-    care: "Maltipoos thrive with daily gentle walks and interactive play. Their low-shedding coat requires regular brushing and professional grooming every 6\u20138 weeks. They bond deeply with their families and are well suited to apartment living across the UK.",
-  },
   {
     slug: "poodle",
     name: "Poodle",
@@ -5776,15 +5738,13 @@ export const breeds: Breed[] = [
     traits: [{ label: "Size", value: "Small" }, { label: "Energy", value: "Low\u2013Moderate" }, { label: "Coat", value: "Short, smooth" }, { label: "Lifespan", value: "12\u201315 years" }],
     temperament: ["Charming", "Mischievous", "Devoted", "Sociable"],
     care: "Pugs need moderate exercise and thrive in cool UK conditions. Regular face-fold cleaning is essential. A wonderful companion for families and individuals alike.",
-  },
-]
+  }]
 
 export const guides: Guide[] = [
   { slug: "choosing-the-right-breed", title: "Choosing the Right Breed for Your Family", category: "Getting Started", excerpt: "Understand how energy levels, living space, and lifestyle shape the right match between a breed and your household.", image: "/guides/choosing-breed.png", readTime: "6 min read" },
   { slug: "preparing-for-a-puppy", title: "Preparing Your Home for a New Puppy", category: "Preparation", excerpt: "A practical checklist for setting up a safe, comfortable space before your puppy arrives.", image: "/guides/preparing.png", readTime: "5 min read" },
   { slug: "questions-to-ask", title: "Questions to Ask Before You Commit", category: "Guidance", excerpt: "The important questions that help you make an informed, confident decision about a puppy.", image: "/guides/questions.png", readTime: "7 min read" },
-  { slug: "health-and-care", title: "Health & Care in the First Months", category: "Health", excerpt: "What to expect from early veterinary care, nutrition, and everyday wellbeing.", image: "/guides/health-care.png", readTime: "8 min read" },
-]
+  { slug: "health-and-care", title: "Health & Care in the First Months", category: "Health", excerpt: "What to expect from early veterinary care, nutrition, and everyday wellbeing.", image: "/guides/health-care.png", readTime: "8 min read" }]
 
 export const navLinks = [
   { label: "Puppies", href: "/puppies" },
@@ -5792,8 +5752,7 @@ export const navLinks = [
   { label: "How It Works", href: "/#how-it-works" },
   { label: "Buyer Guide", href: "/guides" },
   { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" },
-]
+  { label: "Contact", href: "/contact" }]
 
 export function formatPrice(price: number | null): string {
   if (price === null) return "Enquire for price"
