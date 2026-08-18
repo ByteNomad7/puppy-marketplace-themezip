@@ -1,0 +1,675 @@
+TASK: UK SEO — FINAL GOOGLEBOT PRE-DEPLOYMENT CRAWL AUDIT
+
+REPOSITORY:
+ByteNomad7/puppy-marketplace-themezip
+
+PURPOSE:
+
+Perform the FINAL pre-deployment SEO crawl and indexability audit.
+
+This is an AUDIT-FIRST task.
+
+Do not create new SEO content.
+Do not create new guides.
+Do not create city pages.
+Do not start another country.
+Do not redesign pages.
+Do not deploy automatically.
+
+We want to determine whether Google can:
+
+1. discover the important URLs
+2. crawl them
+3. render their important content
+4. understand their canonical relationships
+5. follow internal links
+6. process structured data
+7. find the correct sitemap
+8. avoid duplicate/filter URLs
+9. index only pages we actually want indexed
+
+==================================================
+1. BUILD PRODUCTION VERSION
+==================================================
+
+Run the existing environment-safe:
+
+TypeScript validation
+Next.js production build
+
+Start the production build locally.
+
+Do NOT audit only source files.
+
+Audit the actual rendered production output.
+
+Record:
+
+BUILD = PASS/FAIL
+GENERATED ROUTES =
+RUNTIME ERRORS =
+
+==================================================
+2. FULL GOOGLEBOT-STYLE CRAWL
+==================================================
+
+Starting from the homepage, recursively crawl all internal HTML links.
+
+Use a Googlebot-like desktop user agent where practical.
+
+Follow internal links as a crawler would.
+
+Record for every discovered URL:
+
+URL
+HTTP status
+final URL
+redirect chain
+robots directive
+canonical
+title
+meta description
+H1
+content availability
+internal incoming links
+internal outgoing links
+schema
+sitemap membership
+crawl depth
+indexability
+
+Create:
+
+reports/UK-FINAL-GOOGLEBOT-CRAWL.csv
+
+==================================================
+3. HTTP STATUS AUDIT
+==================================================
+
+Find:
+
+404
+410
+5xx
+redirect loops
+redirect chains
+broken internal links
+unexpected 302/307 redirects
+soft 404 candidates
+
+Targets:
+
+BROKEN INTERNAL LINKS = 0
+5XX = 0
+REDIRECT LOOPS = 0
+UNNECESSARY REDIRECT CHAINS = 0
+
+==================================================
+4. ROBOTS AUDIT
+==================================================
+
+Fetch the rendered:
+
+/robots.txt
+
+Verify Googlebot can crawl:
+
+/
+ /puppies
+ /breeds
+ canonical breed pages
+ /guides
+ guide articles
+ intended puppy pages
+ /about
+ /contact
+ CSS
+ JS
+ required images/assets
+
+Verify robots.txt does not accidentally block important rendering resources.
+
+Verify sitemap reference is correct.
+
+Report:
+
+IMPORTANT URLS BLOCKED =
+
+Target:
+
+0
+
+==================================================
+5. META ROBOTS AUDIT
+==================================================
+
+Inspect rendered HTML.
+
+Find every page containing:
+
+noindex
+nofollow
+index
+follow
+
+Compare with Phase 1C indexability decisions.
+
+Flag:
+
+intended indexable page with noindex
+invalid page with index
+unexpected nofollow
+
+Target:
+
+INDEXABILITY CONTRADICTIONS = 0
+
+==================================================
+6. CANONICAL AUDIT
+==================================================
+
+For every intended indexable page verify:
+
+exactly one canonical
+absolute canonical URL
+correct production domain
+HTTPS
+canonical target returns 200
+canonical target is not redirected
+canonical target is indexable
+
+Important pages should normally self-canonicalize.
+
+Find:
+
+missing canonical
+multiple canonical
+canonical → redirect
+canonical → 404
+canonical → noindex
+incorrect domain
+HTTP canonical
+parameter canonical conflict
+
+Targets:
+
+CANONICAL ERRORS = 0
+CANONICAL TO REDIRECT = 0
+CANONICAL TO 404 = 0
+
+==================================================
+7. DOMAIN CONSISTENCY
+==================================================
+
+Search all rendered SEO output for:
+
+localhost
+replit domains
+preview domains
+old domains
+development URLs
+HTTP production URLs
+
+Check:
+
+canonical
+Open Graph
+Twitter metadata
+schema
+sitemap
+robots
+internal absolute links
+
+Target:
+
+NON-PRODUCTION SEO DOMAIN REFERENCES = 0
+
+==================================================
+8. SITEMAP AUDIT
+==================================================
+
+Fetch the generated sitemap.
+
+For EVERY sitemap URL verify:
+
+HTTP 200
+canonical
+indexable
+not redirected
+not noindex
+not soft 404
+not duplicate
+
+Also determine whether important indexable pages are missing.
+
+Report:
+
+SITEMAP URLS =
+VALID =
+REDIRECTS =
+404 =
+NOINDEX =
+NONCANONICAL =
+SOFT-404 RISK =
+IMPORTANT URLS MISSING =
+
+Targets:
+
+REDIRECTS = 0
+404 = 0
+NOINDEX = 0
+NONCANONICAL = 0
+
+==================================================
+9. SITEMAP ↔ CRAWL CONSISTENCY
+==================================================
+
+Compare:
+
+crawler-discovered indexable URLs
+
+against:
+
+sitemap URLs
+
+Identify:
+
+SITEMAP_ONLY
+CRAWL_ONLY
+BOTH
+NEITHER
+
+Important indexable pages should normally be:
+
+BOTH
+
+Do not rely on sitemap-only discovery for important commercial pages.
+
+==================================================
+10. ORPHAN AUDIT
+==================================================
+
+Find indexable URLs with zero crawlable incoming internal links.
+
+Specifically check:
+
+/puppies
+/breeds
+all canonical breeds
+/guides
+all approved guides
+strong/indexable puppy listings
+
+Targets:
+
+BREED ORPHANS = 0
+GUIDE ORPHANS = 0
+IMPORTANT PUPPY ORPHANS = 0
+
+==================================================
+11. CRAWL DEPTH
+==================================================
+
+Calculate shortest crawl depth from homepage.
+
+Report distribution:
+
+depth 0
+depth 1
+depth 2
+depth 3
+depth 4
+depth 5+
+
+Flag important pages deeper than expected.
+
+Desired:
+
+major hubs <= 2
+top breeds <= 3
+guides <= 3
+priority puppy listings <= 4
+
+==================================================
+12. INTERNAL LINK VALIDATION
+==================================================
+
+Validate every internal href.
+
+Find:
+
+broken links
+links to redirects
+links to noncanonical routes
+links to noindex pages from important SEO modules
+malformed URLs
+empty hrefs
+
+Prefer internal links to point directly to canonical destinations.
+
+Target:
+
+BROKEN LINKS = 0
+
+==================================================
+13. QUERY PARAMETER CRAWL AUDIT
+==================================================
+
+Pay special attention to:
+
+/guides?category=...
+
+and all other parameters found in the application.
+
+Examples:
+
+?category=
+?breed=
+?search=
+?sort=
+?price=
+?sex=
+?page=
+
+Confirm utility/filter URLs cannot create an uncontrolled indexable URL space.
+
+The /guides category filters must remain usable for visitors without competing
+with /guides in Google.
+
+Report:
+
+PARAMETER PATTERNS FOUND =
+INDEXABLE PARAMETER VARIANTS =
+CANONICAL CONFLICTS =
+
+==================================================
+14. RENDERED CONTENT AUDIT
+==================================================
+
+Verify important content is present in rendered HTML and is not dependent on
+Google performing unusual user interactions.
+
+Check representative:
+
+homepage
+/puppies
+/breeds
+5 top breed pages
+/guides
+all guides
+10 strong puppy pages
+/about
+/contact
+
+Verify:
+
+H1
+main body copy
+internal links
+puppy/breed information
+breadcrumbs
+
+are crawl-visible.
+
+==================================================
+15. JAVASCRIPT / HYDRATION AUDIT
+==================================================
+
+Check production runtime for:
+
+hydration errors
+React errors
+failed requests
+console errors
+missing chunks
+
+Ensure core SEO content does not disappear when JavaScript fails.
+
+Report separately:
+
+SEO-BLOCKING JS ERRORS =
+NONBLOCKING JS WARNINGS =
+
+==================================================
+16. TITLE / META AUDIT
+==================================================
+
+Across intended indexable pages find:
+
+missing title
+duplicate title
+overly generic title
+missing description
+duplicate description
+missing H1
+multiple inappropriate H1s
+
+Do not mechanically rewrite everything.
+
+Flag genuine problems.
+
+==================================================
+17. STRUCTURED DATA AUDIT
+==================================================
+
+Parse every JSON-LD block.
+
+Verify valid JSON and internally consistent values.
+
+Audit:
+
+Organization
+WebSite
+WebPage
+BreadcrumbList
+Article
+Product
+Offer
+
+where present.
+
+Ensure schema URLs use production HTTPS URLs.
+
+Ensure schema matches visible content.
+
+DO NOT allow invented:
+
+reviews
+ratings
+availability
+health status
+seller verification
+certifications
+
+Report:
+
+INVALID JSON-LD =
+SCHEMA/VISIBLE-CONTENT CONFLICTS =
+UNSUPPORTED SCHEMA CLAIMS =
+
+==================================================
+18. IMAGE CRAWLABILITY
+==================================================
+
+Check representative important images.
+
+Verify:
+
+200 response
+valid src
+meaningful alt where appropriate
+no broken puppy images
+no development URLs
+
+Do not require decorative images to have keyword-stuffed alt text.
+
+==================================================
+19. DUPLICATE BREED ROUTE TEST
+==================================================
+
+Explicitly test the retired duplicate routes identified previously.
+
+Verify:
+
+biwer-terrier
+cavalier
+
+and any other consolidated aliases.
+
+Requirements:
+
+old route redirects correctly
+single-hop redirect where practical
+preferred destination returns 200
+preferred destination self-canonicalizes
+old route absent from sitemap
+internal links do not point to old route
+
+==================================================
+20. GOOGLE INDEXATION ELIGIBILITY MATRIX
+==================================================
+
+Using Phase 1C decisions plus this crawl, classify URLs:
+
+READY_FOR_INDEXING
+DISCOVER_VIA_SITEMAP
+REVIEW_BEFORE_INDEXING
+NOINDEX
+REDIRECT
+INVALID
+
+Create:
+
+reports/UK-FINAL-INDEXABILITY-MATRIX.csv
+
+==================================================
+21. MANUAL GSC REQUEST LIST
+==================================================
+
+Create:
+
+reports/UK-FINAL-GSC-REQUEST-LIST.csv
+
+Do NOT recommend submitting hundreds of URLs manually.
+
+Select only the strongest initial URLs.
+
+Groups:
+
+PRIORITY 1
+PRIORITY 2
+SITEMAP DISCOVERY ONLY
+DO NOT REQUEST
+
+Include:
+
+URL
+page type
+reason
+crawl depth
+incoming links
+sitemap status
+indexability
+priority
+
+==================================================
+22. POST-DEPLOYMENT CHECKLIST
+==================================================
+
+Create:
+
+reports/UK-POST-DEPLOY-GSC-CHECKLIST.md
+
+Include exact checks for after deployment:
+
+production robots.txt
+production sitemap.xml
+canonical production domain
+HTTPS
+redirect behavior
+GSC property
+sitemap submission
+URL Inspection
+Page Indexing report
+Crawl Stats
+Core Web Vitals
+HTTPS report
+structured data/enhancement reports where applicable
+
+Also explain what to monitor during:
+
+first 48 hours
+first 7 days
+first 28 days
+
+==================================================
+23. FINAL GOOGLEBOT REPORT
+==================================================
+
+Create:
+
+reports/UK-FINAL-GOOGLEBOT-AUDIT.md
+
+Report:
+
+PRODUCTION BUILD = PASS/FAIL
+TOTAL URLs CRAWLED =
+INTENDED INDEXABLE URLs =
+
+HTTP ERRORS =
+BROKEN INTERNAL LINKS =
+REDIRECT CHAINS =
+SOFT 404 RISKS =
+
+ROBOTS BLOCKED IMPORTANT URLs =
+INDEXABILITY CONTRADICTIONS =
+
+CANONICAL ERRORS =
+NON-PRODUCTION DOMAIN REFERENCES =
+
+SITEMAP URLS =
+SITEMAP ERRORS =
+IMPORTANT INDEXABLE URLS MISSING FROM SITEMAP =
+
+INDEXABLE ORPHANS =
+IMPORTANT PAGES DEPTH > 4 =
+
+DUPLICATE TITLES =
+DUPLICATE META =
+H1 ERRORS =
+
+INVALID JSON-LD =
+UNSUPPORTED SCHEMA CLAIMS =
+
+INDEXABLE PARAMETER VARIANTS =
+HIGH-RISK CANNIBALIZATION =
+
+SEO-BLOCKING RUNTIME ERRORS =
+
+READY FOR INDEXING URLS =
+REVIEW URLS =
+NOINDEX URLS =
+
+==================================================
+
+GOOGLEBOT CAN CRAWL SITE CLEANLY = YES/NO
+
+SAFE TO DEPLOY = YES/NO
+
+SAFE TO SUBMIT SITEMAP = YES/NO
+
+SAFE TO BEGIN MANUAL GSC REQUESTS = YES/NO
+
+==================================================
+STOP
+==================================================
+
+Do not deploy.
+
+Do not add SEO pages.
+
+Do not start another market.
+
+Do not weaken validation to obtain a PASS.
+
+If something fails, document the exact URL and reason.

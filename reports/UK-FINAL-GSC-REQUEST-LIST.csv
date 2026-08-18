@@ -1,0 +1,30 @@
+url,page_type,reason,crawl_depth,incoming_links,sitemap_status,indexability,priority
+/,HOMEPAGE,Core site hub.,0,0,YES,INDEXABLE,PRIORITY 1
+/puppies,PUPPIES_HUB,Core site hub.,1,1,YES,INDEXABLE,PRIORITY 1
+/breeds,BREEDS_HUB,Core site hub.,1,2,YES,INDEXABLE,PRIORITY 1
+/guides,GUIDES_HUB,Core site hub.,1,3,YES,INDEXABLE,PRIORITY 1
+/guides/choosing-the-right-breed,GUIDE_ARTICLE,Strongest initial buyer education pages.,1,24,YES,INDEXABLE,PRIORITY 1
+/guides/questions-to-ask,GUIDE_ARTICLE,Strongest initial buyer education pages.,1,32,YES,INDEXABLE,PRIORITY 1
+/guides/preparing-for-a-puppy,GUIDE_ARTICLE,Strongest initial buyer education pages.,1,18,YES,INDEXABLE,PRIORITY 1
+/breeds/morkie,BREED_DETAIL,Priority commercial breed profile.,1,19,YES,INDEXABLE,PRIORITY 1
+/breeds/coton-de-tulear,BREED_DETAIL,Priority commercial breed profile.,1,18,YES,INDEXABLE,PRIORITY 1
+/breeds/maltese,BREED_DETAIL,Priority commercial breed profile.,1,17,YES,INDEXABLE,PRIORITY 1
+/breeds/pomsky,BREED_DETAIL,Priority commercial breed profile.,1,16,YES,INDEXABLE,PRIORITY 1
+/breeds/yorkie,BREED_DETAIL,Priority commercial breed profile.,1,15,YES,INDEXABLE,PRIORITY 1
+/breeds/pomeranian,BREED_DETAIL,Priority commercial breed profile.,1,14,YES,INDEXABLE,PRIORITY 1
+/breeds/poodle,BREED_DETAIL,Priority commercial breed profile.,1,13,YES,INDEXABLE,PRIORITY 1
+/breeds/maltipoo,BREED_DETAIL,Priority commercial breed profile.,1,12,YES,INDEXABLE,PRIORITY 1
+/breeds/doodle,BREED_DETAIL,Priority commercial breed profile.,1,5,YES,INDEXABLE,PRIORITY 1
+/breeds/biewer-terrier,BREED_DETAIL,Priority commercial breed profile.,1,5,YES,INDEXABLE,PRIORITY 1
+/about,ABOUT,Trust and company context.,1,4,YES,INDEXABLE,PRIORITY 2
+/contact,CONTACT,Enquiry path.,1,5,YES,INDEXABLE,PRIORITY 2
+/puppies/lulu-female-1,PUPPY_DETAIL,Selected real listing; do not request all listings manually.,1,2,YES,INDEXABLE,PRIORITY 2
+/puppies/oscar-male-7,PUPPY_DETAIL,Selected real listing; do not request all listings manually.,1,2,YES,INDEXABLE,PRIORITY 2
+/puppies/diana-female-10,PUPPY_DETAIL,Selected real listing; do not request all listings manually.,1,2,YES,INDEXABLE,PRIORITY 2
+/puppies/toffee-male-1,PUPPY_DETAIL,Selected real listing; do not request all listings manually.,1,2,YES,INDEXABLE,PRIORITY 2
+/puppies/theo-male-4,PUPPY_DETAIL,Selected real listing; do not request all listings manually.,1,3,YES,INDEXABLE,PRIORITY 2
+/puppies/diana-female-9,PUPPY_DETAIL,Selected real listing; do not request all listings manually.,1,4,YES,INDEXABLE,PRIORITY 2
+/puppies/giselle-female-1,PUPPY_DETAIL,Selected real listing; do not request all listings manually.,2,2,YES,INDEXABLE,PRIORITY 2
+/puppies/jessie-female-3,PUPPY_DETAIL,Selected real listing; do not request all listings manually.,2,3,YES,INDEXABLE,PRIORITY 2
+/puppies/amber-female-6,PUPPY_DETAIL,Selected real listing; do not request all listings manually.,2,3,YES,INDEXABLE,PRIORITY 2
+/puppies/berry-female-4,PUPPY_DETAIL,Selected real listing; do not request all listings manually.,2,4,YES,INDEXABLE,PRIORITY 2

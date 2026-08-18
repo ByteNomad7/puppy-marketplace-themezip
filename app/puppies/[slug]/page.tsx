@@ -33,7 +33,7 @@ export async function generateMetadata({
         ? "currently reserved"
         : "coming soon"
   return {
-    title: `${puppy.name} — ${puppy.breed} Puppy | ${puppy.sex}, ${puppy.ageWeeks} weeks | Potty Registered Puppies`,
+    title: `${puppy.name} — ${puppy.breed} Puppy | ${puppy.slug} | Potty Registered Puppies`,
     description: `Meet ${puppy.name}, a${colourPart} ${puppy.breed} puppy ${statusDescription}. ${puppy.ageWeeks} weeks old, ${puppy.sex.toLowerCase()}. Enquire with Potty Registered Puppies. Listing reference: ${puppy.slug}.`,
     alternates: {
       canonical: `https://www.pottyregisteredpuppies.com/puppies/${slug}`,
