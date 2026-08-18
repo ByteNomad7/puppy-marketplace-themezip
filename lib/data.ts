@@ -5777,16 +5777,6 @@ export const breeds: Breed[] = [
     temperament: ["Charming", "Mischievous", "Devoted", "Sociable"],
     care: "Pugs need moderate exercise and thrive in cool UK conditions. Regular face-fold cleaning is essential. A wonderful companion for families and individuals alike.",
   },
-  {
-    slug: "unknown",
-    name: "Mixed Breed",
-    group: "Hybrid",
-    image: "/breeds/unknown.jpg",
-    summary: "Unique and one-of-a-kind, mixed breed puppies combine the best traits of multiple breeds \u2014 loving, adaptable companions for UK families.",
-    traits: [{ label: "Size", value: "Varies" }, { label: "Energy", value: "Moderate" }, { label: "Coat", value: "Varies" }, { label: "Lifespan", value: "12\u201315 years" }],
-    temperament: ["Adaptable", "Loyal", "Affectionate", "Unique"],
-    care: "Care requirements vary by individual. Mixed breeds tend to be robust companions that thrive with love, consistent training, and regular veterinary check-ups.",
-  },
 ]
 
 export const guides: Guide[] = [
