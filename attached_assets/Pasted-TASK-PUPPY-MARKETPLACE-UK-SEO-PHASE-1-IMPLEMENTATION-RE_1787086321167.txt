@@ -1,0 +1,645 @@
+TASK: PUPPY MARKETPLACE — UK SEO PHASE 1 IMPLEMENTATION
+REPOSITORY:
+ByteNomad7/puppy-marketplace-themezip
+
+CURRENT VERIFIED STATE:
+
+- 390 puppy listings
+- 24 breed records
+- 4 guide articles
+- 425 routes currently generated
+- /puppies = safest UK commercial hub
+- existing /breeds/[slug] routes should be upgraded, not replaced
+- city pages NOT recommended because usable location data is missing
+- missing sitemap
+- missing robots route
+- missing JSON-LD
+- missing /contact
+- duplicate Biewer Terrier and Cavalier breed URLs require consolidation
+- several trust/health claims require evidence review
+- TypeScript passes
+- production build passes
+
+MISSION:
+
+Implement the strongest UK SEO foundation without creating doorway pages or duplicating route intent.
+
+This is an implementation phase.
+
+DO NOT:
+- create city pages
+- create fake breeder data
+- invent locations
+- invent reviews
+- invent ratings
+- invent health guarantees
+- invent certifications
+- create new puppy records
+- mass-create additional breeds
+- deploy automatically
+
+==================================================
+1. UPGRADE /puppies AS THE UK COMMERCIAL HUB
+==================================================
+
+Keep:
+
+/puppies
+
+as the primary commercial authority page.
+
+Do NOT create a competing:
+
+/puppies-for-sale/
+/puppies-for-sale-uk/
+
+unless the Phase 0 reports explicitly prove that a new route is necessary.
+
+Upgrade /puppies with:
+
+- unique SEO title
+- unique meta description
+- one strong H1
+- buyer-focused introduction
+- breed discovery
+- current puppy listing section
+- buyer guidance
+- responsible enquiry process
+- internal links to top breed pages
+- internal links to guides
+- trust/about links
+- contact CTA
+- FAQ where useful
+
+Search-intent direction:
+
+puppies for sale UK
+puppies for sale
+find puppies
+UK puppy marketplace
+
+Do not keyword-stuff.
+
+==================================================
+2. TOP BREED COMMERCIAL PAGES
+==================================================
+
+Use:
+
+reports/UK-SEO-BREED-PRIORITY.csv
+
+Select the top 10–15 breeds from the audit.
+
+Upgrade existing:
+
+/breeds/[slug]
+
+routes rather than creating duplicate commercial routes.
+
+Each breed page should include:
+
+- unique title
+- unique meta description
+- one H1
+- breed introduction
+- characteristics
+- temperament
+- family suitability
+- grooming
+- activity needs
+- ownership considerations
+- current puppy listings for that breed
+- related guides
+- related breeds
+- FAQ
+- contact/enquiry CTA
+
+Commercial intent should be strong but natural.
+
+Example intent direction:
+
+French Bulldog puppies for sale UK
+Cavapoo puppies UK
+Pomeranian puppies UK
+
+Do not repeat exact-match phrases unnaturally.
+
+==================================================
+3. KEEP INFORMATIONAL VS COMMERCIAL INTENT SEPARATE
+==================================================
+
+Commercial breed pages own:
+
+[breed] puppies for sale
+[breed] puppies UK
+buy [breed] puppy
+
+Guides own:
+
+temperament
+care
+training
+health considerations
+family suitability
+buyer education
+
+Do not let guide titles/H1s compete with commercial breed routes.
+
+==================================================
+4. CONSOLIDATE DUPLICATE BREED URLS
+==================================================
+
+Resolve the duplicate:
+
+Biewer Terrier
+
+and:
+
+Cavalier
+
+URL situations identified in Phase 0.
+
+For each:
+
+determine the preferred canonical route
+preserve useful content
+redirect duplicate route with 301 if appropriate
+update internal links
+update sitemap
+update canonical
+update breadcrumbs
+
+Do NOT delete useful breed content.
+
+Create:
+
+reports/UK-PHASE1-BREED-REDIRECTS.csv
+
+Columns:
+
+old_url
+preferred_url
+reason
+redirect
+internal_links_updated
+canonical_updated
+sitemap_updated
+
+==================================================
+5. CONTACT PAGE
+==================================================
+
+Create:
+
+/contact
+
+if it does not exist.
+
+Use existing design system.
+
+Include:
+
+contact intro
+buyer enquiry form
+general enquiry fields
+relevant privacy note
+clear CTA
+
+Do not invent:
+
+physical address
+phone
+support hours
+staff names
+
+unless already verified in project data.
+
+==================================================
+6. SITEMAP
+==================================================
+
+Implement a proper Next.js sitemap.
+
+Use:
+
+app/sitemap.ts
+
+or the current project’s preferred App Router architecture.
+
+Include only:
+
+- canonical 200 pages
+- indexable pages
+- active breed pages
+- active puppy listings
+- guides
+- about
+- contact
+- /puppies
+
+Exclude:
+
+- redirects
+- duplicate breed routes
+- invalid puppy IDs
+- search/filter query combinations
+- utility pages
+- noindex routes
+
+Use real modification dates only where available.
+
+==================================================
+7. ROBOTS
+==================================================
+
+Implement:
+
+app/robots.ts
+
+Allow crawling of important public content.
+
+Reference the sitemap.
+
+Do not block:
+
+CSS
+JS
+images
+breed pages
+puppy pages
+guides
+
+Control utility/filter routes where appropriate.
+
+==================================================
+8. JSON-LD / STRUCTURED DATA
+==================================================
+
+Add appropriate schema.
+
+Homepage:
+
+Organization
+WebSite
+
+Breed pages:
+
+WebPage
+BreadcrumbList
+FAQPage where visible
+
+Guides:
+
+Article
+BreadcrumbList
+
+Puppy detail pages:
+
+use Product/Offer only if actual listing data supports it.
+
+Do NOT fabricate:
+
+price
+availability
+reviews
+ratings
+seller verification
+health guarantees
+
+Schema must match visible content.
+
+==================================================
+9. BREADCRUMBS
+==================================================
+
+Add visible breadcrumbs and matching BreadcrumbList schema.
+
+Examples:
+
+Home
+→ Breeds
+→ French Bulldog
+
+Home
+→ Puppies
+→ Puppy Name
+
+Home
+→ Guides
+→ Article
+
+No broken breadcrumb links.
+
+==================================================
+10. INTERNAL LINKING
+==================================================
+
+Build the UK authority graph:
+
+HOME
+↓
+/puppies
+↓
+TOP BREED PAGE
+↓
+PUPPY LISTING
+
+and:
+
+GUIDES
+↔
+BREED PAGES
+↔
+/puppies
+↔
+PUPPY LISTINGS
+
+Also link:
+
+About
+Contact
+
+where appropriate.
+
+No important indexable page should be orphaned.
+
+==================================================
+11. GUIDE EXPANSION
+==================================================
+
+Current guide count = 4.
+
+Create only the strongest first content wave.
+
+Target approximately:
+
+5–8 new guides maximum.
+
+Use Phase 0 recommendations.
+
+Prioritize:
+
+- how to choose a puppy
+- questions to ask before buying a puppy
+- puppy buying checklist UK
+- preparing your home for a puppy
+- first-week puppy guide
+- breed comparison guide
+- buyer safety guide
+- one or two top-breed buyer guides
+
+Do NOT mass-create 30 articles.
+
+==================================================
+12. TRUST CLAIM CLEANUP
+==================================================
+
+Use:
+
+reports/UK-SEO-TRUST-AUDIT.csv
+
+Review all flagged claims.
+
+For unsupported claims:
+
+REMOVE
+REWRITE CONSERVATIVELY
+or FLAG FOR OWNER EVIDENCE
+
+Do not publish claims involving:
+
+guaranteed health
+verified breeders
+vaccination guarantees
+registration guarantees
+delivery guarantees
+buyer protection
+certifications
+
+unless supported.
+
+Create:
+
+reports/UK-PHASE1-TRUST-FIXES.csv
+
+==================================================
+13. PUPPY DETAIL SEO
+==================================================
+
+Audit the puppy detail template.
+
+For active listings ensure:
+
+- unique title
+- unique H1
+- self-canonical
+- index,follow
+- real listing data
+- image alt text
+- breed link
+- /puppies link
+- contact/enquiry CTA
+- appropriate schema
+
+Do not create generic duplicate descriptions across all 390 listings.
+
+If source data is thin, do not invent narrative details.
+
+==================================================
+14. LISTING LIFECYCLE
+==================================================
+
+Define how listings behave when:
+
+active
+reserved
+sold
+expired
+removed
+
+Do not leave invalid thin 200 pages indexable forever.
+
+Create:
+
+reports/UK-PHASE1-LISTING-LIFECYCLE.md
+
+Do not invent current statuses.
+
+==================================================
+15. FILTER / FACET INDEXATION
+==================================================
+
+If /puppies supports filtering:
+
+control parameter URLs.
+
+Examples:
+
+?breed=
+?sex=
+?price=
+?sort=
+?page=
+
+Do not allow unlimited filter combinations into the index.
+
+Preserve user functionality.
+
+Use:
+
+noindex,follow
+canonical
+or clean SEO routes
+
+where appropriate.
+
+==================================================
+16. METADATA
+==================================================
+
+Audit and improve:
+
+homepage
+/puppies
+top breed pages
+guides
+about
+contact
+puppy detail template
+
+Requirements:
+
+unique title
+unique meta description
+one H1
+self canonical
+Open Graph
+Twitter metadata where used
+
+No duplicate title templates across commercial pages.
+
+==================================================
+17. INDEXABILITY
+==================================================
+
+Implement the Phase 0 indexability recommendations.
+
+Expected indexable:
+
+homepage
+/puppies
+breed pages
+active puppy pages
+high-value guides
+about
+contact
+
+Expected noindex/review:
+
+filters
+search combinations
+duplicates
+invalid pages
+utility routes
+
+Do not mass-noindex listings.
+
+==================================================
+18. TECHNICAL SEO
+==================================================
+
+Fix Phase 0 technical issues.
+
+Target:
+
+SITEMAP = PASS
+ROBOTS = PASS
+JSON-LD = PASS
+CANONICALS = PASS
+BREADCRUMBS = PASS
+INTERNAL LINKS = PASS
+INDEXABILITY = PASS
+
+==================================================
+19. BUILD VALIDATION
+==================================================
+
+Use the environment-compatible commands that worked in Phase 0 if the pnpm
+script guard still blocks standard scripts.
+
+Run:
+
+TypeScript
+Next.js production build
+route generation
+canonical audit
+sitemap audit
+robots audit
+schema audit
+internal-link audit
+orphan audit
+duplicate title audit
+duplicate meta audit
+duplicate H1 audit
+git diff --check
+
+Do not disable the msw guard merely to force a script to run.
+
+==================================================
+20. REPORTS
+==================================================
+
+Create:
+
+reports/UK-PHASE1-IMPLEMENTATION-REPORT.md
+reports/UK-PHASE1-BREED-REDIRECTS.csv
+reports/UK-PHASE1-TRUST-FIXES.csv
+reports/UK-PHASE1-INTERNAL-LINKS.csv
+reports/UK-PHASE1-INDEXABILITY.csv
+reports/UK-PHASE1-LISTING-LIFECYCLE.md
+
+Final report must include:
+
+PUPPY HUB UPGRADED = YES/NO
+
+BREED PAGES UPGRADED =
+BREED DUPLICATES CONSOLIDATED =
+NEW GUIDES CREATED =
+CONTACT PAGE CREATED = YES/NO
+
+SITEMAP = PASS/FAIL
+ROBOTS = PASS/FAIL
+SCHEMA = PASS/FAIL
+BREADCRUMBS = PASS/FAIL
+
+BROKEN LINKS =
+ORPHANS =
+DUPLICATE TITLES =
+DUPLICATE META =
+CANONICAL ERRORS =
+INDEXABILITY ERRORS =
+
+UNSUPPORTED TRUST CLAIMS REMAINING =
+
+CITY PAGES CREATED = 0
+
+PRODUCTION BUILD = PASS/FAIL
+
+SAFE TO DEPLOY UK PHASE 1 = YES/NO
+
+==================================================
+STOP
+==================================================
+
+STOP after UK Phase 1.
+
+DO NOT:
+- create city pages
+- start Germany
+- start Spain
+- start Italy
+- start France
+- mass-create breed pages
+- fabricate puppy data
+- fabricate trust evidence
+- deploy automatically
