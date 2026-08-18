@@ -1,0 +1,2 @@
+- [Replit Next.js dev host config](nextjs-replit-config.md) — use REPLIT_DEV_DOMAIN env var for allowedDevOrigins; wildcards don't work in Next.js 16
+- [Shopify product scraping](shopify-scraping.md) — use /products.json and /collections/<handle>/products.json APIs; filter by variant availability and title keywords
