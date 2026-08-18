@@ -37,6 +37,13 @@
 - Use Product/Offer only when price, currency, availability, seller and offer semantics are reliable.
 - Never fabricate reviews, ratings, health claims or breeder verification.
 
+## Filter/query noindex & canonical policy
+
+- Listing filters (breed, status, sex, sort) are client-side state only and never produce query-parameter URLs; `/puppies` keeps a single self-referencing canonical.
+- `robots.txt` disallows `/*?*` so any future query-parameter URL is not crawled.
+- If filter state ever moves into the URL, those pages must ship `noindex` metadata and a canonical pointing at the unfiltered route, and remain excluded from the sitemap.
+- The sitemap covers only approved indexable routes: home, `/puppies` + listings, `/breeds` + profiles, `/guides` + articles, `/about`. `/contact` is excluded until implemented.
+
 ## Validation
 
 TypeScript passed during this audit session. Build and crawler-style route/metadata/schema audits should run before Phase 1 sign-off. No automated audit scripts are currently present.

@@ -6,6 +6,8 @@ import { Breadcrumb } from "@/components/breadcrumb"
 import { PuppyCard } from "@/components/puppy-card"
 import { CtaLink } from "@/components/cta-link"
 import { breeds, puppies } from "@/lib/data"
+import { JsonLd } from "@/components/json-ld"
+import { breadcrumbSchema, webPageSchema } from "@/lib/seo"
 
 export function generateStaticParams() {
   return breeds.map((b) => ({ slug: b.slug }))
@@ -41,6 +43,20 @@ export default async function BreedDetailPage({
 
   return (
     <PageShell>
+      <JsonLd
+        data={[
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Breeds", path: "/breeds" },
+            { name: breed.name },
+          ]),
+          webPageSchema({
+            name: `${breed.name} — Breed Profile`,
+            description: breed.summary,
+            path: `/breeds/${breed.slug}`,
+          }),
+        ]}
+      />
       <section className="mx-auto max-w-6xl px-5 pt-8 md:pt-10">
         <Breadcrumb
           items={[

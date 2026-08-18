@@ -5756,5 +5756,5 @@ export const navLinks = [
 
 export function formatPrice(price: number | null): string {
   if (price === null) return "Enquire for price"
-  return `$${price.toLocaleString("en-GB")}`
+  return `£${price.toLocaleString("en-GB")}`
 }

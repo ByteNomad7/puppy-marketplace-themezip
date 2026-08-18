@@ -8,6 +8,8 @@ import { StatusBadge } from "@/components/status-badge"
 import { EnquiryForm } from "@/components/enquiry-form"
 import { PuppyCard } from "@/components/puppy-card"
 import { puppies, breeds, formatPrice } from "@/lib/data"
+import { JsonLd } from "@/components/json-ld"
+import { breadcrumbSchema, SITE_URL } from "@/lib/seo"
 
 export function generateStaticParams() {
   return puppies.map((p) => ({ slug: p.slug }))
@@ -52,8 +54,43 @@ export default async function PuppyDetailPage({
     ...(puppy.colour ? [{ label: "Colour", value: puppy.colour }] : []),
   ]
 
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: `${puppy.name} — ${puppy.breed} Puppy`,
+    description: puppy.description,
+    image: puppy.gallery.map((src) => `${SITE_URL}${src}`),
+    url: `${SITE_URL}/puppies/${puppy.slug}`,
+    ...(puppy.price !== null
+      ? {
+          offers: {
+            "@type": "Offer",
+            price: puppy.price,
+            priceCurrency: "GBP",
+            availability:
+              puppy.status === "Available"
+                ? "https://schema.org/InStock"
+                : puppy.status === "Reserved"
+                  ? "https://schema.org/SoldOut"
+                  : "https://schema.org/PreOrder",
+            url: `${SITE_URL}/puppies/${puppy.slug}`,
+          },
+        }
+      : {}),
+  }
+
   return (
     <PageShell>
+      <JsonLd
+        data={[
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Puppies", path: "/puppies" },
+            { name: puppy.name },
+          ]),
+          productSchema,
+        ]}
+      />
       <section className="mx-auto max-w-6xl px-5 pb-8 pt-8 md:pt-10">
         <Breadcrumb
           items={[

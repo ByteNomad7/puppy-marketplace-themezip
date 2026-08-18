@@ -6,6 +6,8 @@ import { Breadcrumb } from "@/components/breadcrumb"
 import { GuideCard } from "@/components/guide-card"
 import { CtaLink } from "@/components/cta-link"
 import { guides } from "@/lib/data"
+import { JsonLd } from "@/components/json-ld"
+import { breadcrumbSchema, SITE_URL } from "@/lib/seo"
 
 export function generateStaticParams() {
   return guides.map((g) => ({ slug: g.slug }))
@@ -39,8 +41,31 @@ export default async function GuideArticlePage({
 
   const related = guides.filter((g) => g.slug !== guide.slug).slice(0, 3)
 
+  // Article schema stays minimal: no dates or named authors are fabricated —
+  // add them only when real editorial fields exist in the data.
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: guide.title,
+    description: guide.excerpt,
+    image: `${SITE_URL}${guide.image}`,
+    url: `${SITE_URL}/guides/${guide.slug}`,
+    publisher: { "@id": `${SITE_URL}/#organization` },
+    inLanguage: "en-GB",
+  }
+
   return (
     <PageShell>
+      <JsonLd
+        data={[
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Buyer Guide", path: "/guides" },
+            { name: guide.title },
+          ]),
+          articleSchema,
+        ]}
+      />
       <article>
         <header className="mx-auto max-w-3xl px-5 pt-8 md:pt-10">
           <Breadcrumb

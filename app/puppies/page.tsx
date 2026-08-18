@@ -2,6 +2,9 @@ import type { Metadata } from "next"
 import { PageShell } from "@/components/page-shell"
 import { Breadcrumb } from "@/components/breadcrumb"
 import { PuppyBrowser } from "@/components/puppy-browser"
+import { JsonLd } from "@/components/json-ld"
+import { breadcrumbSchema, itemListSchema } from "@/lib/seo"
+import { puppies } from "@/lib/data"
 
 export const metadata: Metadata = {
   title: "Teacup & Toy Puppies for Sale UK | Potty Registered Puppies",
@@ -15,6 +18,12 @@ export const metadata: Metadata = {
 export default function PuppiesPage() {
   return (
     <PageShell>
+      <JsonLd
+        data={[
+          breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Puppies" }]),
+          itemListSchema(puppies.map((p) => ({ name: p.name, path: `/puppies/${p.slug}` }))),
+        ]}
+      />
       <section className="border-b border-border bg-secondary/40">
         <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 lg:py-12 lg:px-8">
           <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Puppies" }]} />

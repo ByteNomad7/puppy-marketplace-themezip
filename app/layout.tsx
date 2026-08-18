@@ -2,6 +2,8 @@ import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Lora, Inter } from 'next/font/google'
 import './globals.css'
+import { JsonLd } from '@/components/json-ld'
+import { organizationSchema, webSiteSchema } from '@/lib/seo'
 
 const lora = Lora({
   subsets: ['latin'],
@@ -60,6 +62,7 @@ export default function RootLayout({
   return (
     <html lang="en-GB" className={`${lora.variable} ${inter.variable} bg-background`}>
       <body className="font-sans antialiased">
+        <JsonLd data={[organizationSchema(), webSiteSchema()]} />
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
