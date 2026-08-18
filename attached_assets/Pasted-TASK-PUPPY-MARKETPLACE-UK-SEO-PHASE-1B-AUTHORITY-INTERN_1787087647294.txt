@@ -1,0 +1,681 @@
+TASK: PUPPY MARKETPLACE — UK SEO PHASE 1B
+AUTHORITY, INTERNAL LINKING + INDEXATION READINESS
+
+REPOSITORY:
+ByteNomad7/puppy-marketplace-themezip
+
+CURRENT VERIFIED STATE:
+
+Latest merged work includes:
+
+- sitemap + robots
+- JSON-LD
+- GBP pricing
+- functional breed search
+- contact page + enquiry form
+- duplicate breed URL consolidation
+- unique UK-focused body content for all 4 existing buyer guides
+- production build passing
+- post-merge setup working
+
+KNOWN DATA:
+
+- 390 puppy listings
+- 24 breed records
+- 4 existing guides
+- no usable location data
+- no city pages should be created
+- /puppies is the UK commercial hub
+- /breeds/[slug] should remain the commercial breed architecture
+
+MISSION:
+
+Strengthen UK topical authority and crawl equity before any international expansion.
+
+This phase should improve:
+
+- homepage → puppies hub authority
+- puppies hub → breed authority
+- breed → puppy listing authority
+- guide → breed authority
+- breed → guide authority
+- crawl depth
+- listing discoverability
+- indexation quality
+- supporting content depth
+
+DO NOT:
+- create city pages
+- start Germany
+- create fake locations
+- create fake breeder data
+- invent reviews
+- invent health claims
+- fabricate puppy availability
+- deploy automatically
+
+==================================================
+1. AUDIT CURRENT PHASE 1 OUTPUT
+==================================================
+
+First inspect the merged state.
+
+Audit:
+
+/
+ /puppies
+ /breeds
+ /breeds/[slug]
+ /guides
+ /guides/[slug]
+ /puppies/[dynamic listing route]
+ /about
+ /contact
+ /robots.txt
+ /sitemap.xml
+
+Create:
+
+reports/UK-PHASE1B-CURRENT-STATE.csv
+
+Columns:
+
+url
+page_type
+indexable
+canonical
+sitemap
+internal_links_in
+internal_links_out
+crawl_depth
+content_depth
+schema
+issue
+priority
+
+==================================================
+2. STRENGTHEN /puppies AS PRIMARY MONEY HUB
+==================================================
+
+Upgrade internal authority into:
+
+/puppies
+
+Ensure it receives strong contextual links from:
+
+homepage
+breed hub
+top breed pages
+guides
+about where relevant
+
+Do not rely only on navigation.
+
+The page should act as:
+
+PRIMARY UK PUPPY DISCOVERY / COMMERCIAL HUB
+
+Add useful sections only if currently missing:
+
+- browse by breed
+- how puppy enquiries work
+- buyer guidance
+- featured/current puppy listings
+- related guides
+- trust links
+- contact CTA
+
+Do not pad with generic SEO text.
+
+==================================================
+3. TOP 15 BREED AUTHORITY PASS
+==================================================
+
+Use the Phase 0 breed priority report.
+
+Select the top 15 breeds.
+
+For each top breed page:
+
+- verify commercial intent
+- unique title/meta/H1
+- self-canonical
+- current breed-specific puppy listings
+- links to /puppies
+- 2–4 relevant guides
+- related breed links
+- contact/enquiry CTA
+- breadcrumbs
+- valid schema
+
+Do not create new breed routes.
+
+Create:
+
+reports/UK-PHASE1B-TOP15-BREEDS.csv
+
+Columns:
+
+breed
+url
+puppy_count
+incoming_links_before
+incoming_links_after
+guide_links
+related_breed_links
+content_gap
+status
+
+==================================================
+4. GUIDE EXPANSION — WAVE 1
+==================================================
+
+Current guide count = 4.
+
+Create 6–8 new high-value UK guides.
+
+Only create guides with clear search intent and real usefulness.
+
+Recommended themes:
+
+- How to choose the right puppy in the UK
+- Questions to ask before buying a puppy
+- Puppy buying checklist UK
+- Preparing your home for a new puppy
+- First week with a new puppy
+- How to compare puppy breeds for family life
+- Puppy socialisation basics
+- What to consider before choosing a small dog breed
+
+Prefer evergreen buyer education.
+
+Do NOT create legal-heavy, veterinary-heavy or location pages unless properly evidenced.
+
+==================================================
+5. BREED-SPECIFIC GUIDE SUPPORT
+==================================================
+
+For the strongest breed pages, identify gaps for buyer guides.
+
+Examples:
+
+French Bulldog buyer guide
+Cavapoo buyer guide
+Pomeranian buyer guide
+Golden Retriever buyer guide
+Cockapoo buyer guide
+
+Create at most:
+
+3 breed-specific guides
+
+in this phase.
+
+Only if they do not cannibalize breed commercial pages.
+
+Guide intent:
+education / selection / care considerations
+
+Breed page intent:
+commercial puppy discovery
+
+==================================================
+6. GUIDE INTERNAL LINKING
+==================================================
+
+Every guide must link contextually to:
+
+relevant breed page
+/puppies
+related guide
+contact/trust page where useful
+
+Every top breed page should link back to relevant guides.
+
+Create bidirectional topical authority.
+
+No guide orphan pages.
+
+==================================================
+7. PUPPY LISTING TEMPLATE AUDIT
+==================================================
+
+Audit the 390 listing pages.
+
+Do NOT manually rewrite 390 pages.
+
+Inspect the template/data quality.
+
+Determine:
+
+- unique title quality
+- unique H1 quality
+- description uniqueness
+- breed link
+- puppies hub link
+- contact CTA
+- canonical
+- sitemap inclusion
+- image alt text
+- schema
+- status lifecycle behavior
+
+Create:
+
+reports/UK-PHASE1B-PUPPY-LISTING-QUALITY.csv
+
+Columns:
+
+listing_id
+url
+breed
+status
+title_unique
+description_depth
+internal_links_in
+canonical
+sitemap
+schema
+soft_404_risk
+action
+
+==================================================
+8. THIN LISTING CONTROL
+==================================================
+
+Classify listings:
+
+STRONG
+ACCEPTABLE
+THIN
+EXPIRED/INVALID
+DUPLICATE-RISK
+
+Do NOT invent content to bulk-fill thin pages.
+
+If listings are thin because source data is minimal:
+
+retain factual content
+strengthen template context
+add related breed / guide / enquiry links
+
+Do not create fake narrative descriptions.
+
+==================================================
+9. LISTING LIFECYCLE IMPLEMENTATION
+==================================================
+
+Use the Phase 1 lifecycle report.
+
+Ensure the application handles:
+
+ACTIVE
+RESERVED
+SOLD
+EXPIRED
+REMOVED
+
+appropriately.
+
+Do not let empty/invalid listings remain indexable soft-404 pages.
+
+For invalid/removed listings:
+
+use the correct existing policy
+
+Examples may include:
+
+404
+410
+redirect to breed page
+retain informative sold page
+
+Choose based on existing architecture and SEO value.
+
+Do not invent status.
+
+==================================================
+10. CRAWL DEPTH
+==================================================
+
+Target:
+
+homepage ≤ 0
+/puppies ≤ 1–2 clicks
+top breeds ≤ 2 clicks
+guides ≤ 2–3 clicks
+active puppy listings ≤ 3 clicks where practical
+
+Create:
+
+reports/UK-PHASE1B-CRAWL-DEPTH.csv
+
+Columns:
+
+url
+page_type
+depth_before
+depth_after
+incoming_links_before
+incoming_links_after
+
+==================================================
+11. ORPHAN PREVENTION
+==================================================
+
+Verify:
+
+INDEXABLE ORPHANS = 0
+
+Specifically check:
+
+breed pages
+guides
+active puppy listings
+
+Every active listing must be discoverable through:
+
+breed page
+/puppies
+or another crawlable listing module
+
+Do not rely solely on sitemap discovery.
+
+==================================================
+12. SITEMAP QUALITY
+==================================================
+
+Audit sitemap output.
+
+Ensure it includes:
+
+homepage
+/puppies
+breed pages
+indexable guides
+active puppy listings
+about
+contact
+
+Exclude:
+
+redirects
+duplicate breed routes
+invalid listings
+noindex filters
+404s
+soft 404s
+
+Report:
+
+SITEMAP URL COUNT =
+NONCANONICAL URLS =
+REDIRECT URLS =
+INVALID LISTINGS =
+NOINDEX URLS =
+
+==================================================
+13. ROBOTS / FILTER CONTROL
+==================================================
+
+Review:
+
+/robots.txt
+
+and browse/filter behavior.
+
+Ensure filter/search query URLs do not create uncontrolled indexable duplicates.
+
+Preserve user functionality.
+
+Do not block important pages.
+
+==================================================
+14. STRUCTURED DATA PASS
+==================================================
+
+Audit all existing JSON-LD.
+
+Homepage:
+Organization
+WebSite
+
+Breed pages:
+WebPage
+BreadcrumbList
+FAQPage where visible
+
+Guides:
+Article
+BreadcrumbList
+
+Puppy listings:
+Product / Offer only where real data supports it
+
+Check that GBP price schema matches visible price data.
+
+Do not fabricate:
+
+reviews
+ratings
+availability
+seller verification
+health status
+
+==================================================
+15. TRUST CONTENT SUPPORT
+==================================================
+
+Review existing trust warnings from Phase 0.
+
+Make sure new guides and breed pages do not reinforce unsupported claims.
+
+Examples:
+
+"fully health guaranteed"
+"verified breeders"
+"100% safe sellers"
+"guaranteed delivery"
+
+Remove or rewrite unsupported claims.
+
+Create:
+
+reports/UK-PHASE1B-TRUST-STATUS.csv
+
+==================================================
+16. HOMEPAGE AUTHORITY PASS
+==================================================
+
+Ensure homepage links prominently but naturally to:
+
+/puppies
+/breeds
+top 6–8 breed pages
+/guides
+/about
+/contact
+
+Do not turn homepage into a giant SEO link list.
+
+==================================================
+17. BREED HUB
+==================================================
+
+Upgrade:
+
+/breeds
+
+as a real breed discovery hub.
+
+Requirements:
+
+all valid breeds
+brief useful introduction
+links to top guides
+links to /puppies
+no duplicate breed URLs
+natural taxonomy
+
+==================================================
+18. GUIDE HUB
+==================================================
+
+Upgrade:
+
+/guides
+
+to group guides logically.
+
+Suggested clusters:
+
+Buying a Puppy
+Choosing a Breed
+Preparing for a Puppy
+Puppy Care Basics
+
+Do not create empty categories.
+
+==================================================
+19. CONTENT CANNIBALIZATION
+==================================================
+
+Re-run cannibalization analysis after guide expansion.
+
+Check:
+
+breed commercial page
+vs
+breed buyer guide
+
+and:
+
+/puppies
+vs
+breed pages
+
+Create:
+
+reports/UK-PHASE1B-CANNIBALIZATION.csv
+
+Target:
+
+HIGH-RISK CANNIBALIZATION = 0
+
+==================================================
+20. INDEXATION PRIORITY LIST
+==================================================
+
+Create:
+
+reports/UK-PHASE1B-GSC-INDEXATION-PRIORITY.csv
+
+Rank:
+
+homepage
+/puppies
+top breed pages
+guide hub
+strong guides
+active listings
+
+Columns:
+
+priority
+url
+page_type
+reason
+internal_links
+sitemap
+recommended_gsc_action
+
+This will be used after deployment.
+
+==================================================
+21. VALIDATION
+==================================================
+
+Run:
+
+TypeScript
+production build
+route generation
+sitemap validation
+robots validation
+canonical validation
+schema validation
+internal-link validation
+orphan validation
+crawl-depth audit
+duplicate-title audit
+duplicate-meta audit
+duplicate-H1 audit
+content-cannibalization audit
+git diff --check
+
+Use the existing environment-compatible validation method if pnpm guard remains.
+
+==================================================
+22. FINAL REPORT
+==================================================
+
+Create:
+
+reports/UK-PHASE1B-AUTHORITY-REPORT.md
+
+Report:
+
+CURRENT ROUTES =
+INDEXABLE ROUTES =
+
+/puppies AUTHORITY HUB = PASS/FAIL
+BREEDS HUB = PASS/FAIL
+GUIDES HUB = PASS/FAIL
+
+TOP BREEDS STRENGTHENED =
+NEW GUIDES CREATED =
+BREED-SPECIFIC GUIDES CREATED =
+
+PUPPY LISTINGS AUDITED =
+THIN LISTINGS =
+SOFT-404 RISKS =
+INVALID LISTINGS =
+
+NEW INTERNAL LINKS =
+INDEXABLE ORPHANS =
+AVERAGE CRAWL DEPTH BEFORE =
+AVERAGE CRAWL DEPTH AFTER =
+
+SITEMAP ERRORS =
+ROBOTS ERRORS =
+CANONICAL ERRORS =
+SCHEMA ERRORS =
+CANNIBALIZATION RISKS =
+
+UNSUPPORTED TRUST CLAIMS =
+
+PRODUCTION BUILD = PASS/FAIL
+
+SAFE TO DEPLOY UK PHASE 1B = YES/NO
+
+NEXT RECOMMENDED PHASE:
+
+UK CONTENT EXPANSION
+UK INDEXATION MONITORING
+GERMANY PHASE 0
+OTHER
+
+==================================================
+STOP
+==================================================
+
+STOP after UK Phase 1B.
+
+DO NOT:
+- create city pages
+- start Germany
+- create new countries
+- create fake puppy listings
+- invent locations
+- fabricate reviews/ratings
+- deploy automatically
