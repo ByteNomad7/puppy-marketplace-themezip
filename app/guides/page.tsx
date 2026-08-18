@@ -1,20 +1,33 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import { CtaLink } from "@/components/cta-link"
 import { PageShell } from "@/components/page-shell"
 import { Breadcrumb } from "@/components/breadcrumb"
 import { GuideCard } from "@/components/guide-card"
 import { guides } from "@/lib/data"
 
-export const metadata: Metadata = {
-  title: "Puppy Buyer Guide UK | Potty Registered Puppies",
-  description:
-    "Practical UK guidance for choosing, preparing for, and caring for a new puppy. Written to help families make a confident, informed decision.",
-  alternates: {
-    canonical: "https://www.pottyregisteredpuppies.com/guides",
-  },
-}
-
 const ALL_CATEGORIES = Array.from(new Set(guides.map((g) => g.category)))
+
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<Record<string, string | string[] | undefined>>
+}): Promise<Metadata> {
+  const params = await searchParams
+  const hasQueryParameters = Object.keys(params).length > 0
+
+  return {
+    title: "Puppy Buyer Guide UK | Potty Registered Puppies",
+    description:
+      "Practical UK guidance for choosing, preparing for, and caring for a new puppy. Written to help families make a confident, informed decision.",
+    alternates: {
+      canonical: "https://www.pottyregisteredpuppies.com/guides",
+    },
+    ...(hasQueryParameters
+      ? { robots: { index: false, follow: true } }
+      : { robots: { index: true, follow: true } }),
+  }
+}
 
 export default async function GuidesPage({
   searchParams,
@@ -40,6 +53,14 @@ export default async function GuidesPage({
             Bringing home a puppy is a meaningful decision. These guides walk you through the essentials, from choosing
             a breed to settling into the first few months.
           </p>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <CtaLink href="/puppies" size="sm">
+              Browse puppies
+            </CtaLink>
+            <CtaLink href="/breeds" variant="outline" size="sm">
+              Explore breeds
+            </CtaLink>
+          </div>
         </div>
 
         {/* Category filter buttons */}

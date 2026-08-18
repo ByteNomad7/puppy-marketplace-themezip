@@ -1,13 +1,15 @@
 import type { Metadata } from "next"
+import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
 import { PageShell } from "@/components/page-shell"
 import { Breadcrumb } from "@/components/breadcrumb"
 import { GuideCard } from "@/components/guide-card"
 import { CtaLink } from "@/components/cta-link"
-import { guides } from "@/lib/data"
+import { breeds, guides } from "@/lib/data"
 import { JsonLd } from "@/components/json-ld"
 import { breadcrumbSchema, SITE_URL } from "@/lib/seo"
+import { getGuideBreedSlugs, getRelatedGuideSlugs } from "@/lib/guide-links"
 
 export function generateStaticParams() {
   return guides.map((g) => ({ slug: g.slug }))
@@ -39,7 +41,12 @@ export default async function GuideArticlePage({
   const guide = guides.find((g) => g.slug === slug)
   if (!guide) notFound()
 
-  const related = guides.filter((g) => g.slug !== guide.slug).slice(0, 3)
+  const related = getRelatedGuideSlugs(guide.slug)
+    .map((relatedSlug) => guides.find((g) => g.slug === relatedSlug))
+    .filter((relatedGuide): relatedGuide is (typeof guides)[number] => Boolean(relatedGuide))
+  const guideBreeds = getGuideBreedSlugs(guide.slug)
+    .map((breedSlug) => breeds.find((breed) => breed.slug === breedSlug))
+    .filter((breed): breed is (typeof breeds)[number] => Boolean(breed))
 
   // Article schema stays minimal: no dates or named authors are fabricated —
   // add them only when real editorial fields exist in the data.
@@ -159,10 +166,29 @@ export default async function GuideArticlePage({
             </p>
             <div className="mt-5 flex flex-wrap justify-center gap-3">
               <CtaLink href="/puppies">Browse puppies</CtaLink>
+              <CtaLink href="/breeds" variant="outline">
+                Explore breeds
+              </CtaLink>
               <CtaLink href="/contact" variant="outline">
                 Contact us
               </CtaLink>
             </div>
+            {guideBreeds.length > 0 && (
+              <div className="mt-7 border-t border-border/70 pt-5">
+                <p className="text-sm font-medium text-forest-deep">Related breed profile</p>
+                <div className="mt-3 flex flex-wrap justify-center gap-3">
+                  {guideBreeds.map((breed) => (
+                    <Link
+                      key={breed.slug}
+                      href={`/breeds/${breed.slug}`}
+                      className="text-sm font-medium text-primary underline-offset-4 hover:underline"
+                    >
+                      {breed.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </article>

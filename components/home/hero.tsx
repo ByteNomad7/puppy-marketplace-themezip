@@ -12,9 +12,8 @@ export function Hero() {
           </h1>
 
           <p className="mt-5 text-lg leading-relaxed text-muted-foreground text-pretty">
-            Browse healthy, well-raised puppies, learn about each breed, and
-            send an enquiry with confidence. Thoughtful guidance every step of
-            the way.
+            Browse listed puppies, learn about each breed, and send an enquiry
+            with confidence. Thoughtful guidance every step of the way.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">

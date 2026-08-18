@@ -7,7 +7,7 @@ import { CtaLink } from "@/components/cta-link"
 export const metadata: Metadata = {
   title: "About Us | Potty Registered Puppies UK",
   description:
-    "Potty Registered Puppies is a trusted UK puppy marketplace connecting families with healthy, well-raised teacup and toy puppies. Learn about our values and commitment to responsible sourcing.",
+    "Potty Registered Puppies is a UK puppy marketplace helping families explore teacup and toy puppies, understand breed differences, and make an informed enquiry.",
   alternates: {
     canonical: "https://www.pottyregisteredpuppies.com/about",
   },
@@ -40,11 +40,11 @@ export default function AboutPage() {
           <div>
             <span className="text-xs font-medium uppercase tracking-widest text-primary">Our story</span>
             <h1 className="mt-3 text-pretty text-4xl leading-tight text-forest-deep md:text-5xl">
-              A trusted way to find your companion in the UK
+              A considered way to find your companion in the UK
             </h1>
             <p className="mt-5 text-pretty text-lg leading-relaxed text-muted-foreground">
               Potty Registered Puppies exists to make finding a puppy feel considered rather than rushed. We connect
-              UK families with responsibly raised teacup and toy puppies and provide the guidance to choose well.
+              UK families with teacup and toy puppy listings and provide practical guidance to help them choose carefully.
             </p>
             <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
               We believe every puppy deserves a loving home and every family deserves complete peace of mind.

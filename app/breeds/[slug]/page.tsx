@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
 import { PageShell } from "@/components/page-shell"
@@ -9,6 +10,7 @@ import { breeds, puppies, guides } from "@/lib/data"
 import { GuideCard } from "@/components/guide-card"
 import { JsonLd } from "@/components/json-ld"
 import { breadcrumbSchema, webPageSchema } from "@/lib/seo"
+import { getBreedGuideLinks, getRelatedBreeds, resolveGuideLinks } from "@/lib/guide-links"
 
 export function generateStaticParams() {
   return breeds.map((b) => ({ slug: b.slug }))
@@ -42,10 +44,9 @@ export default async function BreedDetailPage({
 
   const available = puppies.filter((p) => p.breedSlug === breed.slug)
 
-  const breedGuides = [
-    guides.find((g) => g.slug === "choosing-the-right-breed"),
-    guides.find((g) => g.slug === "questions-to-ask"),
-  ].filter(Boolean) as typeof guides
+  const breedGuideLinks = getBreedGuideLinks(breed)
+  const breedGuides = resolveGuideLinks(guides, breedGuideLinks)
+  const relatedBreeds = getRelatedBreeds(breed, breeds)
 
   return (
     <PageShell>
@@ -140,13 +141,37 @@ export default async function BreedDetailPage({
               ))}
             </div>
           ) : (
-            <p className="mt-6 max-w-lg leading-relaxed text-muted-foreground">
+            <div className="mt-6 max-w-lg">
+              <p className="leading-relaxed text-muted-foreground">
               There are no {breed.name} puppies listed right now. Send us an enquiry and we&apos;ll let you
               know when one becomes available.
-            </p>
+              </p>
+              <CtaLink href="/contact" variant="outline" size="sm" className="mt-5">
+                Ask about upcoming litters
+              </CtaLink>
+            </div>
           )}
         </div>
       </section>
+
+      {relatedBreeds.length > 0 && (
+        <section className="border-t border-border bg-background">
+          <div className="mx-auto max-w-6xl px-5 py-14">
+            <h2 className="text-xl font-medium text-forest-deep">Related breed profiles</h2>
+            <div className="mt-5 flex flex-wrap gap-3">
+              {relatedBreeds.map((relatedBreed) => (
+                <Link
+                  key={relatedBreed.slug}
+                  href={`/breeds/${relatedBreed.slug}`}
+                  className="rounded-full border border-border px-4 py-2 text-sm font-medium text-primary underline-offset-4 hover:underline"
+                >
+                  {relatedBreed.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {breedGuides.length > 0 && (
         <section className="border-t border-border">

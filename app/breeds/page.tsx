@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { PageShell } from "@/components/page-shell"
 import { Breadcrumb } from "@/components/breadcrumb"
 import { BreedCard } from "@/components/breed-card"
+import { CtaLink } from "@/components/cta-link"
 import { breeds } from "@/lib/data"
 
 export const metadata: Metadata = {
@@ -24,6 +25,14 @@ export default function BreedsPage() {
             Every breed brings its own temperament, energy, and care routine. Explore these profiles to understand what
             daily life with each companion looks like.
           </p>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <CtaLink href="/puppies" size="sm">
+              Browse puppies
+            </CtaLink>
+            <CtaLink href="/guides" variant="outline" size="sm">
+              Read buyer guides
+            </CtaLink>
+          </div>
         </div>
       </section>
 

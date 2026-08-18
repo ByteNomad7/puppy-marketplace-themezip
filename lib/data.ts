@@ -5507,6 +5507,16 @@ export const puppies: Puppy[] = [
 
 export const breeds: Breed[] = [
   {
+    slug: "maltipoo",
+    name: "Maltipoo",
+    group: "Hybrid",
+    image: "/breeds/maltipoo.jpg",
+    summary: "A charming cross between the Maltese and Poodle, Maltipoos are affectionate, low-shedding companions perfectly suited to families and individuals across the UK.",
+    traits: [{ label: "Size", value: "Toy / Teacup" }, { label: "Energy", value: "Moderate" }, { label: "Coat", value: "Soft, wavy or curly" }, { label: "Lifespan", value: "12–16 years" }],
+    temperament: ["Affectionate", "Playful", "Gentle", "Intelligent"],
+    care: "Maltipoos thrive with daily gentle walks and interactive play. Their low-shedding coat requires regular brushing and professional grooming every 6–8 weeks. They bond deeply with their families and are well suited to apartment living across the UK.",
+  },
+  {
     slug: "poodle",
     name: "Poodle",
     group: "Non-Sporting",

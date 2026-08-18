@@ -1,0 +1,50 @@
+url,page_type,priority,reason
+/,HOMEPAGE,PRIORITY_1,Brand and site entry point.
+/puppies,PUPPIES_HUB,PRIORITY_1,Primary commercial inventory hub.
+/breeds,BREEDS_HUB,PRIORITY_1,Canonical breed discovery hub.
+/guides,GUIDES_HUB,PRIORITY_1,Canonical informational hub.
+/about,ABOUT,PRIORITY_2,Trust and company context.
+/contact,CONTACT,PRIORITY_2,Enquiry path.
+/breeds/poodle,TOP_BREED,PRIORITY_1,High-inventory canonical commercial breed page.
+/breeds/maltipoo,TOP_BREED,PRIORITY_1,High-inventory canonical commercial breed page.
+/breeds/pomeranian,TOP_BREED,PRIORITY_1,High-inventory canonical commercial breed page.
+/breeds/yorkie,TOP_BREED,PRIORITY_1,High-inventory canonical commercial breed page.
+/breeds/pomsky,TOP_BREED,PRIORITY_1,High-inventory canonical commercial breed page.
+/breeds/maltese,TOP_BREED,PRIORITY_1,High-inventory canonical commercial breed page.
+/breeds/coton-de-tulear,TOP_BREED,PRIORITY_1,High-inventory canonical commercial breed page.
+/breeds/doodle,TOP_BREED,PRIORITY_1,High-inventory canonical commercial breed page.
+/breeds/biewer-terrier,TOP_BREED,PRIORITY_1,High-inventory canonical commercial breed page.
+/breeds/maltipom,TOP_BREED,PRIORITY_1,High-inventory canonical commercial breed page.
+/breeds/maltitzu,TOP_BREED,PRIORITY_1,High-inventory canonical commercial breed page.
+/breeds/morkie,TOP_BREED,PRIORITY_1,High-inventory canonical commercial breed page.
+/breeds/bichon-frise,TOP_BREED,PRIORITY_1,High-inventory canonical commercial breed page.
+/breeds/king-charles,TOP_BREED,PRIORITY_1,High-inventory canonical commercial breed page.
+/breeds/mini-schnauzer,TOP_BREED,PRIORITY_1,High-inventory canonical commercial breed page.
+/guides/choosing-the-right-breed,GUIDE,PRIORITY_1,Contextual buyer education supporting commercial decisions.
+/guides/preparing-for-a-puppy,GUIDE,PRIORITY_1,Contextual buyer education supporting commercial decisions.
+/guides/questions-to-ask,GUIDE,PRIORITY_1,Contextual buyer education supporting commercial decisions.
+/guides/puppy-training-basics,GUIDE,PRIORITY_2,Contextual buyer education supporting commercial decisions.
+/guides/pet-insurance-guide,GUIDE,PRIORITY_2,Contextual buyer education supporting commercial decisions.
+/guides/travelling-with-your-puppy,GUIDE,PRIORITY_2,Contextual buyer education supporting commercial decisions.
+/guides/health-and-care,GUIDE,PRIORITY_2,Contextual buyer education supporting commercial decisions.
+/breeds/frenchie,BREED,PRIORITY_2,Additional canonical commercial breed page.
+/breeds/dachshund,BREED,PRIORITY_2,Additional canonical commercial breed page.
+/breeds/chihuahua,BREED,PRIORITY_2,Additional canonical commercial breed page.
+/breeds/mauzer,BREED,PRIORITY_2,Additional canonical commercial breed page.
+/breeds/pomapoo,BREED,PRIORITY_2,Additional canonical commercial breed page.
+/breeds/mame-shiba,BREED,PRIORITY_2,Additional canonical commercial breed page.
+/breeds/shih-zhu,BREED,PRIORITY_2,Additional canonical commercial breed page.
+/breeds/pug,BREED,PRIORITY_2,Additional canonical commercial breed page.
+/puppies/lulu-female-1,PUPPY_DETAIL,PRIORITY_2,Selected real listing detail; do not manually request all listings.
+/puppies/oscar-male-7,PUPPY_DETAIL,PRIORITY_2,Selected real listing detail; do not manually request all listings.
+/puppies/diana-female-10,PUPPY_DETAIL,PRIORITY_2,Selected real listing detail; do not manually request all listings.
+/puppies/toffee-male-1,PUPPY_DETAIL,PRIORITY_2,Selected real listing detail; do not manually request all listings.
+/puppies/theo-male-4,PUPPY_DETAIL,PRIORITY_2,Selected real listing detail; do not manually request all listings.
+/puppies/diana-female-9,PUPPY_DETAIL,PRIORITY_2,Selected real listing detail; do not manually request all listings.
+/puppies/giselle-female-1,PUPPY_DETAIL,PRIORITY_2,Selected real listing detail; do not manually request all listings.
+/puppies/jessie-female-3,PUPPY_DETAIL,PRIORITY_2,Selected real listing detail; do not manually request all listings.
+/puppies/amber-female-6,PUPPY_DETAIL,PRIORITY_2,Selected real listing detail; do not manually request all listings.
+/puppies/berry-female-4,PUPPY_DETAIL,PRIORITY_2,Selected real listing detail; do not manually request all listings.
+/puppies/lily-female-1,PUPPY_DETAIL,PRIORITY_2,Selected real listing detail; do not manually request all listings.
+/puppies/arlo-male-6,PUPPY_DETAIL,PRIORITY_2,Selected real listing detail; do not manually request all listings.
+/puppies/[remaining-listings],PUPPY_DETAIL,DISCOVER_VIA_SITEMAP,Let internal links and sitemap discovery handle the remaining real listings.

@@ -2,17 +2,20 @@ import type { MetadataRoute } from "next"
 import { puppies, breeds, guides } from "@/lib/data"
 import { SITE_URL } from "@/lib/seo"
 
-// Only approved indexable routes are listed. /contact is excluded until it
-// is implemented. Filtered/query-parameter views are never listed — see the
-// noindex/canonical policy in reports/UK-SEO-TECHNICAL-AUDIT.md.
+// Only approved indexable routes are listed. Filtered/query-parameter views
+// are never listed — see the noindex/canonical policy in the Phase 1C audit.
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["", "/puppies", "/breeds", "/guides", "/about"].map((path) => ({
+  const breedSlugs = new Set(breeds.map((breed) => breed.slug))
+  const indexablePuppies = puppies.filter(
+    (puppy) => breedSlugs.has(puppy.breedSlug) && puppy.image && puppy.gallery.length > 0,
+  )
+  const staticRoutes = ["", "/puppies", "/breeds", "/guides", "/about", "/contact"].map((path) => ({
     url: `${SITE_URL}${path}`,
     changeFrequency: (path === "/puppies" ? "daily" : "weekly") as "daily" | "weekly",
     priority: path === "" ? 1 : 0.8,
   }))
 
-  const puppyRoutes = puppies.map((p) => ({
+  const puppyRoutes = indexablePuppies.map((p) => ({
     url: `${SITE_URL}/puppies/${p.slug}`,
     changeFrequency: "weekly" as const,
     priority: 0.7,

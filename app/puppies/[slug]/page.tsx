@@ -9,6 +9,7 @@ import { EnquiryForm } from "@/components/enquiry-form"
 import { PuppyCard } from "@/components/puppy-card"
 import { puppies, breeds, guides, formatPrice } from "@/lib/data"
 import { GuideCard } from "@/components/guide-card"
+import { getPuppyGuideLinks, resolveGuideLinks } from "@/lib/guide-links"
 import { JsonLd } from "@/components/json-ld"
 import { breadcrumbSchema, SITE_URL } from "@/lib/seo"
 
@@ -25,9 +26,15 @@ export async function generateMetadata({
   const puppy = puppies.find((p) => p.slug === slug)
   if (!puppy) return { title: "Puppy not found" }
   const colourPart = puppy.colour ? ` ${puppy.colour}` : ""
+  const statusDescription =
+    puppy.status === "Available"
+      ? "available to enquire about"
+      : puppy.status === "Reserved"
+        ? "currently reserved"
+        : "coming soon"
   return {
-    title: `${puppy.name} — ${puppy.breed} Puppy for Sale in the UK | Potty Registered Puppies`,
-    description: `Meet ${puppy.name}, a${colourPart} ${puppy.breed} puppy available in the UK. ${puppy.ageWeeks} weeks old, ${puppy.sex.toLowerCase()}. Enquire today at Potty Registered Puppies.`,
+    title: `${puppy.name} — ${puppy.breed} Puppy | ${puppy.sex}, ${puppy.ageWeeks} weeks | Potty Registered Puppies`,
+    description: `Meet ${puppy.name}, a${colourPart} ${puppy.breed} puppy ${statusDescription}. ${puppy.ageWeeks} weeks old, ${puppy.sex.toLowerCase()}. Enquire with Potty Registered Puppies. Listing reference: ${puppy.slug}.`,
     alternates: {
       canonical: `https://www.pottyregisteredpuppies.com/puppies/${slug}`,
     },
@@ -48,10 +55,8 @@ export default async function PuppyDetailPage({
   const fallback = puppies.filter((p) => p.slug !== puppy.slug).slice(0, 3)
   const suggestions = related.length ? related : fallback
 
-  const puppyGuides = [
-    guides.find((g) => g.slug === "questions-to-ask"),
-    guides.find((g) => g.slug === "health-and-care"),
-  ].filter(Boolean) as typeof guides
+  const puppyGuideLinks = getPuppyGuideLinks(puppy)
+  const puppyGuides = resolveGuideLinks(guides, puppyGuideLinks)
 
   const facts = [
     { label: "Breed", value: puppy.breed },

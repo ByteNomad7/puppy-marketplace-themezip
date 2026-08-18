@@ -1,0 +1,3 @@
+parameter,observed_route,classification,canonical,robots_policy,notes
+category,/guides?category={category},UTILITY_FILTER,/guides,"noindex,follow + disallowed in robots.txt",User-facing category filter; the base guide hub remains indexable.
+breed/sex/age/sort/search,No URL parameter route found,UTILITY_FILTER,/puppies,not applicable,Puppy browser filters are client-side state and do not create crawlable URLs.

@@ -1,0 +1,663 @@
+TASK: PUPPY MARKETPLACE — UK SEO PHASE 1C
+FINAL AUTHORITY + INDEXATION READINESS GATE
+
+REPOSITORY:
+ByteNomad7/puppy-marketplace-themezip
+
+IMPORTANT:
+READ CURRENT MERGED HEAD FIRST.
+
+DO NOT repeat completed Phase 0 / Phase 1 work.
+
+CURRENT VERIFIED COMPLETED WORK INCLUDES:
+
+- Next.js production build working
+- 390 puppy records
+- 24 breeds
+- /puppies commercial hub
+- /breeds hub
+- /guides hub
+- /about
+- /contact
+- sitemap.xml
+- robots.txt
+- JSON-LD
+- breadcrumbs
+- GBP pricing
+- breed search
+- duplicate Biewer Terrier route consolidation
+- duplicate Cavalier route consolidation
+- 7 buyer guides
+- guide-category filtering
+- buyer-guide cards now shown on breed detail pages
+- buyer-guide cards now shown on puppy detail pages
+
+MISSION:
+
+Finish the UK SEO authority foundation before deployment and Google Search
+Console submission.
+
+Do NOT:
+- create city pages
+- start another country
+- mass-create guides
+- create fake puppy data
+- fabricate reviews
+- fabricate health claims
+- deploy automatically
+
+==================================================
+1. RECONCILE CURRENT HEAD
+==================================================
+
+First identify exactly what is already implemented.
+
+Create:
+
+reports/UK-PHASE1C-RECONCILIATION.md
+
+Classify:
+
+DONE
+PARTIAL
+NOT_DONE
+NEEDS_REVIEW
+
+Do not redo completed work.
+
+==================================================
+2. AUDIT ALL PUPPY LISTINGS
+==================================================
+
+Audit every puppy record/page.
+
+Expected approximate count:
+
+390
+
+For every listing record:
+
+listing_id
+url
+slug
+breed
+current status if genuinely present in data
+title
+H1
+description length
+description uniqueness
+canonical
+robots/indexability
+sitemap inclusion
+incoming internal links
+breed-page relationship
+/puppies relationship
+enquiry CTA
+images
+alt text
+schema
+duplicate-risk
+soft-404 risk
+
+Create:
+
+reports/UK-PHASE1C-PUPPY-INDEXABILITY.csv
+
+Classify each listing:
+
+STRONG_INDEXABLE
+ACCEPTABLE_INDEXABLE
+THIN_REVIEW
+DUPLICATE_RISK
+SOFT_404_RISK
+NONINDEXABLE_INVALID
+
+Do NOT fabricate missing content.
+
+==================================================
+3. DO NOT ASSUME ALL 390 SHOULD BE INDEXED
+==================================================
+
+Google should not receive hundreds of weak pages merely because records exist.
+
+A listing intended for indexation should have:
+
+- genuine unique puppy identity/data
+- canonical 200 route
+- useful visible content
+- valid image/content
+- internal incoming link
+- meaningful breed relationship
+- valid enquiry path
+- no duplicate listing conflict
+
+Where source data is too thin:
+
+improve shared template context only.
+
+Possible safe context:
+
+breed information link
+related puppy listings
+buyer guides
+questions to ask
+contact/enquiry
+puppies hub
+
+DO NOT invent:
+
+temperament
+personality
+medical history
+vaccination
+seller identity
+availability
+location
+
+==================================================
+4. CONTEXTUAL GUIDE MAPPING
+==================================================
+
+Current implementation surfaces the same generic buyer guides repeatedly.
+
+Improve this.
+
+Create a deterministic contextual guide-mapping system.
+
+Examples:
+
+BREED PAGE:
+choose-the-right-breed
+questions-to-ask
+PLUS relevant breed/ownership content where genuine
+
+PUPPY PAGE:
+questions-to-ask
+health-and-care
+PLUS relevant preparation/training content based on page context
+
+Do not randomly rotate guides.
+
+Create an explicit map/rules in a reusable data/helper layer.
+
+Possible factors:
+
+breed
+breed size
+guide category
+commercial vs informational context
+
+Only use factual relationships already supported by content.
+
+==================================================
+5. AVOID REPETITIVE LINK FOOTPRINT
+==================================================
+
+Do not make all 24 breed pages show exactly the same two guide cards.
+
+Do not make all 390 puppy pages show exactly the same two cards if relevant
+alternatives exist.
+
+Variation must be based on relevance, not randomness.
+
+Create:
+
+reports/UK-PHASE1C-GUIDE-LINK-MAP.csv
+
+Columns:
+
+source_url
+source_type
+breed
+guide_url
+guide_category
+reason
+contextual_relevance
+
+==================================================
+6. GUIDE → BREED / PUPPIES REVERSE LINKS
+==================================================
+
+Current authority must also flow back from guides.
+
+Audit each guide.
+
+Add appropriate contextual links to:
+
+/puppies
+/breeds
+specific breed pages where truly relevant
+/contact where appropriate
+
+Do not stuff commercial links into every paragraph.
+
+Target:
+
+GUIDE ORPHANS = 0
+
+==================================================
+7. GUIDE FILTER PARAMETER SEO
+==================================================
+
+The current /guides page uses URLs such as:
+
+/guides?category=Training
+/guides?category=Health
+etc.
+
+These are USER FILTERS, not separate SEO landing pages unless explicitly
+designed otherwise.
+
+Audit rendered metadata for these query URLs.
+
+Preferred strategy:
+
+base page:
+/guides
+= indexable canonical hub
+
+filter variants:
+?category=...
+= user-facing filtering only
+
+Prevent filter variants from becoming competing indexable URLs.
+
+Use the correct Next.js strategy, such as:
+
+- canonical to /guides
+- noindex,follow where technically appropriate
+
+Do NOT break the filter UI.
+
+Do NOT block /guides itself.
+
+==================================================
+8. AUDIT OTHER QUERY PARAMETERS
+==================================================
+
+Search the project for filters/search parameters.
+
+Examples:
+
+?category=
+?breed=
+?price=
+?sex=
+?sort=
+?page=
+?search=
+
+Classify each as:
+
+INDEXABLE_SEO_ROUTE
+UTILITY_FILTER
+PAGINATION
+SEARCH
+UNKNOWN
+
+Avoid uncontrolled faceted indexation.
+
+Create:
+
+reports/UK-PHASE1C-PARAMETER-INDEXATION.csv
+
+==================================================
+9. BREED AUTHORITY FINAL PASS
+==================================================
+
+Audit all canonical breed pages, especially the top 15 from Phase 0.
+
+Verify:
+
+self canonical
+unique title
+unique meta
+one H1
+breed puppy listings
+/puppies link
+contextual guides
+related breeds
+breadcrumb
+schema
+contact/enquiry path
+
+Do not create additional breed routes.
+
+==================================================
+10. /puppies AUTHORITY FINAL PASS
+==================================================
+
+Verify /puppies is clearly the main commercial hub.
+
+It should link to:
+
+top breeds
+real active/indexable puppy listings
+guides
+/breeds
+/about
+/contact
+
+And receive meaningful incoming links from:
+
+homepage
+breed pages
+guides
+
+Do not add filler text.
+
+==================================================
+11. SITEMAP PURITY
+==================================================
+
+Audit current sitemap.xml against actual indexability decisions.
+
+Include only:
+
+HTTP 200
+canonical
+indexable
+useful URLs
+
+Exclude:
+
+redirect breed aliases
+filter/query variants
+invalid listings
+soft-404 listings
+noncanonical routes
+noindex routes
+
+Report:
+
+TOTAL SITEMAP URLS =
+PUPPY URLS =
+BREED URLS =
+GUIDE URLS =
+
+REDIRECTS IN SITEMAP =
+NONCANONICALS IN SITEMAP =
+NOINDEX URLS IN SITEMAP =
+SOFT_404_RISK URLS IN SITEMAP =
+
+Targets:
+
+REDIRECTS = 0
+NONCANONICALS = 0
+NOINDEX = 0
+
+==================================================
+12. CRAWL DEPTH
+==================================================
+
+Measure crawl paths from homepage.
+
+Targets:
+
+/puppies <= 2
+/breeds <= 2
+/guides <= 2
+top breeds <= 3
+guides <= 3
+strong puppy listings <= 4
+
+Create:
+
+reports/UK-PHASE1C-CRAWL-DEPTH.csv
+
+Columns:
+
+url
+page_type
+depth
+incoming_links
+status
+
+==================================================
+13. ORPHAN AUDIT
+==================================================
+
+Check all intended indexable routes.
+
+Targets:
+
+BREED ORPHANS = 0
+GUIDE ORPHANS = 0
+STRONG PUPPY ORPHANS = 0
+
+Do not count sitemap-only discovery as sufficient internal linking.
+
+==================================================
+14. TRUST / HEALTH / LEGAL REVIEW
+==================================================
+
+Review the 7 guides for claims involving:
+
+vet costs
+insurance
+vaccinations
+Highway Code
+Animal Health Certificates
+international travel
+training organisations
+health information
+
+Do NOT invent citations.
+
+Classify statements:
+
+SAFE_GENERAL
+SOURCE_REVIEW_RECOMMENDED
+LEGAL_CURRENTNESS_REQUIRED
+VETERINARY_REVIEW_REQUIRED
+REMOVE_OR_REWRITE
+
+Where a narrow risky sentence can be safely made general, rewrite it.
+
+Do not destroy useful articles.
+
+Create:
+
+reports/UK-PHASE1C-CONTENT-RISK.csv
+
+==================================================
+15. STRUCTURED DATA FINAL PASS
+==================================================
+
+Validate all current schema.
+
+Check:
+
+Organization
+WebSite
+WebPage
+BreadcrumbList
+Article
+Product/Offer where applicable
+
+IMPORTANT:
+
+Do not mark a puppy available in structured data unless that matches real
+visible listing data.
+
+Do not fabricate:
+
+ratings
+reviews
+seller verification
+availability
+medical claims
+
+==================================================
+16. CANONICAL FINAL PASS
+==================================================
+
+Verify:
+
+CANONICAL TO REDIRECT = 0
+CANONICAL TO 404 = 0
+MULTIPLE CANONICALS = 0
+QUERY-PARAMETER CANONICAL CONFLICTS = 0
+
+All important canonical pages should self-canonicalize.
+
+==================================================
+17. CONTENT CANNIBALIZATION
+==================================================
+
+Check intent overlap between:
+
+/puppies
+/breeds
+/breeds/[slug]
+/guides/[slug]
+
+Commercial intent should primarily live on:
+
+/puppies
+breed pages
+puppy detail pages
+
+Informational intent should live on:
+
+guides
+
+Create:
+
+reports/UK-PHASE1C-CANNIBALIZATION.csv
+
+Target:
+
+HIGH-RISK CANNIBALIZATION = 0
+
+==================================================
+18. GSC INDEXATION PRIORITY
+==================================================
+
+Create the final Google Search Console submission plan.
+
+File:
+
+reports/UK-PHASE1C-GSC-INDEXATION-PRIORITY.csv
+
+Rank URLs into:
+
+PRIORITY_1
+PRIORITY_2
+DISCOVER_VIA_SITEMAP
+DO_NOT_REQUEST
+
+Priority 1 should generally include:
+
+homepage
+/puppies
+/breeds
+top commercial breed pages
+/guides
+strongest buyer guides
+
+Priority 2 may include:
+
+additional strong breeds
+selected strong puppy detail pages
+
+Do NOT recommend manually requesting all 390 listings.
+
+==================================================
+19. GSC LAUNCH INSTRUCTIONS
+==================================================
+
+Create:
+
+reports/UK-PHASE1C-GSC-LAUNCH-PLAN.md
+
+Explain:
+
+1. sitemap submission
+2. manual URL Inspection priorities
+3. what NOT to request manually
+4. what metrics to monitor
+5. when to consider the next content wave
+
+==================================================
+20. VALIDATION
+==================================================
+
+Run existing environment-safe validation:
+
+TypeScript
+Next.js production build
+route generation
+robots validation
+sitemap validation
+canonical validation
+schema validation
+internal-link validation
+orphan validation
+crawl-depth validation
+duplicate-title validation
+duplicate-meta validation
+duplicate-H1 validation
+parameter-indexation validation
+git diff --check
+
+Do not weaken validators.
+
+==================================================
+21. FINAL REPORT
+==================================================
+
+Create:
+
+reports/UK-PHASE1C-FINAL-GATE.md
+
+Report:
+
+TOTAL ROUTES =
+INTENDED INDEXABLE ROUTES =
+
+PUPPY LISTINGS AUDITED =
+STRONG INDEXABLE =
+ACCEPTABLE INDEXABLE =
+THIN REVIEW =
+DUPLICATE RISK =
+SOFT 404 RISK =
+NONINDEXABLE INVALID =
+
+BREED PAGES =
+GUIDES =
+GUIDE LINKS CONTEXTUALIZED = YES/NO
+
+QUERY PARAMETER INDEXATION CONTROLLED = YES/NO
+
+SITEMAP ERRORS =
+CANONICAL ERRORS =
+SCHEMA ERRORS =
+ORPHANS =
+HIGH-RISK CANNIBALIZATION =
+UNSUPPORTED HIGH-RISK CLAIMS =
+
+PRODUCTION BUILD = PASS/FAIL
+
+SAFE TO DEPLOY UK SEO FOUNDATION = YES/NO
+
+SAFE TO SUBMIT SITEMAP TO GOOGLE = YES/NO
+
+READY FOR UK CONTENT WAVE 2 = YES/NO
+
+==================================================
+STOP
+==================================================
+
+STOP after Phase 1C.
+
+DO NOT:
+
+- create city pages
+- start Germany
+- create another market
+- add more than the existing guide set unless a critical content gap is
+  discovered and explicitly justified
+- fabricate puppy data
+- fabricate ratings/reviews
+- deploy automatically

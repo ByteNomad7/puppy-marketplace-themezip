@@ -1,0 +1,8 @@
+url_pattern,primary_intent,role,risk,action
+/,brand + broad puppy discovery,navigation and brand hub,LOW,Keep broad; link to commercial and informational hubs.
+/puppies,puppies for sale UK,commercial inventory hub,LOW,Primary commercial hub for inventory.
+/breeds,dog breed profiles,breed discovery hub,LOW,Link to canonical breed pages.
+/breeds/[slug],{breed} puppies for sale UK,commercial breed page,LOW,Keep breed-specific inventory and profile content together.
+/guides,puppy buyer guide UK,informational hub,LOW,Keep query filters non-indexable.
+/guides/[slug],how-to / preparation / care,informational article,LOW,Avoid sales-led titles and link back contextually.
+/puppies/[slug],named puppy listing,commercial detail page,LOW,Unique listing identity and enquiry path.

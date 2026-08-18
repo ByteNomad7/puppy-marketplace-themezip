@@ -48,8 +48,8 @@ export function SiteFooter() {
           <div className="max-w-xs">
             <Logo tone="light" />
             <p className="mt-4 text-sm leading-relaxed text-primary-foreground/70">
-              Connecting UK families with healthy, well-raised teacup and toy
-              puppies. Browse with confidence and find your perfect companion.
+              Helping UK families explore teacup and toy puppies, understand
+              breed differences, and make an informed enquiry.
             </p>
           </div>
 

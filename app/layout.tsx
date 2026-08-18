@@ -20,7 +20,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Potty Registered Puppies | Teacup & Toy Puppies for Sale in the UK',
   description:
-    'Browse teacup and toy puppies for sale in the UK. Potty Registered Puppies connects UK families with healthy, well-raised puppies across a wide range of breeds.',
+    'Browse teacup and toy puppies listed in the UK. Potty Registered Puppies helps families compare breeds, read practical buyer guides, and make an informed enquiry.',
   metadataBase: new URL('https://www.pottyregisteredpuppies.com'),
   alternates: {
     canonical: 'https://www.pottyregisteredpuppies.com',

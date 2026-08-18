@@ -1,10 +1,21 @@
 import type { Metadata } from "next"
+import Link from "next/link"
 import { PageShell } from "@/components/page-shell"
 import { Breadcrumb } from "@/components/breadcrumb"
 import { PuppyBrowser } from "@/components/puppy-browser"
 import { JsonLd } from "@/components/json-ld"
 import { breadcrumbSchema, itemListSchema } from "@/lib/seo"
-import { puppies } from "@/lib/data"
+import { breeds, puppies } from "@/lib/data"
+import { CtaLink } from "@/components/cta-link"
+
+const featuredBreeds = breeds
+  .map((breed) => ({
+    breed,
+    listingCount: puppies.filter((puppy) => puppy.breedSlug === breed.slug).length,
+  }))
+  .filter(({ listingCount }) => listingCount > 0)
+  .sort((a, b) => b.listingCount - a.listingCount || a.breed.name.localeCompare(b.breed.name))
+  .slice(0, 6)
 
 export const metadata: Metadata = {
   title: "Teacup & Toy Puppies for Sale UK | Potty Registered Puppies",
@@ -34,11 +45,39 @@ export default function PuppiesPage() {
             Explore our full range of teacup and toy puppies. Use the filters to narrow
             by breed, sex, and more to find the right companion for your home.
           </p>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <CtaLink href="/breeds" size="sm">
+              Explore breeds
+            </CtaLink>
+            <CtaLink href="/guides" variant="outline" size="sm">
+              Read buyer guides
+            </CtaLink>
+            <CtaLink href="/about" variant="outline" size="sm">
+              About us
+            </CtaLink>
+            <CtaLink href="/contact" variant="outline" size="sm">
+              Contact us
+            </CtaLink>
+          </div>
         </div>
       </section>
 
       <section className="bg-background">
         <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 lg:py-12 lg:px-8">
+          <div className="mb-10 rounded-2xl border border-border bg-card p-5">
+            <h2 className="text-xl text-forest-deep">Explore puppies by breed</h2>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {featuredBreeds.map(({ breed }) => (
+                <Link
+                  key={breed.slug}
+                  href={`/breeds/${breed.slug}`}
+                  className="rounded-full border border-border px-3.5 py-2 text-sm font-medium text-primary underline-offset-4 hover:underline"
+                >
+                  {breed.name}
+                </Link>
+              ))}
+            </div>
+          </div>
           <PuppyBrowser />
         </div>
       </section>

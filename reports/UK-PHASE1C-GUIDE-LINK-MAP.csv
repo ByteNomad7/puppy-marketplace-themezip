@@ -1,0 +1,1240 @@
+source_url,source_type,breed,guide_url,guide_category,reason,contextual_relevance
+/breeds/maltipoo,BREED,Maltipoo,/guides/choosing-the-right-breed,Getting Started,"comparing temperament, energy, and coat commitments",high
+/breeds/maltipoo,BREED,Maltipoo,/guides/puppy-training-basics,Training,early training and socialisation foundations,medium
+/breeds/maltipoo,BREED,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask about parents and early life,high
+/breeds/poodle,BREED,Poodle,/guides/choosing-the-right-breed,Getting Started,matching a companion breed to the household,high
+/breeds/poodle,BREED,Poodle,/guides/health-and-care,Health,early veterinary care and everyday wellbeing,medium
+/breeds/poodle,BREED,Poodle,/guides/questions-to-ask,Guidance,evidence and documentation questions,high
+/breeds/pomeranian,BREED,Pomeranian,/guides/choosing-the-right-breed,Getting Started,breed selection and lifestyle fit,high
+/breeds/pomeranian,BREED,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/breeds/pomeranian,BREED,Pomeranian,/guides/preparing-for-a-puppy,Preparation,practical preparation for bringing home a puppy,medium
+/breeds/yorkie,BREED,Yorkshire Terrier,/guides/choosing-the-right-breed,Getting Started,breed selection and lifestyle fit,high
+/breeds/yorkie,BREED,Yorkshire Terrier,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/breeds/yorkie,BREED,Yorkshire Terrier,/guides/preparing-for-a-puppy,Preparation,practical preparation for bringing home a puppy,medium
+/breeds/pomsky,BREED,Pomsky,/guides/choosing-the-right-breed,Getting Started,"comparing temperament, energy, and coat commitments",high
+/breeds/pomsky,BREED,Pomsky,/guides/puppy-training-basics,Training,early training and socialisation foundations,medium
+/breeds/pomsky,BREED,Pomsky,/guides/questions-to-ask,Guidance,questions to ask about parents and early life,high
+/breeds/maltese,BREED,Maltese,/guides/choosing-the-right-breed,Getting Started,breed selection and lifestyle fit,high
+/breeds/maltese,BREED,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/breeds/maltese,BREED,Maltese,/guides/preparing-for-a-puppy,Preparation,practical preparation for bringing home a puppy,medium
+/breeds/coton-de-tulear,BREED,Coton de Tuléar,/guides/choosing-the-right-breed,Getting Started,matching a companion breed to the household,high
+/breeds/coton-de-tulear,BREED,Coton de Tuléar,/guides/health-and-care,Health,early veterinary care and everyday wellbeing,medium
+/breeds/coton-de-tulear,BREED,Coton de Tuléar,/guides/questions-to-ask,Guidance,evidence and documentation questions,high
+/breeds/morkie,BREED,Morkie,/guides/choosing-the-right-breed,Getting Started,"comparing temperament, energy, and coat commitments",high
+/breeds/morkie,BREED,Morkie,/guides/puppy-training-basics,Training,early training and socialisation foundations,medium
+/breeds/morkie,BREED,Morkie,/guides/questions-to-ask,Guidance,questions to ask about parents and early life,high
+/breeds/doodle,BREED,Doodle,/guides/choosing-the-right-breed,Getting Started,"comparing temperament, energy, and coat commitments",high
+/breeds/doodle,BREED,Doodle,/guides/puppy-training-basics,Training,early training and socialisation foundations,medium
+/breeds/doodle,BREED,Doodle,/guides/questions-to-ask,Guidance,questions to ask about parents and early life,high
+/breeds/maltipom,BREED,Maltipom,/guides/choosing-the-right-breed,Getting Started,"comparing temperament, energy, and coat commitments",high
+/breeds/maltipom,BREED,Maltipom,/guides/puppy-training-basics,Training,early training and socialisation foundations,medium
+/breeds/maltipom,BREED,Maltipom,/guides/questions-to-ask,Guidance,questions to ask about parents and early life,high
+/breeds/maltitzu,BREED,Maltitzu,/guides/choosing-the-right-breed,Getting Started,"comparing temperament, energy, and coat commitments",high
+/breeds/maltitzu,BREED,Maltitzu,/guides/puppy-training-basics,Training,early training and socialisation foundations,medium
+/breeds/maltitzu,BREED,Maltitzu,/guides/questions-to-ask,Guidance,questions to ask about parents and early life,high
+/breeds/biewer-terrier,BREED,Biewer Terrier,/guides/choosing-the-right-breed,Getting Started,breed selection and lifestyle fit,high
+/breeds/biewer-terrier,BREED,Biewer Terrier,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/breeds/biewer-terrier,BREED,Biewer Terrier,/guides/preparing-for-a-puppy,Preparation,practical preparation for bringing home a puppy,medium
+/breeds/mini-schnauzer,BREED,Miniature Schnauzer,/guides/questions-to-ask,Guidance,questions to ask before committing,high
+/breeds/mini-schnauzer,BREED,Miniature Schnauzer,/guides/puppy-training-basics,Training,reward-based training and recall foundations,medium
+/breeds/mini-schnauzer,BREED,Miniature Schnauzer,/guides/preparing-for-a-puppy,Preparation,setting up a safe home before collection,medium
+/breeds/bichon-frise,BREED,Bichon Frisé,/guides/choosing-the-right-breed,Getting Started,matching a companion breed to the household,high
+/breeds/bichon-frise,BREED,Bichon Frisé,/guides/health-and-care,Health,early veterinary care and everyday wellbeing,medium
+/breeds/bichon-frise,BREED,Bichon Frisé,/guides/questions-to-ask,Guidance,evidence and documentation questions,high
+/breeds/frenchie,BREED,French Bulldog,/guides/choosing-the-right-breed,Getting Started,matching a companion breed to the household,high
+/breeds/frenchie,BREED,French Bulldog,/guides/health-and-care,Health,early veterinary care and everyday wellbeing,medium
+/breeds/frenchie,BREED,French Bulldog,/guides/questions-to-ask,Guidance,evidence and documentation questions,high
+/breeds/dachshund,BREED,Dachshund,/guides/choosing-the-right-breed,Getting Started,understanding exercise and lifestyle fit,high
+/breeds/dachshund,BREED,Dachshund,/guides/questions-to-ask,Guidance,questions about parents and health documentation,high
+/breeds/dachshund,BREED,Dachshund,/guides/health-and-care,Health,"early care, feeding, and veterinary routines",medium
+/breeds/chihuahua,BREED,Chihuahua,/guides/choosing-the-right-breed,Getting Started,breed selection and lifestyle fit,high
+/breeds/chihuahua,BREED,Chihuahua,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/breeds/chihuahua,BREED,Chihuahua,/guides/preparing-for-a-puppy,Preparation,practical preparation for bringing home a puppy,medium
+/breeds/king-charles,BREED,Cavalier King Charles Spaniel,/guides/choosing-the-right-breed,Getting Started,breed selection and lifestyle fit,high
+/breeds/king-charles,BREED,Cavalier King Charles Spaniel,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/breeds/king-charles,BREED,Cavalier King Charles Spaniel,/guides/preparing-for-a-puppy,Preparation,practical preparation for bringing home a puppy,medium
+/breeds/mauzer,BREED,Mauzer,/guides/choosing-the-right-breed,Getting Started,"comparing temperament, energy, and coat commitments",high
+/breeds/mauzer,BREED,Mauzer,/guides/puppy-training-basics,Training,early training and socialisation foundations,medium
+/breeds/mauzer,BREED,Mauzer,/guides/questions-to-ask,Guidance,questions to ask about parents and early life,high
+/breeds/pomapoo,BREED,Pomapoo,/guides/choosing-the-right-breed,Getting Started,"comparing temperament, energy, and coat commitments",high
+/breeds/pomapoo,BREED,Pomapoo,/guides/puppy-training-basics,Training,early training and socialisation foundations,medium
+/breeds/pomapoo,BREED,Pomapoo,/guides/questions-to-ask,Guidance,questions to ask about parents and early life,high
+/breeds/mame-shiba,BREED,Mame Shiba Inu,/guides/choosing-the-right-breed,Getting Started,matching a companion breed to the household,high
+/breeds/mame-shiba,BREED,Mame Shiba Inu,/guides/health-and-care,Health,early veterinary care and everyday wellbeing,medium
+/breeds/mame-shiba,BREED,Mame Shiba Inu,/guides/questions-to-ask,Guidance,evidence and documentation questions,high
+/breeds/shih-zhu,BREED,Shih Tzu,/guides/choosing-the-right-breed,Getting Started,breed selection and lifestyle fit,high
+/breeds/shih-zhu,BREED,Shih Tzu,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/breeds/shih-zhu,BREED,Shih Tzu,/guides/preparing-for-a-puppy,Preparation,practical preparation for bringing home a puppy,medium
+/breeds/pug,BREED,Pug,/guides/choosing-the-right-breed,Getting Started,breed selection and lifestyle fit,high
+/breeds/pug,BREED,Pug,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/breeds/pug,BREED,Pug,/guides/preparing-for-a-puppy,Preparation,practical preparation for bringing home a puppy,medium
+/puppies/lulu-female-1,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/lulu-female-1,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/lulu-female-1,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/oscar-male-7,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/oscar-male-7,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/oscar-male-7,PUPPY,Pomsky,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/diana-female-10,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/diana-female-10,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/diana-female-10,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/toffee-male-1,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/toffee-male-1,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/toffee-male-1,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/theo-male-4,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/theo-male-4,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/theo-male-4,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/diana-female-9,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/diana-female-9,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/diana-female-9,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/giselle-female-1,PUPPY,Maltipom,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/giselle-female-1,PUPPY,Maltipom,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/giselle-female-1,PUPPY,Maltipom,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jessie-female-3,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jessie-female-3,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jessie-female-3,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/amber-female-6,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/amber-female-6,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/amber-female-6,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/berry-female-4,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/berry-female-4,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/berry-female-4,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/lily-female-1,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/lily-female-1,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/lily-female-1,PUPPY,Yorkie,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/arlo-male-6,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/arlo-male-6,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/arlo-male-6,PUPPY,Poodle,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/thor-male-3,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/thor-male-3,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/thor-male-3,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/toby-male-12,PUPPY,Mauzer,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/toby-male-12,PUPPY,Mauzer,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/toby-male-12,PUPPY,Mauzer,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/toffee-male,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/toffee-male,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/toffee-male,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/austin-male-7,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/austin-male-7,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/austin-male-7,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/agatha-female-7,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/agatha-female-7,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/agatha-female-7,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/agatha-female-6,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/agatha-female-6,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/agatha-female-6,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/grace-female-4,PUPPY,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/grace-female-4,PUPPY,Maltese,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/grace-female-4,PUPPY,Maltese,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/nutella-female-1,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/nutella-female-1,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/nutella-female-1,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/toby-male-11,PUPPY,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/toby-male-11,PUPPY,Maltese,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/toby-male-11,PUPPY,Maltese,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/koda-male-1,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/koda-male-1,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/koda-male-1,PUPPY,Pomsky,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/monty-male-6,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/monty-male-6,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/monty-male-6,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/diana-female-8,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/diana-female-8,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/diana-female-8,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/isabella-female-4,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/isabella-female-4,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/isabella-female-4,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jennie-female-6,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jennie-female-6,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jennie-female-6,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/diana-female-7,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/diana-female-7,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/diana-female-7,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/kyle-male-6,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/kyle-male-6,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/kyle-male-6,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/oreo-male-3,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/oreo-male-3,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/oreo-male-3,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/austin-male-6,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/austin-male-6,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/austin-male-6,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/skylar-female-2,PUPPY,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/skylar-female-2,PUPPY,Maltese,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/skylar-female-2,PUPPY,Maltese,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/mochi-male-2,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/mochi-male-2,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/mochi-male-2,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/daphne-female-3,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/daphne-female-3,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/daphne-female-3,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/amelia-female-7,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/amelia-female-7,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/amelia-female-7,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/teddy-male-5,PUPPY,Coton De Tulear,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/teddy-male-5,PUPPY,Coton De Tulear,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/teddy-male-5,PUPPY,Coton De Tulear,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/berry-female-3,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/berry-female-3,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/berry-female-3,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/doraemon-male-1,PUPPY,Maltipom,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/doraemon-male-1,PUPPY,Maltipom,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/doraemon-male-1,PUPPY,Maltipom,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/toby-male-10,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/toby-male-10,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/toby-male-10,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/isabella-female-3,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/isabella-female-3,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/isabella-female-3,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/arlo-male-5,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/arlo-male-5,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/arlo-male-5,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/zoey-female-3,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/zoey-female-3,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/zoey-female-3,PUPPY,Yorkie,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/gizmo-male-2,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/gizmo-male-2,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/gizmo-male-2,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/coco-female-9,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/coco-female-9,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/coco-female-9,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jessica-female-11,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jessica-female-11,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jessica-female-11,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/bagel-male-4,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/bagel-male-4,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/bagel-male-4,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/velvet-female-7,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/velvet-female-7,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/velvet-female-7,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/agatha-female-5,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/agatha-female-5,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/agatha-female-5,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/velvet-female-6,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/velvet-female-6,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/velvet-female-6,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/arlo-male-4,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/arlo-male-4,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/arlo-male-4,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/toto-male-3,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/toto-male-3,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/toto-male-3,PUPPY,Yorkie,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/diana-female-6,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/diana-female-6,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/diana-female-6,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/gigi-female-8,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/gigi-female-8,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/gigi-female-8,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/austin-male-5,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/austin-male-5,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/austin-male-5,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/milo-male-11,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/milo-male-11,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/milo-male-11,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/luna-female-4,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/luna-female-4,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/luna-female-4,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/inky-female,PUPPY,Mini Schnauzer,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/inky-female,PUPPY,Mini Schnauzer,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/inky-female,PUPPY,Mini Schnauzer,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jennie-female-5,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jennie-female-5,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jennie-female-5,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/noah-male-1,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/noah-male-1,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/noah-male-1,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/coco-female-8,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/coco-female-8,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/coco-female-8,PUPPY,Pomsky,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/scarlet-female-2,PUPPY,Pomapoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/scarlet-female-2,PUPPY,Pomapoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/scarlet-female-2,PUPPY,Pomapoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/mochi-female-9,PUPPY,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/mochi-female-9,PUPPY,Maltese,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/mochi-female-9,PUPPY,Maltese,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/amber-female-5,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/amber-female-5,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/amber-female-5,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/stella-female-7,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/stella-female-7,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/stella-female-7,PUPPY,Yorkie,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/myles-male-7,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/myles-male-7,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/myles-male-7,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/bailey-male-3,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/bailey-male-3,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/bailey-male-3,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jack-male-1,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jack-male-1,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jack-male-1,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/austin-male-4,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/austin-male-4,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/austin-male-4,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jessie-female-2,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jessie-female-2,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jessie-female-2,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/oscar-male-6,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/oscar-male-6,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/oscar-male-6,PUPPY,Pomsky,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/roxy-female-7,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/roxy-female-7,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/roxy-female-7,PUPPY,Pomsky,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/pommy-male-2,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/pommy-male-2,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/pommy-male-2,PUPPY,Pomeranian,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/myles-male-6,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/myles-male-6,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/myles-male-6,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jennie-female-4,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jennie-female-4,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jennie-female-4,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/enzo-male,PUPPY,Coton De Tulear,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/enzo-male,PUPPY,Coton De Tulear,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/enzo-male,PUPPY,Coton De Tulear,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/teddy-male-4,PUPPY,Coton De Tulear,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/teddy-male-4,PUPPY,Coton De Tulear,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/teddy-male-4,PUPPY,Coton De Tulear,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/colette-female,PUPPY,Coton De Tulear,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/colette-female,PUPPY,Coton De Tulear,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/colette-female,PUPPY,Coton De Tulear,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/toby-male-9,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/toby-male-9,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/toby-male-9,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/hugo-male-4,PUPPY,Frenchie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/hugo-male-4,PUPPY,Frenchie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/hugo-male-4,PUPPY,Frenchie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jennie-female-3,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jennie-female-3,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jennie-female-3,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/lyra-female-8,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/lyra-female-8,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/lyra-female-8,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/melina-female-4,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/melina-female-4,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/melina-female-4,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/mochi-female-8,PUPPY,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/mochi-female-8,PUPPY,Maltese,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/mochi-female-8,PUPPY,Maltese,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/milo-male-10,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/milo-male-10,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/milo-male-10,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/aspen-male-5,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/aspen-male-5,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/aspen-male-5,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/sienna-female-7,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/sienna-female-7,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/sienna-female-7,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/leo-male-3,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/leo-male-3,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/leo-male-3,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/amber-female-4,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/amber-female-4,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/amber-female-4,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/taffy-female-1,PUPPY,Coton De Tulear,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/taffy-female-1,PUPPY,Coton De Tulear,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/taffy-female-1,PUPPY,Coton De Tulear,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/nana-female-1,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/nana-female-1,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/nana-female-1,PUPPY,Pomsky,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/valentina-female-4,PUPPY,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/valentina-female-4,PUPPY,Maltese,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/valentina-female-4,PUPPY,Maltese,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/yorkies,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/yorkies,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/yorkies,PUPPY,Yorkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/som-female,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/som-female,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/som-female,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/osita-female,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/osita-female,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/osita-female,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/amber-female-3,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/amber-female-3,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/amber-female-3,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jessie-female-1,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jessie-female-1,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jessie-female-1,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/mochi-female-7,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/mochi-female-7,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/mochi-female-7,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/sienna-female-6,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/sienna-female-6,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/sienna-female-6,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/arlo-male-3,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/arlo-male-3,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/arlo-male-3,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/nugget-male-3,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/nugget-male-3,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/nugget-male-3,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/kofi-male-4,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/kofi-male-4,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/kofi-male-4,PUPPY,Yorkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/austin-male-3,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/austin-male-3,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/austin-male-3,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/bagel-male-3,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/bagel-male-3,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/bagel-male-3,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jessica-female-10,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jessica-female-10,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jessica-female-10,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/gisele-female-1,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/gisele-female-1,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/gisele-female-1,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/sienna-female-5,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/sienna-female-5,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/sienna-female-5,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/agatha-female-4,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/agatha-female-4,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/agatha-female-4,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/gigi-female-7,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/gigi-female-7,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/gigi-female-7,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/gucci-male,PUPPY,Morkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/gucci-male,PUPPY,Morkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/gucci-male,PUPPY,Morkie,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/cher-female,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/cher-female,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/cher-female,PUPPY,Pomeranian,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/nova-female-3,PUPPY,Dachshund,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/nova-female-3,PUPPY,Dachshund,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/nova-female-3,PUPPY,Dachshund,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/velvet-female-5,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/velvet-female-5,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/velvet-female-5,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/biscuit-male-3,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/biscuit-male-3,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/biscuit-male-3,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/myles-male-5,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/myles-male-5,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/myles-male-5,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/celine-female-2,PUPPY,Morkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/celine-female-2,PUPPY,Morkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/celine-female-2,PUPPY,Morkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/valentina-female-3,PUPPY,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/valentina-female-3,PUPPY,Maltese,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/valentina-female-3,PUPPY,Maltese,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/lucky-male-2,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/lucky-male-2,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/lucky-male-2,PUPPY,Pomsky,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/sienna-female-4,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/sienna-female-4,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/sienna-female-4,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/cooper-male-2,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/cooper-male-2,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/cooper-male-2,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/hyde-male,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/hyde-male,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/hyde-male,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jessie-female,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jessie-female,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jessie-female,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/melna-female,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/melna-female,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/melna-female,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/amber-female-2,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/amber-female-2,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/amber-female-2,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/aria-female,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/aria-female,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/aria-female,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/rose-female-2,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/rose-female-2,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/rose-female-2,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/honey-female,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/honey-female,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/honey-female,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/beau-male-2,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/beau-male-2,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/beau-male-2,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/marco-male-3,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/marco-male-3,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/marco-male-3,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/roxy-female-6,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/roxy-female-6,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/roxy-female-6,PUPPY,Pomsky,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/arlo-male-2,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/arlo-male-2,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/arlo-male-2,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/berry-female-2,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/berry-female-2,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/berry-female-2,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/pippa-female,PUPPY,Dachshund,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/pippa-female,PUPPY,Dachshund,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/pippa-female,PUPPY,Dachshund,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/bagel-male-2,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/bagel-male-2,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/bagel-male-2,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/chloe-female-8,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/chloe-female-8,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/chloe-female-8,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/brownie-male,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/brownie-male,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/brownie-male,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/diana-female-5,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/diana-female-5,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/diana-female-5,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/oscar-male-5,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/oscar-male-5,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/oscar-male-5,PUPPY,Pomsky,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/vivi-female-1,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/vivi-female-1,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/vivi-female-1,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/grace-female-3,PUPPY,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/grace-female-3,PUPPY,Maltese,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/grace-female-3,PUPPY,Maltese,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/nugget-male-2,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/nugget-male-2,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/nugget-male-2,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/theo-male-3,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/theo-male-3,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/theo-male-3,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/panda-male-1,PUPPY,Maltitzu,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/panda-male-1,PUPPY,Maltitzu,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/panda-male-1,PUPPY,Maltitzu,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/esme-female-3,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/esme-female-3,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/esme-female-3,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/ewan-male-6,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/ewan-male-6,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/ewan-male-6,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/sienna-female-3,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/sienna-female-3,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/sienna-female-3,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/puffin-female-4,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/puffin-female-4,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/puffin-female-4,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/bomi-male,PUPPY,Coton De Tulear,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/bomi-male,PUPPY,Coton De Tulear,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/bomi-male,PUPPY,Coton De Tulear,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/aaron-male-2,PUPPY,Maltipom,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/aaron-male-2,PUPPY,Maltipom,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/aaron-male-2,PUPPY,Maltipom,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/amelia-female-6,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/amelia-female-6,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/amelia-female-6,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/rocko-male-2,PUPPY,Morkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/rocko-male-2,PUPPY,Morkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/rocko-male-2,PUPPY,Morkie,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/berry-female-1,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/berry-female-1,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/berry-female-1,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/aspen-male-4,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/aspen-male-4,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/aspen-male-4,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/toto-male-2,PUPPY,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/toto-male-2,PUPPY,Maltese,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/toto-male-2,PUPPY,Maltese,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/velvet-female-4,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/velvet-female-4,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/velvet-female-4,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/boomer-male-1,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/boomer-male-1,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/boomer-male-1,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/chloe-female-6,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/chloe-female-6,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/chloe-female-6,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/austin-male-2,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/austin-male-2,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/austin-male-2,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/kyle-male-5,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/kyle-male-5,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/kyle-male-5,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/mochi-female-6,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/mochi-female-6,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/mochi-female-6,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/agatha-female-3,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/agatha-female-3,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/agatha-female-3,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/lulu-female,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/lulu-female,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/lulu-female,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/noah-male,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/noah-male,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/noah-male,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/suki-female,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/suki-female,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/suki-female,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/mitch-male-2,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/mitch-male-2,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/mitch-male-2,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/lala-female-5,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/lala-female-5,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/lala-female-5,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/luca-male,PUPPY,Mame Shiba,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/luca-male,PUPPY,Mame Shiba,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/luca-male,PUPPY,Mame Shiba,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/isla-female,PUPPY,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/isla-female,PUPPY,Maltese,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/isla-female,PUPPY,Maltese,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/diana-female-4,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/diana-female-4,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/diana-female-4,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jennie-female-2,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jennie-female-2,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jennie-female-2,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/gigi-female-6,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/gigi-female-6,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/gigi-female-6,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/celine-female-1,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/celine-female-1,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/celine-female-1,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/sylvie-female,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/sylvie-female,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/sylvie-female,PUPPY,Poodle,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/chanel-female-3,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/chanel-female-3,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/chanel-female-3,PUPPY,Yorkie,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/isabella-female-2,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/isabella-female-2,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/isabella-female-2,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/amber-female-1,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/amber-female-1,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/amber-female-1,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/noa-female,PUPPY,Coton De Tulear,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/noa-female,PUPPY,Coton De Tulear,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/noa-female,PUPPY,Coton De Tulear,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/arthur-male-2,PUPPY,Coton De Tulear,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/arthur-male-2,PUPPY,Coton De Tulear,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/arthur-male-2,PUPPY,Coton De Tulear,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/maggie-female-5,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/maggie-female-5,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/maggie-female-5,PUPPY,Yorkie,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/nola-female,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/nola-female,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/nola-female,PUPPY,Pomsky,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/coco-female-reserved-by-rt,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/coco-female-reserved-by-rt,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/coco-female-reserved-by-rt,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/ginger-male,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/ginger-male,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/ginger-male,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/ewan-male-5,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/ewan-male-5,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/ewan-male-5,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/gisele-female,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/gisele-female,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/gisele-female,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/snow-male,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/snow-male,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/snow-male,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/nugget-male-1,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/nugget-male-1,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/nugget-male-1,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jennie-female-1,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jennie-female-1,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jennie-female-1,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/luna-female-2,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/luna-female-2,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/luna-female-2,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/hershey-male-1,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/hershey-male-1,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/hershey-male-1,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/butters-male-1,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/butters-male-1,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/butters-male-1,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jessica-female-9,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jessica-female-9,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jessica-female-9,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/nutella-male,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/nutella-male,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/nutella-male,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/lyra-female-7,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/lyra-female-7,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/lyra-female-7,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/stella-female-6,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/stella-female-6,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/stella-female-6,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/toby-male-copy,PUPPY,Shih Zhu,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/toby-male-copy,PUPPY,Shih Zhu,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/toby-male-copy,PUPPY,Shih Zhu,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/selene-female,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/selene-female,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/selene-female,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/berry-female,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/berry-female,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/berry-female,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/myles-male-4,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/myles-male-4,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/myles-male-4,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/sienna-female-2,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/sienna-female-2,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/sienna-female-2,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/felix-male-1,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/felix-male-1,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/felix-male-1,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/taylor-male-2,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/taylor-male-2,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/taylor-male-2,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/monty-male-5,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/monty-male-5,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/monty-male-5,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/bianca-female-1,PUPPY,Coton De Tulear,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/bianca-female-1,PUPPY,Coton De Tulear,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/bianca-female-1,PUPPY,Coton De Tulear,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/oreo-male-2,PUPPY,Maltitzu,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/oreo-male-2,PUPPY,Maltitzu,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/oreo-male-2,PUPPY,Maltitzu,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/coco-female-7,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/coco-female-7,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/coco-female-7,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/bambi-female-1,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/bambi-female-1,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/bambi-female-1,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/kyle-male-4,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/kyle-male-4,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/kyle-male-4,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/snowy-male,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/snowy-male,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/snowy-male,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/amber-female,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/amber-female,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/amber-female,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/chase-male,PUPPY,Doodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/chase-male,PUPPY,Doodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/chase-male,PUPPY,Doodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/sienna-female-1,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/sienna-female-1,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/sienna-female-1,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/toby-male-8,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/toby-male-8,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/toby-male-8,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/vivi-female,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/vivi-female,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/vivi-female,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/mochi-female-5,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/mochi-female-5,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/mochi-female-5,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/charlotte-female,PUPPY,Cavalier King Charles Spaniel,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/charlotte-female,PUPPY,Cavalier King Charles Spaniel,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/charlotte-female,PUPPY,Cavalier King Charles Spaniel,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/grace-female-2,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/grace-female-2,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/grace-female-2,PUPPY,Yorkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/onyx-male-1,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/onyx-male-1,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/onyx-male-1,PUPPY,Pomeranian,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/nala-female-1,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/nala-female-1,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/nala-female-1,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/dior-female,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/dior-female,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/dior-female,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/finn-male-1,PUPPY,Coton De Tulear,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/finn-male-1,PUPPY,Coton De Tulear,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/finn-male-1,PUPPY,Coton De Tulear,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/marble-male,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/marble-male,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/marble-male,PUPPY,Pomeranian,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/diana-female-3,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/diana-female-3,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/diana-female-3,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/sterling-male-1,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/sterling-male-1,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/sterling-male-1,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/noir-male,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/noir-male,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/noir-male,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/velvet-female-3,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/velvet-female-3,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/velvet-female-3,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/bennett-male,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/bennett-male,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/bennett-male,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/henry-male,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/henry-male,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/henry-male,PUPPY,Yorkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/nico-male,PUPPY,Biewer Terrier,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/nico-male,PUPPY,Biewer Terrier,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/nico-male,PUPPY,Biewer Terrier,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/butters-female,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/butters-female,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/butters-female,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/ryder-male,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/ryder-male,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/ryder-male,PUPPY,Pomsky,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/taffy-female,PUPPY,Coton De Tulear,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/taffy-female,PUPPY,Coton De Tulear,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/taffy-female,PUPPY,Coton De Tulear,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/marshy-male,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/marshy-male,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/marshy-male,PUPPY,Pomsky,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/mimi-female,PUPPY,Chihuahua,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/mimi-female,PUPPY,Chihuahua,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/mimi-female,PUPPY,Chihuahua,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/azure-female,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/azure-female,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/azure-female,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/hershey-male,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/hershey-male,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/hershey-male,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/mauve-female,PUPPY,Frenchie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/mauve-female,PUPPY,Frenchie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/mauve-female,PUPPY,Frenchie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/zoey-female-1,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/zoey-female-1,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/zoey-female-1,PUPPY,Yorkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/ziggy-female,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/ziggy-female,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/ziggy-female,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/indigo-male,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/indigo-male,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/indigo-male,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/milo-male-9,PUPPY,Biewer Terrier,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/milo-male-9,PUPPY,Biewer Terrier,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/milo-male-9,PUPPY,Biewer Terrier,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/milo-male-8,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/milo-male-8,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/milo-male-8,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/nova-female-2,PUPPY,Doodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/nova-female-2,PUPPY,Doodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/nova-female-2,PUPPY,Doodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/rosie-female-2,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/rosie-female-2,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/rosie-female-2,PUPPY,Poodle,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/pippa-female-2,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/pippa-female-2,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/pippa-female-2,PUPPY,Maltipoo,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/esme-female-2,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/esme-female-2,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/esme-female-2,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/teddy-female-5,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/teddy-female-5,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/teddy-female-5,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/dustin-male-1,PUPPY,Bichon Frise,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/dustin-male-1,PUPPY,Bichon Frise,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/dustin-male-1,PUPPY,Bichon Frise,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/bentley-male-5,PUPPY,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/bentley-male-5,PUPPY,Maltese,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/bentley-male-5,PUPPY,Maltese,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/koda-male,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/koda-male,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/koda-male,PUPPY,Pomsky,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/chanel-female-2,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/chanel-female-2,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/chanel-female-2,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/dolores-female-3,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/dolores-female-3,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/dolores-female-3,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/monty-male-4,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/monty-male-4,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/monty-male-4,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/emma-female-3,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/emma-female-3,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/emma-female-3,PUPPY,Yorkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/theo-male-2,PUPPY,Coton De Tulear,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/theo-male-2,PUPPY,Coton De Tulear,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/theo-male-2,PUPPY,Coton De Tulear,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/lala-female-4,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/lala-female-4,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/lala-female-4,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/sandy-male,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/sandy-male,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/sandy-male,PUPPY,Pomeranian,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/stella-female-5,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/stella-female-5,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/stella-female-5,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/sienna-female,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/sienna-female,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/sienna-female,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/taylor-male-1,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/taylor-male-1,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/taylor-male-1,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/lyra-female-6,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/lyra-female-6,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/lyra-female-6,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/luna-female-1,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/luna-female-1,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/luna-female-1,PUPPY,Yorkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/cinnamon-female-4,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/cinnamon-female-4,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/cinnamon-female-4,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/mitch-male-1,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/mitch-male-1,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/mitch-male-1,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/ewan-male-4,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/ewan-male-4,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/ewan-male-4,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/amelia-female-5,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/amelia-female-5,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/amelia-female-5,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/isabella-female-1,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/isabella-female-1,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/isabella-female-1,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/toto-male-1,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/toto-male-1,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/toto-male-1,PUPPY,Yorkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/puffin-female-3,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/puffin-female-3,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/puffin-female-3,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/valentina-female-2,PUPPY,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/valentina-female-2,PUPPY,Maltese,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/valentina-female-2,PUPPY,Maltese,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/mochi-female-4,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/mochi-female-4,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/mochi-female-4,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/baxter-male-1,PUPPY,Biewer Terrier,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/baxter-male-1,PUPPY,Biewer Terrier,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/baxter-male-1,PUPPY,Biewer Terrier,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/archie-male,PUPPY,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/archie-male,PUPPY,Maltese,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/archie-male,PUPPY,Maltese,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/trixie-female,PUPPY,Doodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/trixie-female,PUPPY,Doodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/trixie-female,PUPPY,Doodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/chloe-female-5,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/chloe-female-5,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/chloe-female-5,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/tory-male-1,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/tory-male-1,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/tory-male-1,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/zephyr-male,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/zephyr-male,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/zephyr-male,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/chico-male,PUPPY,Coton De Tulear,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/chico-male,PUPPY,Coton De Tulear,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/chico-male,PUPPY,Coton De Tulear,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/decter-male,PUPPY,Doodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/decter-male,PUPPY,Doodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/decter-male,PUPPY,Doodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/lola-female,PUPPY,Chihuahua,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/lola-female,PUPPY,Chihuahua,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/lola-female,PUPPY,Chihuahua,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/teddy-female,PUPPY,Biewer Terrier,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/teddy-female,PUPPY,Biewer Terrier,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/teddy-female,PUPPY,Biewer Terrier,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/velvet-female-2,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/velvet-female-2,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/velvet-female-2,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/maggie-female-4,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/maggie-female-4,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/maggie-female-4,PUPPY,Yorkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/gigi-female-5,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/gigi-female-5,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/gigi-female-5,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/wrinkles-female,PUPPY,Pug,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/wrinkles-female,PUPPY,Pug,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/wrinkles-female,PUPPY,Pug,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/diana-female-2,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/diana-female-2,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/diana-female-2,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/kofi-male-3,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/kofi-male-3,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/kofi-male-3,PUPPY,Yorkie,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/oreo-male-1,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/oreo-male-1,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/oreo-male-1,PUPPY,Maltipoo,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/marco-male-2,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/marco-male-2,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/marco-male-2,PUPPY,Maltipoo,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/cloud-female-2,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/cloud-female-2,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/cloud-female-2,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/biscuit-male-2,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/biscuit-male-2,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/biscuit-male-2,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/milo-male-7,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/milo-male-7,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/milo-male-7,PUPPY,Pomsky,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/stella-female-4,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/stella-female-4,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/stella-female-4,PUPPY,Yorkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/arlo-male-1,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/arlo-male-1,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/arlo-male-1,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/puff-female-3,PUPPY,Maltipom,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/puff-female-3,PUPPY,Maltipom,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/puff-female-3,PUPPY,Maltipom,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/teddy-male-3,PUPPY,Biewer Terrier,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/teddy-male-3,PUPPY,Biewer Terrier,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/teddy-male-3,PUPPY,Biewer Terrier,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/amelia-female-4,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/amelia-female-4,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/amelia-female-4,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/dolores-female-2,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/dolores-female-2,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/dolores-female-2,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/liliana-female,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/liliana-female,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/liliana-female,PUPPY,Yorkie,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/gucci-female-1,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/gucci-female-1,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/gucci-female-1,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/marshmallow-male,PUPPY,Coton De Tulear,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/marshmallow-male,PUPPY,Coton De Tulear,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/marshmallow-male,PUPPY,Coton De Tulear,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/mochi-female-3,PUPPY,Coton De Tulear,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/mochi-female-3,PUPPY,Coton De Tulear,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/mochi-female-3,PUPPY,Coton De Tulear,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/hugo-male-3,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/hugo-male-3,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/hugo-male-3,PUPPY,Maltipoo,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/jessica-female-8,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jessica-female-8,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jessica-female-8,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/ewan-male-3,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/ewan-male-3,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/ewan-male-3,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/gigi-female-4,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/gigi-female-4,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/gigi-female-4,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/nutella-female,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/nutella-female,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/nutella-female,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/rose-female-1,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/rose-female-1,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/rose-female-1,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/luna-female,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/luna-female,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/luna-female,PUPPY,Pomsky,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/dolly-female-2,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/dolly-female-2,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/dolly-female-2,PUPPY,Poodle,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/thor-male-2,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/thor-male-2,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/thor-male-2,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/cinnamon-female-3,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/cinnamon-female-3,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/cinnamon-female-3,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/lala-female-3,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/lala-female-3,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/lala-female-3,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/hazel-female-1,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/hazel-female-1,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/hazel-female-1,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/pomy-female-1,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/pomy-female-1,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/pomy-female-1,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/coco-female-6,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/coco-female-6,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/coco-female-6,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/toby-male-7,PUPPY,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/toby-male-7,PUPPY,Maltese,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/toby-male-7,PUPPY,Maltese,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/sammy-male,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/sammy-male,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/sammy-male,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jessica-female-7,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jessica-female-7,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jessica-female-7,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/misty-female,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/misty-female,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/misty-female,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/bagel-male-1,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/bagel-male-1,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/bagel-male-1,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/chloe-female-4,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/chloe-female-4,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/chloe-female-4,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/arthur-male-1,PUPPY,King Charles,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/arthur-male-1,PUPPY,King Charles,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/arthur-male-1,PUPPY,King Charles,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/poodles,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/poodles,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/poodles,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/mochi-female-2,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/mochi-female-2,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/mochi-female-2,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jessica-female-6,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jessica-female-6,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jessica-female-6,PUPPY,Poodle,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/boomer-male,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/boomer-male,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/boomer-male,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/toby-male-6,PUPPY,Maltitzu,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/toby-male-6,PUPPY,Maltitzu,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/toby-male-6,PUPPY,Maltitzu,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/puffin-female-2,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/puffin-female-2,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/puffin-female-2,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/felix-male,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/felix-male,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/felix-male,PUPPY,Poodle,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/piper-male-3,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/piper-male-3,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/piper-male-3,PUPPY,Yorkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/stella-female-3,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/stella-female-3,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/stella-female-3,PUPPY,Yorkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jessica-female-5,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jessica-female-5,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jessica-female-5,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/diana-female-1,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/diana-female-1,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/diana-female-1,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/lyra-female-5,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/lyra-female-5,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/lyra-female-5,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/austin-male-1,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/austin-male-1,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/austin-male-1,PUPPY,Maltipoo,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/giovanni-male-1,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/giovanni-male-1,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/giovanni-male-1,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/kyle-male-3,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/kyle-male-3,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/kyle-male-3,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/oscar-male-4,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/oscar-male-4,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/oscar-male-4,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/aspen-male-3,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/aspen-male-3,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/aspen-male-3,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/jessica-female-4,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/jessica-female-4,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/jessica-female-4,PUPPY,Maltipoo,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/milo-male-6,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/milo-male-6,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/milo-male-6,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/melina-female-3,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/melina-female-3,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/melina-female-3,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/mocha-female,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/mocha-female,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/mocha-female,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/lyra-female-4,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/lyra-female-4,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/lyra-female-4,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/grace-female-1,PUPPY,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/grace-female-1,PUPPY,Maltese,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/grace-female-1,PUPPY,Maltese,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/gigi-female-3,PUPPY,Bichon Frise,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/gigi-female-3,PUPPY,Bichon Frise,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/gigi-female-3,PUPPY,Bichon Frise,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/roxy-female-4,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/roxy-female-4,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/roxy-female-4,PUPPY,Pomsky,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/knox-male,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/knox-male,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/knox-male,PUPPY,Pomsky,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/nova-female,PUPPY,Doodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/nova-female,PUPPY,Doodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/nova-female,PUPPY,Doodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/esme-female-purchased-by-kim-copy,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/esme-female-purchased-by-kim-copy,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/esme-female-purchased-by-kim-copy,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/giselle-female,PUPPY,Maltipom,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/giselle-female,PUPPY,Maltipom,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/giselle-female,PUPPY,Maltipom,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/boo-male-3,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/boo-male-3,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/boo-male-3,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/bambi-male-2,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/bambi-male-2,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/bambi-male-2,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/mason-male-2,PUPPY,Maltitzu,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/mason-male-2,PUPPY,Maltitzu,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/mason-male-2,PUPPY,Maltitzu,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/louis-male,PUPPY,Morkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/louis-male,PUPPY,Morkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/louis-male,PUPPY,Morkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/olivia-female,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/olivia-female,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/olivia-female,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/tippy-female-3,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/tippy-female-3,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/tippy-female-3,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/aurora-female,PUPPY,Doodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/aurora-female,PUPPY,Doodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/aurora-female,PUPPY,Doodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/toby-male-5,PUPPY,Bichon Frise,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/toby-male-5,PUPPY,Bichon Frise,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/toby-male-5,PUPPY,Bichon Frise,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/marco-male-1,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/marco-male-1,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/marco-male-1,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/kofi-male-2,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/kofi-male-2,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/kofi-male-2,PUPPY,Yorkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/cloud-female-1,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/cloud-female-1,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/cloud-female-1,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/oscar-male-3,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/oscar-male-3,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/oscar-male-3,PUPPY,Pomsky,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/lala-female-2,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/lala-female-2,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/lala-female-2,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/gigi-female-2,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/gigi-female-2,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/gigi-female-2,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/bentley-male-4,PUPPY,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/bentley-male-4,PUPPY,Maltese,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/bentley-male-4,PUPPY,Maltese,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/stella-female-2,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/stella-female-2,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/stella-female-2,PUPPY,Yorkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/glacier-male-1,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/glacier-male-1,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/glacier-male-1,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/lady-female,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/lady-female,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/lady-female,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/camille-female-3,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/camille-female-3,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/camille-female-3,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/dolores-female-purchased-by-melbourne-copy,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/dolores-female-purchased-by-melbourne-copy,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/dolores-female-purchased-by-melbourne-copy,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/myles-male-3,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/myles-male-3,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/myles-male-3,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/reese-male,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/reese-male,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/reese-male,PUPPY,Pomeranian,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/snowy-female,PUPPY,Coton De Tulear,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/snowy-female,PUPPY,Coton De Tulear,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/snowy-female,PUPPY,Coton De Tulear,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/simon-male-4,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/simon-male-4,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/simon-male-4,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/puff-female-2,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/puff-female-2,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/puff-female-2,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/chloe-female-3,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/chloe-female-3,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/chloe-female-3,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/finn-male,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/finn-male,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/finn-male,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/scarlet-female-1,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/scarlet-female-1,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/scarlet-female-1,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/biscuit-male-1,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/biscuit-male-1,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/biscuit-male-1,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/alfie-male,PUPPY,King Charles,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/alfie-male,PUPPY,King Charles,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/alfie-male,PUPPY,King Charles,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/theo-male-1,PUPPY,Pomeranian,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/theo-male-1,PUPPY,Pomeranian,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/theo-male-1,PUPPY,Pomeranian,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/new-babies-6,PUPPY,Poodle,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/new-babies-6,PUPPY,Poodle,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/new-babies-6,PUPPY,Poodle,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/emma-female-2,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/emma-female-2,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/emma-female-2,PUPPY,Yorkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/rex-male,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/rex-male,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/rex-male,PUPPY,Pomsky,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/lucky-male-1,PUPPY,Pomsky,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/lucky-male-1,PUPPY,Pomsky,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/lucky-male-1,PUPPY,Pomsky,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/pico-male,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/pico-male,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/pico-male,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/myles-male-2,PUPPY,Maltipoo,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/myles-male-2,PUPPY,Maltipoo,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/myles-male-2,PUPPY,Maltipoo,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/molly-female-3,PUPPY,Mini Schnauzer,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/molly-female-3,PUPPY,Mini Schnauzer,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/molly-female-3,PUPPY,Mini Schnauzer,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/kofi-male-1,PUPPY,Yorkie,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/kofi-male-1,PUPPY,Yorkie,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/kofi-male-1,PUPPY,Yorkie,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
+/puppies/valentina-female-1,PUPPY,Maltese,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/valentina-female-1,PUPPY,Maltese,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/valentina-female-1,PUPPY,Maltese,/guides/puppy-training-basics,Training,building training habits with an older puppy,high
+/puppies/bianca-female,PUPPY,Mini Schnauzer,/guides/questions-to-ask,Guidance,questions to ask before viewing or committing,high
+/puppies/bianca-female,PUPPY,Mini Schnauzer,/guides/health-and-care,Health,early care and veterinary routines,high
+/puppies/bianca-female,PUPPY,Mini Schnauzer,/guides/preparing-for-a-puppy,Preparation,preparing for a young puppy joining the household,high
