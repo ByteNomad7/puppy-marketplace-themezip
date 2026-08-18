@@ -5853,6 +5853,144 @@ export const guides: Guide[] = [
     ],
   },
   {
+    slug: "puppy-training-basics",
+    title: "Puppy Training Basics: Building Good Habits Early",
+    category: "Training",
+    excerpt: "How to start training your puppy from day one — covering recall, crate manners, loose-lead walking, and the reward-based methods that actually work.",
+    image: "/guides/training-basics.png",
+    readTime: "7 min read",
+    pullQuote: "A puppy that learns to focus on you in a quiet garden will do the same, eventually, in a busy park — start simple and build from there.",
+    sections: [
+      {
+        heading: "Start earlier than you think",
+        paragraphs: [
+          "Training begins the moment your puppy arrives home, whether you intend it to or not. Every interaction teaches something: letting a puppy jump up and then rewarding it with attention teaches jumping up. Consistency in the first weeks shapes habits that persist for years, so it is worth being intentional from day one even before formal sessions begin.",
+          "Short, frequent sessions work far better than long ones. Two to three minutes several times a day is enough for an eight-week-old puppy. Puppies fatigue mentally faster than physically, and a tired puppy that has lost focus will learn very little. End each session on a success — even a small one.",
+        ],
+      },
+      {
+        heading: "Reward-based training and why it works",
+        paragraphs: [
+          "Modern dog training is built on positive reinforcement: rewarding the behaviour you want so it becomes more likely to happen again. For puppies, this means using small, high-value treats — soft pieces of cooked chicken, cheese, or a commercial training treat — delivered immediately after the desired behaviour. The reward needs to come within one to two seconds or the puppy cannot make the connection.",
+          "Punishment-based methods — shouting, physical corrections, or alpha-roll techniques — have been consistently shown to increase anxiety and reduce a dog's willingness to offer behaviour. They also damage the relationship between dog and owner. Positive reinforcement is not just kinder; it is more effective for the vast majority of domestic dogs.",
+        ],
+      },
+      {
+        heading: "The four foundations: name, sit, recall, and settle",
+        paragraphs: [
+          "Name recognition is the first skill worth building — a puppy that turns to look at you when called by name is already paying attention, which is the foundation of everything else. Say the name once in an upbeat tone, reward any eye contact or turn toward you, and repeat many times a day in quiet surroundings before adding distractions.",
+          "A reliable recall — coming when called — is the most important safety behaviour a dog can learn and one of the most commonly under-trained. Start in the house, use an enthusiastic tone, and reward generously every single time. Never call a puppy to you for something it finds unpleasant, such as the end of a play session; go and collect it instead. 'Settle' — lying calmly on a mat — is equally valuable for life in a busy household and can be taught from eight weeks using a simple mat and reward routine.",
+        ],
+      },
+      {
+        heading: "Crate training and alone-time confidence",
+        paragraphs: [
+          "A crate is not a punishment — used correctly, it becomes a puppy's chosen rest space. Introduce it gradually: feed meals near the crate, then inside it with the door open, then with brief door closures while you remain in the room. Build duration very slowly over days and weeks. A puppy that is comfortable in its crate is easier to settle overnight and safer when left alone.",
+          "Separation anxiety is common and preventable. From the first week, practise leaving your puppy alone for very short periods — even just stepping out of the room for a minute — so that your absence becomes unremarkable. Puppies that are never separated from their owners in the early weeks often find being alone deeply distressing later on.",
+        ],
+      },
+      {
+        heading: "Loose-lead walking and socialisation",
+        paragraphs: [
+          "Loose-lead walking is one of the harder skills to teach but makes daily life considerably more enjoyable. Begin in the garden or a quiet space before adding the distraction of pavements. Reward your puppy for walking beside you and change direction when it pulls — pulling should never result in reaching the interesting thing ahead. Consistency among all household members is essential; if one person allows pulling, progress stalls.",
+          "Puppy classes run by an accredited trainer — look for members of the Association of Pet Dog Trainers (APDT) or the Institute of Modern Dog Trainers (IMDT) — provide structured socialisation and a qualified eye on your technique. Classes are particularly valuable between eight and sixteen weeks, when puppies are most receptive to new experiences. The social exposure to other puppies, different people, and varied environments is worth as much as any specific behaviour learned in the session.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "pet-insurance-guide",
+    title: "Pet Insurance for Puppies: What UK Owners Need to Know",
+    category: "Health",
+    excerpt: "A clear-headed look at the types of cover available in the UK, what the small print typically excludes, and how to choose a policy that will still be worth having in five years.",
+    image: "/guides/pet-insurance.png",
+    readTime: "6 min read",
+    pullQuote: "The right time to take out pet insurance is before anything goes wrong — once a condition appears, it becomes a pre-existing exclusion.",
+    sections: [
+      {
+        heading: "Why insure a puppy?",
+        paragraphs: [
+          "Veterinary care in the UK has advanced enormously in the past two decades, and costs have risen with it. A straightforward orthopaedic procedure — repairing a cruciate ligament, for example — can cost between £3,000 and £6,000. A complex medical diagnosis with repeat consultations, imaging, and ongoing medication can easily exceed £10,000 over a dog's lifetime. Most households cannot absorb costs at that level without notice.",
+          "Insurance does not eliminate those costs, but it converts an unpredictable large bill into a predictable monthly premium. Whether that trade-off is worth it depends on your financial position and your appetite for risk — but for most puppy owners, some level of cover is sensible from the outset.",
+        ],
+      },
+      {
+        heading: "The four main types of policy",
+        paragraphs: [
+          "Accident-only policies cover injuries but not illness. They are the cheapest option but leave out the majority of significant veterinary costs, which tend to be illness-related. Suitable only if budget is severely constrained and you understand the limitation clearly.",
+          "Time-limited policies cover each condition for twelve months from first diagnosis, after which that condition is excluded — even if treatment is ongoing. They are cheaper than lifetime cover but can leave owners uninsured for chronic conditions at exactly the point where costs accumulate. Maximum benefit policies work similarly but cap each condition by money rather than time. Lifetime policies are the gold standard: they reset the cover limit each year, meaning ongoing conditions — diabetes, epilepsy, skin allergies — remain covered for the dog's lifetime provided the policy is renewed without a break. Lifetime policies cost more, but the protection is substantially better.",
+        ],
+      },
+      {
+        heading: "What policies typically exclude",
+        paragraphs: [
+          "Pre-existing conditions are excluded by every insurer — conditions your puppy is diagnosed with before cover begins, or conditions that appear during any waiting period (typically fourteen days for illness). This is why insuring your puppy in the first week of ownership, rather than waiting, matters. Waiting until something goes wrong makes that condition permanently uninsurable.",
+          "Other common exclusions include elective procedures (neutering, dental cleaning unless directly related to an accident), preventative treatments (vaccinations, flea and worm treatments, prescription diets), and in some policies, hereditary or breed-specific conditions. Read the policy exclusions carefully, particularly for breeds known to carry heritable health risks — some insurers exclude those conditions outright for certain breeds.",
+        ],
+      },
+      {
+        heading: "Choosing a policy: what to compare",
+        paragraphs: [
+          "Annual cover limit and per-condition limit are the headline figures, but they are not the only ones that matter. Look at the excess structure — some policies apply a fixed excess plus a percentage co-payment (often 20 per cent) once a dog passes a certain age. A policy that looks affordable at eight weeks can become significantly more expensive by the time your dog is ten years old.",
+          "Premium inflation is worth considering too. Most lifetime policies increase premiums as the dog ages and as the insurer's claims experience builds. Switching to a cheaper insurer in later years usually means losing cover for any conditions already declared, so the insurer you start with is often the one you stay with. Read reviews for how claims are handled in practice, not just the policy terms on paper.",
+        ],
+      },
+      {
+        heading: "Practical steps when taking out cover",
+        paragraphs: [
+          "Take out insurance as soon as possible after collecting your puppy — ideally on the day itself or the day after. Register with a vet within the first week and keep the appointment, as some insurers ask for a new-puppy health check record when a claim is made. Keep all veterinary receipts and correspondence in one place from the outset.",
+          "If your puppy develops a condition before you have insured it, be transparent when completing the proposal form. Failing to disclose known health issues is grounds for a claim to be refused and the policy voided. A brief, honest conversation with your chosen insurer about any health history is always worth having before you buy.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "travelling-with-your-puppy",
+    title: "Travelling with Your Puppy: Car Trips and Holidays",
+    category: "Lifestyle",
+    excerpt: "How to help your puppy travel calmly and safely — from the first car journey home to longer UK road trips and holidays with dogs.",
+    image: "/guides/travelling-with-puppy.png",
+    readTime: "5 min read",
+    pullQuote: "A puppy that travels confidently at twelve weeks will be a relaxed passenger at twelve months — early, positive experiences make the difference.",
+    sections: [
+      {
+        heading: "The first journey: collection day",
+        paragraphs: [
+          "The car ride home is your puppy's first significant experience outside the litter environment, and it sets the tone for all future travel. If possible, bring another person to sit in the back with the puppy — a crate or carrier secured by a seatbelt is the safest option, but for a very young puppy, being held calmly by a passenger is a reasonable alternative for a short journey.",
+          "Avoid feeding a large meal immediately before travel; a light stomach reduces the likelihood of nausea. Bring an old towel or blanket in case of accidents, and plan the route to avoid long motorway stretches where stopping is harder. If the journey is over an hour, build in a quiet stop where the puppy can be held or rest without being put on the ground in public areas (until vaccinations are complete).",
+        ],
+      },
+      {
+        heading: "Safe restraint in the car",
+        paragraphs: [
+          "Under the UK Highway Code, drivers are responsible for ensuring dogs are suitably restrained so they cannot distract the driver or cause injury in an accident. The options are a secured crate or travel carrier in the boot or rear seat, a dog guard separating the boot from the passenger compartment, or a harness attached to a seatbelt adaptor.",
+          "Of these, a crash-tested crate or harness with a certified seatbelt attachment offers the most protection in a collision. Not all harnesses perform equally well — look for products that have been independently crash-tested rather than relying on marketing descriptions. A puppy travelling loose in a car is a hazard to itself and to the driver.",
+        ],
+      },
+      {
+        heading: "Building positive associations with the car",
+        paragraphs: [
+          "If your puppy showed anxiety on the collection journey, it is worth spending time building positive associations before the next necessary trip. Begin by sitting with the puppy near the stationary car, offering treats and calm handling. Progress to brief sessions sitting inside the car with the engine off, then with the engine running, then to very short drives — around the block — before extending distances.",
+          "Pair car journeys with enjoyable destinations when you can: a park, a friend's garden, somewhere the puppy has good experiences. A puppy that reliably associates the car with something pleasant will travel more calmly than one for whom the car always means the vet.",
+        ],
+      },
+      {
+        heading: "UK holidays and dog-friendly travel",
+        paragraphs: [
+          "The UK has an excellent network of dog-friendly accommodation, from holiday cottages to hotels and campsites. Booking through dedicated dog-friendly directories makes it easier to confirm exactly what is permitted — some properties allow dogs in bedrooms, others restrict them to ground floors or certain rooms. Confirm the policy before booking rather than assuming from a brief 'dogs welcome' listing.",
+          "For longer stays, bring your puppy's usual food, water bowl, and bedding — familiar smells ease the adjustment to an unfamiliar environment. Check what outdoor spaces are enclosed before letting a puppy off the lead in an unknown location. Keep your vet's contact details and the name of an emergency vet near your destination to hand, particularly for trips more than an hour from home.",
+        ],
+      },
+      {
+        heading: "Travelling abroad with your dog",
+        paragraphs: [
+          "International travel with a dog from the UK requires an Animal Health Certificate (AHC), which must be issued by an Official Veterinarian (OV) no more than ten days before arrival in most countries. Your dog must be microchipped and rabies vaccinated, with the vaccine administered at least 21 days before travel. Some destinations have additional requirements — tapeworm treatment for entry into certain countries, for example.",
+          "Check the requirements for your specific destination well in advance, as the processing timelines for AHCs and any additional treatments need to be planned carefully. The APHA (Animal and Plant Health Agency) website is the authoritative UK government source for current travel requirements and should be consulted directly rather than relying on third-party summaries, which may not reflect recent changes.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "health-and-care",
     title: "Health & Care in the First Months",
     category: "Health",
