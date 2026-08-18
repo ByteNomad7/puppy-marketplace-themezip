@@ -5,7 +5,8 @@ import { PageShell } from "@/components/page-shell"
 import { Breadcrumb } from "@/components/breadcrumb"
 import { PuppyCard } from "@/components/puppy-card"
 import { CtaLink } from "@/components/cta-link"
-import { breeds, puppies } from "@/lib/data"
+import { breeds, puppies, guides } from "@/lib/data"
+import { GuideCard } from "@/components/guide-card"
 import { JsonLd } from "@/components/json-ld"
 import { breadcrumbSchema, webPageSchema } from "@/lib/seo"
 
@@ -40,6 +41,11 @@ export default async function BreedDetailPage({
   if (!breed) notFound()
 
   const available = puppies.filter((p) => p.breedSlug === breed.slug)
+
+  const breedGuides = [
+    guides.find((g) => g.slug === "choosing-the-right-breed"),
+    guides.find((g) => g.slug === "questions-to-ask"),
+  ].filter(Boolean) as typeof guides
 
   return (
     <PageShell>
@@ -141,6 +147,19 @@ export default async function BreedDetailPage({
           )}
         </div>
       </section>
+
+      {breedGuides.length > 0 && (
+        <section className="border-t border-border">
+          <div className="mx-auto max-w-6xl px-5 py-14">
+            <h2 className="text-xl font-medium text-forest-deep">From the buyer guide</h2>
+            <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
+              {breedGuides.map((guide) => (
+                <GuideCard key={guide.slug} guide={guide} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
     </PageShell>
   )
 }

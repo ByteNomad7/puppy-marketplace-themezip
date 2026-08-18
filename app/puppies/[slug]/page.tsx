@@ -7,7 +7,8 @@ import { PuppyGallery } from "@/components/puppy-gallery"
 import { StatusBadge } from "@/components/status-badge"
 import { EnquiryForm } from "@/components/enquiry-form"
 import { PuppyCard } from "@/components/puppy-card"
-import { puppies, breeds, formatPrice } from "@/lib/data"
+import { puppies, breeds, guides, formatPrice } from "@/lib/data"
+import { GuideCard } from "@/components/guide-card"
 import { JsonLd } from "@/components/json-ld"
 import { breadcrumbSchema, SITE_URL } from "@/lib/seo"
 
@@ -46,6 +47,11 @@ export default async function PuppyDetailPage({
   const related = puppies.filter((p) => p.slug !== puppy.slug && p.breedSlug === puppy.breedSlug).slice(0, 3)
   const fallback = puppies.filter((p) => p.slug !== puppy.slug).slice(0, 3)
   const suggestions = related.length ? related : fallback
+
+  const puppyGuides = [
+    guides.find((g) => g.slug === "questions-to-ask"),
+    guides.find((g) => g.slug === "health-and-care"),
+  ].filter(Boolean) as typeof guides
 
   const facts = [
     { label: "Breed", value: puppy.breed },
@@ -159,6 +165,19 @@ export default async function PuppyDetailPage({
             <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {suggestions.map((p) => (
                 <PuppyCard key={p.slug} puppy={p} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {puppyGuides.length > 0 && (
+        <section className="border-t border-border">
+          <div className="mx-auto max-w-6xl px-5 py-14">
+            <h2 className="text-xl font-medium text-forest-deep">From the buyer guide</h2>
+            <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
+              {puppyGuides.map((guide) => (
+                <GuideCard key={guide.slug} guide={guide} />
               ))}
             </div>
           </div>
