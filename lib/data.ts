@@ -42,7 +42,7 @@ export type Guide = {
   sections?: GuideSection[]
 }
 
-export const puppies: Puppy[] = [
+const sourcePuppies: Puppy[] = [
   {
     slug: "lulu-female-1",
     name: "Lulu",
@@ -5503,7 +5503,14 @@ export const puppies: Puppy[] = [
     gallery: ["/puppies/bianca-female-1.jpg", "/puppies/bianca-female-2.jpg", "/puppies/bianca-female-3.jpg", "/puppies/bianca-female-4.jpg", "/puppies/bianca-female-5.jpg", "/puppies/bianca-female-6.jpg", "/puppies/bianca-female-7.jpg"],
     description: "Bianca is a  3-month-old Mini Schnauzer with a beautiful white coat. She has been raised with care and is ready to join a loving family. She is known for being spirited and intelligent. To find out more about Bianca or to arrange a viewing, please use the enquiry form below.",
   },
-  ]
+]
+
+const listingPriceRange = [450, 550, 650, 750, 850, 950, 1050, 1150, 1250, 1350, 1450]
+
+export const puppies: Puppy[] = sourcePuppies.map((puppy, index) => ({
+  ...puppy,
+  price: listingPriceRange[index % listingPriceRange.length],
+}))
 
 export const breeds: Breed[] = [
   {
