@@ -4,6 +4,7 @@
 
 export const SITE_URL = "https://www.pottyregisteredpuppies.com"
 export const SITE_NAME = "Potty Registered Puppies"
+export const CONTACT_EMAIL = "info@pottyregisteredpuppies.com"
 
 export function organizationSchema() {
   return {
@@ -12,6 +13,7 @@ export function organizationSchema() {
     "@id": `${SITE_URL}/#organization`,
     name: SITE_NAME,
     url: SITE_URL,
+    email: CONTACT_EMAIL,
     logo: `${SITE_URL}/icon.svg`,
   }
 }

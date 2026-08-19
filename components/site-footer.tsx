@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Logo } from "@/components/logo"
+import { CONTACT_EMAIL } from "@/lib/seo"
 
 const columns = [
   {
@@ -51,6 +52,12 @@ export function SiteFooter() {
               Helping UK families explore teacup and toy puppies, understand
               breed differences, and make an informed enquiry.
             </p>
+            <a
+              href={`mailto:${CONTACT_EMAIL}`}
+              className="mt-4 inline-block text-sm text-primary-foreground/80 transition-colors hover:text-primary-foreground"
+            >
+              {CONTACT_EMAIL}
+            </a>
           </div>
 
           {columns.map((col) => (

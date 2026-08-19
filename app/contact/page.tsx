@@ -3,6 +3,7 @@ import { Breadcrumb } from "@/components/breadcrumb"
 import { ContactForm } from "@/components/contact-form"
 import { CtaLink } from "@/components/cta-link"
 import { PageShell } from "@/components/page-shell"
+import { CONTACT_EMAIL } from "@/lib/seo"
 
 export const metadata: Metadata = {
   title: "Contact Potty Registered Puppies | UK Puppy Enquiries",
@@ -45,6 +46,12 @@ export default function ContactPage() {
                 Share as much or as little as you like. The more you tell us about what you are looking for, the more
                 useful our response can be.
               </p>
+              <a
+                href={`mailto:${CONTACT_EMAIL}`}
+                className="mt-4 inline-block text-sm font-medium text-primary underline-offset-4 hover:underline"
+              >
+                {CONTACT_EMAIL}
+              </a>
             </div>
 
             <div className="mt-8 flex flex-wrap gap-3">
