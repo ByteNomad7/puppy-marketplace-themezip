@@ -18,6 +18,16 @@ const nextConfig = {
         destination: "/breeds/king-charles",
         permanent: true,
       },
+      {
+        source: "/sitemap_index.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
+        source: "/wp-sitemap.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
     ]
   },
   ...(process.env.REPLIT_DEV_DOMAIN
