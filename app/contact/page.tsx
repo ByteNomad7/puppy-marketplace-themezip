@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import { Breadcrumb } from "@/components/breadcrumb"
+import { ContactForm } from "@/components/contact-form"
 import { CtaLink } from "@/components/cta-link"
-import { EnquiryForm } from "@/components/enquiry-form"
 import { PageShell } from "@/components/page-shell"
 
 export const metadata: Metadata = {
@@ -65,7 +65,7 @@ export default function ContactPage() {
                 personal information in your message.
               </p>
             </div>
-            <EnquiryForm />
+            <ContactForm />
             <p className="mt-5 text-xs leading-relaxed text-muted-foreground">
               By sending this form, you agree that Potty Registered Puppies may use the details you provide to
               respond to your enquiry.
