@@ -25,6 +25,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.pottyregisteredpuppies.com',
   },
+  verification: {
+    google: 'SMvC9RT04ZjBZv-ivAbJFyuGBgZ1XUlFON5ffPVvAJc',
+  },
   openGraph: {
     siteName: 'Potty Registered Puppies',
     locale: 'en_GB',
